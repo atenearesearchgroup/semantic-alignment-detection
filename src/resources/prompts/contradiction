@@ -1,0 +1,24 @@
+attribute_prompts = [
+"Do these statements contradict each other? \n Statement1:{statement1} \n Statement2:{statement2}",
+"Are these statements mutually exclusive? \n Statement1:{statement1} \n Statement2:{statement2}",
+"Do these statements clash or conflict with each other? \n Statement1:{statement1} \n Statement2:{statement2}",
+"Are these statements at odds with each other? \n Statement1:{statement1} \n Statement2:{statement2}",
+"Do these statements negate each other? \n Statement1:{statement1} \n Statement2:{statement2}",
+"Are these statements inconsistent? \n Statement1:{statement1} \n Statement2:{statement2}",
+"Do these statements oppose each other? \n Statement1:{statement1} \n Statement2:{statement2}",
+"Are these statements in disagreement? \n Statement1:{statement1} \n Statement2:{statement2}",
+"Are these statements incompatible? \n Statement1:{statement1} \n Statement2:{statement2}",
+"Do these statements present conflicting viewpoints? \n Statement1:{statement1} \n Statement2:{statement2}"
+]
+
+association_prompts = [
+"In a textual domain description, there is one statement (statement 1) that says:Statement 1: {statement1}. This states that an instance of type {source} is associated with {multiplicity} {instance} of type {target}.We also have a second statement (statement 2) that says:Statement 2: {statement2}. Please, analyze statement 2 to determine the multiplicity from {source} to the {target}, if there is an association between them.Furthermore, report whether that multiplicity differs from the multiplicity described in statement 1.Begin your response by providing reasoning, and conclude:- 'Conclusion:Yes' if the multiplicity of statement 2 differs from the one described in statement 1,- 'Conclusion:No' if the multiplicities are the same,- 'Conclusion:Not Sure' if statement 2 does not provide enough details to determine the multiplicity from {source} to {target}."
+]
+
+inheritance_prompt = [
+"In a textual domain description, there is one statement (statement 1) that says: Statement 1: {statement1}. We also have a second statement (statement 2) that says: Statement 2: {statement2}. Please, analyze statement 2 to determine whether {target} is a kind of {source}. Begin your response by providing reasoning, and conclude: - 'Conclusion:Yes' if {target} is a kind of {source} - 'Conclusion:No' if {target} is not a kind of {source},- 'Conclusion:Not Sure' if statement 2 does not provide enough details to determine whether {target} is a kind of {source}."
+]
+
+enum_prompt = [
+"In a textual domain description, consider following statement that says: Statement: {statement2}. Please, analyze given statement to determine whether {target} is a {source}. Begin your response by providing reasoning, and conclude:- 'Conclusion:Yes' if {target} is a {source}- 'Conclusion:No' if {target} is not a {source}, 'Conclusion:Not Sure' if given statement does not provide enough details to determine whether {target} is a {source}."
+]

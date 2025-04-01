@@ -1,0 +1,11 @@
+prompts = [
+"are the following two statements semantically equal? \n Statement1:{statement1}. \n Statement2:{statement2}",
+"Do the following two statements convey the exact same information? \n Statement1:{statement1}. \n Statement2:{statement2}",
+"Are these two statements conveying the same meaning? \n Statement1:{statement1}. \n Statement2:{statement2}",
+"Are these statements synonymous? \n Statement1:{statement1}. \n Statement2:{statement2}",
+"Do statement 1 and statement 2 have identical implications? \n Statement1:{statement1}. \n Statement2:{statement2}"
+]
+
+excluded_prompts =[
+"Are these two statements congruent in the information shared?",
+"Is the information within these two statements analogous?"]

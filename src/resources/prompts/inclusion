@@ -1,0 +1,22 @@
+prompts = [
+    "Can Statement 1 be inferred from Statement 2? \n Statement1:{statement1} \n Statement2:{statement2}",
+    "Can Statement 1 be implied from Statement 2? \n Statement1:{statement1} \n Statement2:{statement2}",
+    "Can Statement 1 be determined from Statement 2? \n Statement1:{statement1} \n Statement2:{statement2}",
+    "Can Statement 1 be derived from Statement 2? \n Statement1:{statement1} \n Statement2:{statement2}",
+    "Can Statement 1 logically follow from Statement 2? \n Statement1:{statement1} \n Statement2:{statement2}",
+    "Can Statement 1 be concluded based on Statement 2? \n Statement1:{statement1} \n Statement2:{statement2}",
+    "Does Statement 2 support Statement 1? \n Statement1:{statement1} \n Statement2:{statement2}"
+]
+
+
+old_prompts = [
+"Determine whether all facts from Statement 2 are included in Statement 1, either implicitly or explicitly.",
+"Does Statement 1 encompass all the information provided in Statement 2, whether directly stated or implied?",
+"Is all the information in Statement 2, whether expressly mentioned or hinted at, contained within Statement 1?",
+"Are all the facts provided in Statement 2, whether stated outright or indirectly implied, embraced by Statement 1?",
+"Does Statement 1 incorporate every aspect presented in Statement 2, whether directly articulated or suggested?"
+]
+
+excluded_prompts = [
+"Evaluate if every piece of information in Statement 2 is either directly stated or implied in Statement 1."
+]
