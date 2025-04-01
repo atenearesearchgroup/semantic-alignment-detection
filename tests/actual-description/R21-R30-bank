@@ -1,0 +1,193 @@
+description = """This study aims to design new software that enables bank customers to open savings accounts.
+
+The study will include the savings account opening process on online banking systems such as mobile and web platforms. There will be two separate applications for the mobile platforms, which are Android and iOS. They should have the same function and features for the account creation process.
+
+
+The account opening process should be named "Savings Account Opening," and it should be under the menu "Accounts."
+On the Accounts menu, the "Savings Account Opening" tab should be added to the end of the page.
+
+
+Customer types can be either retail or corporate.
+The very first savings account of any customer must be in EUR currency. After that, the user has the option of 3 other currencies: USD, GBP, and TRY.
+The maximum number of savings accounts is limited to 10.
+Customers can have only one account per currency, except EUR. Users can have more than one account in EUR currency.
+The user should invest at least 2000 EUR or an equivalent amount when opening a savings account.
+
+
+The user should invest at least 2000 EUR or an equivalent amount when opening a savings account.
+The system should only accept numerical inputs. If the user enters non-numeric characters (such as letters or special characters) system should not allow the information.
+After the user completes the account creation, the system should take two different actions.
+Firstly, the system should display a message if the account creation is successful.
+The system should not perform the account opening if there is any error. The system should display an error message.
+Secondly, if account creation is successful, the system should send an e-mail to the customer's registered e-mail address, informing the account is opened and ready to use. On the e-mail, content should contain the user's name, surname, created account number, amount of the transaction, and currency of the account.
+
+
+While communicating the banking systems, the money transfer process and account creation should be fully encrypted.
+Data integration (in terms of money amount, account numbering, etc.) must be guaranteed.
+The system should detect any proxy coming into the way and protect the customer from the man in the middle attacks.
+
+
+This study aims to design new software that allows bank customers to apply for IPOs. (Initial Public Offering). Finishing this project will enable purchasing company shares via online banking applications.
+
+
+The study will include the IPO Application process on online banking systems such as mobile and web platforms. There will be two separate applications for the mobile platforms, which are Android and iOS. They should have the same function and features for the account creation process.
+
+
+The IPO application process should be named "Apply for IPO," and it should be under the menu "Investments."
+On the Investments menu, the "IPO Application" tab should be added to the end of the page.
+
+
+Only "retail" types of customers can apply for IPO.
+Retail customers should be eligible for applying IPO. If the user has unpaid credit card payments, a blocked account, or is marked as a "fraud user," the user should not be able to perform an IPO application.
+Users who will make IPO Applications must share their name, surname, email address, and telephone number information with the related company.
+The user interface should include an information pop-up that says this information (name, surname, email address, telephone) will be shared and can be used by the company.
+
+
+When a user applies IPO, he is required to upload legal allowance documentation.
+Documentation could either be in the ".docx" or ".pdf" format. Any other formats are restricted. A validation error should be displayed if a user tries to upload another type of document.
+When the user completes the application process successfully, the bank should send two information emails, one for the customer and another for the company.
+If the user has more than five failed attempts, the bank should restrict the user from the application process. The user should not be able to attempt the 6th IPO application. If they would like to apply anyway, they should call the "call center" and request IPO application access.
+
+
+Even though the user completed the process successfully, the purchase is still being determined. Related companies always have a right to reject users' applications. If a company rejects the user, our system should inform the customer.
+Email should be user-friendly and "In HTML" format for future compatibility.
+Email content should include below information:
+User's name, surname, email address, telephone number
+Applied company named
+Number of shares that have been purchased
+The amount of money that has been paid
+
+
+This study aims to design new software that allows bank customers to set PIN codes for their cards. By finishing this project, customers can set their PIN code without needing to go to a kiosk or a branch.
+
+
+The study will include the "Set PIN" process on mobile systems. There will be two separate applications for the mobile platforms, which are Android and iOS. They should have the same function and features for the account creation process. The project will also contain the back-end communication system for the kiosk and branches.
+
+
+The "Set PIN" process should be under the "Cards" menu.
+It should be added after the "My Cards" page.
+
+
+Each user can have four different types of cards. Card types are debit, credit, virtual and supplementary.
+Before using any card, the user should set a "PIN" using online banking systems.
+When setting a PIN, the user should enter their card number and CVV information. Both card number and CVV information should be an integer. The system should not accept any other type of input.
+If the user enters any other type and continues, the system should display an error message, and the process should not continue.
+If the user enters the wrong card number for the third time, the system should display a pop-up saying that the user entered the wrong card number for the third time and will be logged out. After the message displays, the system should cancel the "PIN setting" process, and the user should be logged out of the application.
+
+
+The system should have a parameter on the database that stores whether the user has a pin.
+After the user enters the card number and the CVV information, the system should perform the check.
+If the user already has a PIN, the system should display a pop-up saying that the user already has the PIN code. If the user has no PIN code, the system should display the "Set PIN" flow, the first step. When a user completes the "Set PIN" process, the database's related parameter value should be true.
+After the user sets the PIN, if desired, the user should be able to reset and change the PIN.
+
+
+After the user successfully sets their PIN code, they should be able to use it immediately on the kiosk or any transaction requiring a pin.
+PIN code should never be stored anywhere on the application. It should be directly sent to banking systems via an encrypted tunnel.
+
+
+The bank can send information to its customer through e-mail or SMS through online systems. His study aims to design new software that allows bank customers to set their communication preferences for future needs. By finishing this project, customers can select their communication preferences without going to a kiosk or a branch.
+
+
+The study will include the 'Set Communication Preferences' process on mobile systems. There will be two separate applications for the mobile platforms, which are Android and iOS. They should have the same function and features for the account creation process.
+
+
+The 'Set Communication Preferences' process should be under the 'Accounts' menu.
+It should be added at the bottom of the page.
+
+
+Users should be able to choose if they want to get information via e-mail or SMS.
+When a user enters the banking system user should see a menu that allows the user to select communication preferences.
+The screen should display an information message for the user stating that if the user changes the preferences, it will be applied to all the transaction flows and other contact-required processes.
+
+
+If the user has not any e-mail address registered to the banking system, the e-mail option should see as 'disabled,' and by default, the SMS option is selected. Since SMS is the only option, the user should not be able to continue the process.
+If the user has both information (e-mail and telephone number), the user can proceed with the flow.
+When the user selects e-mail and completes the process, from that point, the bank should only send e-mails for sending information to the customer. Also, if the user selects the SMS option and completes the process, the bank should communicate with the user only via SMS.
+After the process, the banking system should store this preference in the database.
+
+
+This study aims to design new software that allows bank customers to add their cards to the Apple Pay wallet. After finishing this project, customers can add their cards via a mobile banking application.
+
+
+The study will include the "Apple Pay" process on the iOS systems. There will be only one application for the mobile platforms, which is iOS-iPhone. iPad application is out-of-scope.
+
+
+The "Apple Pay" process should be under the "Cards" menu.
+It should be added to the bottom of the page.
+
+
+Users should be able to perform "Apple Pay" transactions via their cards.
+For performing Apple Pay transactions, first, the user should add their card or cards to the Apple wallet.
+Users can do this action within the Apple wallet or mobile application.
+If the user chooses the mobile application, the bank will automatically add their card(s) to the wallet for the selected card(s).
+
+
+When the user logs in to the banking system with their iPhone, they can go to the Apple Pay menu and add their desired card or cards.
+Users can select any card.
+Card types can be debit, credit, virtual or supplementary.
+The system should check the card status when the user selects a card or card. Users cannot select a card that has a blocked or restricted status. Users can perform the Apple Pay process only if their card status is "available."
+When the user tries to add an ineligible card (blocked or restricted) system should throw an error, the process should be failed, and the card should not be added to the wallet.
+If the user completes the Apple Pay process successfully, the system should display a success message, and the user should be able to see the related card on their iPhone wallet.
+
+
+This study aims to design new software that allows bank customers to block their desired card or cards. By finishing this project, customers can block any card via online banking systems.
+
+
+The study will include the "Block" process on both web and mobile systems. There will be two separate applications for the mobile platforms, which are Android and iOS. They should have the same function and features for the account creation process. The project will also contain the back-end communication system for the kiosk and branches.
+
+
+The "Block Card" process should be under the "Cards" menu.
+It should be added after the "My Cards" page.
+
+
+Users can have four types of cards: debit, credit, virtual and supplementary.
+Users should be able to block any card using online banking systems.
+
+
+The system should check the card status when the user blocks the desired card. The user can initiate the card-blocking process if the card status is available.
+During the card-blocking process, the system should ask for the reason for the blocking.
+The system should display three different kinds of blocking reasons for the user. The blocking reasons can be stolen, missing, and others.
+If the user selects "other" as the reason, the system should ask for further explanation in a free-text area. If the user does not enter this area field as input, the system should not let the user block their card.
+After the user completes the card-blocking process, the system should immediately block the related card, and no one should be able to use that card in ATMs, shopping, online shopping, etc.
+If a blocked card is used for anything, the system should inform the banking staff and cardholder.
+
+
+This study aims to design new software that allows bank customers to log in via their biometric traits. By finishing this project, customers will be able to set a login pin code and login via a biometric feature and set pin code.
+
+
+The study will include two main features:
+Enabling biometric features inside the mobile application.
+Using biometric authentication on the app.
+There will be two separate applications for the mobile platforms, which are Android and iOS. They should have the same function and features for the account creation process.
+
+
+For the enablement process:
+The "Biometric Enable" process should be available under the settings menu.
+For the login process:
+It should be on the login page.
+
+
+Mobile bank application has two logging-in options for their customers. Firstly, customers can log in with a username and password. Secondly, customers can use fingerprint or face-id.
+For using biometric features, the user's device should have at least one biometric feature, such as fingerprint or face-id. If the user's device has at least one of these features, the user can enable biometric login inside the mobile application.
+When the user initiates the biometric enablement process inside the application, the user should allow the application to use their biometric records, which can be found in the device itself. Also, the user should accept the terms and conditions for using this feature.
+During the enablement process, the user should set a "PIN." Later, this PIN information will be asked on the biometric login process.
+After the user completes the biometric enablement process, from now on, the user can use biometric login.
+
+
+The biometric login process should be started when the user opens the mobile application and clicks on the "biometric login" button.
+The system should check whether the user has enabled the biometric login. Suppose biometric login is not enabled for that device. In that case, the system should display an error message that says, "You need to enable biometric login if you'd like to login via biometric features." If biometric login is enabled, then the biometric login process should start.
+First, the system should validate the biometric input, such as fingerprint or face-id.
+If validation fails, the process should immediately stop, and an error message should be displayed.
+If validation is successful, the system should ask for PIN information.
+When a user enters the wrong PIN information, the system should display an error message, but the flow should not stop.
+Users can try entering their PIN 3 times. If the user enters three wrong PINs, the biometric feature for that device should be disabled.
+If the user is validated with fingerprint or face-id, then PIN is successfully entered, then the user should be successfully logged in.
+On biometric logins, the system should store the biometric login counts, dates, and user information on the database. If desired, banking staff should be able to access this information via their platform.
+
+
+This study aims to design a new software that allows bank customers to make donations to the various organizations such as orphanages etc. Finishing this project, customers will be able to make their good-willing activities easily with their banks.
+
+
+Study will include 'Donation' process on both web and mobile systems. There will be two separate applications for the mobile platforms which are Android and iOS. They should have same function and features for the account creation process. Project will also contain the back-end communication system for 3rd party charity organizations. 'Donation' process should be under the 'Accounts' menu. It should be added to the bottom of the page.Users can transfer their money to the charity organizations via web or mobile banking system. System should check if user is eligible for donation or not. For being eligible, user should have at least one available, active, account and the selected account balance should be enough for the donation. The organization list should be retrieved from the internal banking systems. Bank staff can add or remove the organization from the donation list. When banking staff create the list and publish it into the online banking, users can see the list from the mobile app. Users should see a dropdown menu which has related charity organizations. On the donation process, user should select an account and organization information. If selected account type is a savings account, system should display a pop-up stating that user is continuing with a savings account. After user selects organization and account information, system should ask for amount of money to be transferred. After these 3 inputs, system should display a confirmation screen. If user confirms the information, system should send an SMS containing a random OTP. When user enters that OTP and continues, result page should be displayed. System should create an e-receipt and shows to the customer. E-receipt should contain donation information and account details.Donation organization and amount of the money should be directly transferred to the banking systems via encrypted tunnel.Information about the donations should be kept hidden from the mobile or web application storages. This study aims to design new software that allows bank customers to load money for their prepaid cards. By finishing this project, customers can load the desired amount for their prepaid cards.
+ The study will include the "Prepaid Card Loading" process on mobile systems. There will be two separate applications for the mobile platforms, which are Android and iOS. They should have the same function and features for the account creation process. The project will also contain the back-end communication system for the kiosk and branches. The "Prepaid Card Loading" process should be under the "Cards" menu. It should be added after the "My Cards" page.Users can have a card type "prepaid." When users want to use it on ATMs, shopping, etc., they should load a certain amount of money to a related card. Users can make this balance loading process on the internet or mobile banking systems via iOS or Android devices. On the first step of the loading process, the system should check whether the user has a prepaid card. If the user does not have a prepaid card, the system should display an error, and the process should be stopped immediately. After the user is validated and has at least one prepaid card, the system should check the card status. If the status card is available, the user can continue the process. If it is not available (dormant or blocked etc.) process should be stopped, and an error message should be displayed.When the user continues with a valid prepaid card, the system should ask for account information, which will be used to load money to the prepaid card.The selected account balance should be greater than the loading amount. The system should only allow users to enter their balance as they have. After the user finishes the process, the user should be able to view the balance of the prepaid card. The prepaid card balance should equal its current value plus the amount.This study aims to design new software with a feature called "wallet." By developing a wallet application, users can easily load money and purchase items without performing bank-related functions.The study will include "Wallet" payment on mobile systems. There will be two separate applications for the mobile platforms, which are Android and iOS. They should have the same function and features for the account creation process. The project will also contain the back-end communication system for the kiosk and branches. The "Wallet" icon should appear on the checkout page.Users should be able to select it easily. It should be user-friendly and easy to use. On the e-commerce system, users have two options for the payment process. User can,use either card (debit, credit, etc.) or,use the "wallet" feature.The user should enable the feature from the mobile application to use the wallet feature.When enabling:Firstly, the user should accept the terms and conditions for the wallet feature. Secondly, the user should make the desired amount of money transactions to the wallet. When transacting money to the wallet, the system should check the card's status by querying the related banking systems. Also, the system should not store the user's card information in the database or anywhere.All card information should be stored in the banking systems. When the wallet feature is enabled, the user should be able to view the wallet balance and use it in the payment processes.
+"""
