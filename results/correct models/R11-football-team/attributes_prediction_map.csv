@@ -1,0 +1,5 @@
+class_name,attributes,generated_description,actual_description,equality,contradiction,inclusion
+football player,name,a football player has a name,"Football players have team, name, age, and number.",False,False,True
+football player,age,a football player has an age,"Football players have team, name, age, and number.",False,False,True
+football player,number,a football player has a number,"Football players have team, name, age, and number.",False,False,True
+football player,position,a football player has a position,Each football player has a different duty and plays football according to their position.,False,False,True

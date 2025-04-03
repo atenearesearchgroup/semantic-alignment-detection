@@ -1,0 +1,25 @@
+source,target,role,multiplicity,generated_description,actual_description,equality,contradiction,inclusion
+item,reservation,reservations,*,A item can have reservations ,"When a book or language tape is returned to the library, the member who made the reservation will be notified.",False,not clear,True
+item,reservation,reservations,*,A item can have reservations ,Reservations will be canceled upon borrowing by the member or upon the member's request.,False,not clear,False
+item,reservation,reservations,*,A item can have reservations ,"The application will allow updating the list of loan items, user registration, lending transactions, and reservations.",False,not clear,True
+reservation,member,madeBy,1,A reservation is made by a member,Reservations will be canceled upon borrowing by the member or upon the member's request.,False,not clear,False
+member,reservation,reservations,*,A member can have reservations ,Reservations will be canceled upon borrowing by the member or upon the member's request.,False,not clear,True
+loan,item,item,1,A loan has an item,"There are two types of loan items, language tapes, and books.",False,not clear,True
+loan,item,item,1,A loan has an item,"An item can be borrowed, reserved, or renewed to extend a current loan.",False,not clear,False
+loan,item,item,1,A loan has an item,A bar code uniquely identifies a loan item.,False,not clear,False
+loan,item,item,1,A loan has an item,A member can reserve a loan item not available at the library.,False,not clear,False
+loan,item,item,1,A loan has an item,A library issues loan items to members.,False,not clear,False
+loan,item,item,1,A loan has an item,"The application will allow updating the list of loan items, user registration, lending transactions, and reservations.",False,not clear,False
+item,loan,loans,*,A item can have loans ,"An item can be borrowed, reserved, or renewed to extend a current loan.",False,not clear,True
+loan,member,,1,A loan has member,"There are two types of loan items, language tapes, and books.",False,not clear,False
+loan,member,,1,A loan has member,"An item can be borrowed, reserved, or renewed to extend a current loan.",False,not clear,False
+loan,member,,1,A loan has member,A bar code uniquely identifies a loan item.,False,not clear,False
+loan,member,,1,A loan has member,A member can reserve a loan item not available at the library.,False,not clear,False
+loan,member,,1,A loan has member,A library issues loan items to members.,False,not clear,True
+loan,member,,1,A loan has member,"The application will allow updating the list of loan items, user registration, lending transactions, and reservations.",False,not clear,False
+member,loan,loans,*,A member can have loans ,"There are two types of loan items, language tapes, and books.",False,not clear,False
+member,loan,loans,*,A member can have loans ,"An item can be borrowed, reserved, or renewed to extend a current loan.",False,not clear,True
+member,loan,loans,*,A member can have loans ,A bar code uniquely identifies a loan item.,False,not clear,False
+member,loan,loans,*,A member can have loans ,A member can reserve a loan item not available at the library.,False,not clear,True
+member,loan,loans,*,A member can have loans ,A library issues loan items to members.,False,not clear,True
+member,loan,loans,*,A member can have loans ,"The application will allow updating the list of loan items, user registration, lending transactions, and reservations.",False,not clear,False

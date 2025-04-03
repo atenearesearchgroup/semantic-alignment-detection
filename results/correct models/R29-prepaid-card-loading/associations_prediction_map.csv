@@ -1,0 +1,18 @@
+source,target,role,multiplicity,generated_description,actual_description,equality,contradiction,inclusion
+user,account,,*,A user can have accounts ,"If the status card is available, the user can continue the process.",False,not clear,False
+user,account,,*,A user can have accounts ,Customer  Users can have a card type 'prepaid.',False,not clear,False
+user,account,,*,A user can have accounts ,Users can make this balance loading process on the internet or mobile banking systems via iOS or Android devices.,False,not clear,True
+user,account,,*,A user can have accounts ,"After the user is validated and has at least one prepaid card, the system should check the card status.",False,not clear,False
+user,account,,*,A user can have accounts ,Software System,False,not clear,False
+user,account,,*,A user can have accounts ,The prepaid card balance should equal its current value plus the amount.,False,not clear,False
+user,account,,*,A user can have accounts ,The system should only allow users to enter their balance as they have.,False,not clear,False
+user,account,,*,A user can have accounts ,"After the user finishes the process, the user should be able to view the balance of the prepaid card.",False,not clear,False
+user,account,,*,A user can have accounts ,"When the user continues with a valid prepaid card, the system should ask for account information, which will be used to load money to the prepaid card.",False,not clear,True
+user,account,,*,A user can have accounts ,It should be added after the 'My Cards' page.,False,not clear,False
+user,account,,*,A user can have accounts ,"If the user does not have a prepaid card, the system should display an error, and the process should be stopped immediately.",False,not clear,False
+user,account,,*,A user can have accounts ,"If it is not available (dormant or blocked ) process should be stopped, and an error message should be displayed.",False,not clear,False
+user,account,,*,A user can have accounts ,"When users want to use it on ATMs, shopping, , they should load a certain amount of money to a related card.",False,not clear,False
+user,account,,*,A user can have accounts ,Menu Placement  The 'Prepaid Card Loading' process should be under the 'Cards' menu.,False,not clear,False
+user,account,,*,A user can have accounts ,The selected account balance should be greater than the loading amount.,False,not clear,False
+user,account,,*,A user can have accounts ,"On the first step of the loading process, the system should check whether the user has a prepaid card.",False,not clear,False
+user,card,,*,A user can have cards ,"After the user finishes the process, the user should be able to view the balance of the prepaid card.",False,not clear,True

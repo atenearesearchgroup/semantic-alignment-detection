@@ -1,0 +1,7 @@
+class_name,attributes,generated_description,actual_description,equality,contradiction,inclusion
+airport,parking information,an airport has a parking information,"For the convenience of customers, we may keep information on relevant facilities; for origins, we keep aspects such as parking; for destinations, we list hotels near the airport; for intermediate stops, we provide lists of hotels close to the airport, restaurants,",False,False,True
+flight,number,a flight has a number,"Stops are not indicated in the ticket unless the flight number changes, which indicates a plane change.",False,False,True
+flight,number,a flight has a number,A plane is assigned to a flight containing a set of numbered seats.,False,False,False
+flight,number,a flight has a number,Flight is defined by a number and a date and defines a route from an origin airport to a destination airport.,False,False,True
+city,details,a city has  details,This information may also include details of the cities nearby.,False,False,False
+seat,number,a seat has a number,A plane is assigned to a flight containing a set of numbered seats.,False,False,True

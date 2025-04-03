@@ -1,0 +1,4 @@
+source,target,role,multiplicity,generated_description,actual_description,equality,contradiction,inclusion
+human operator,system,operates,1,A human operator operates a system,The system monitors the pressure and sends the safety injection signal when the pressure falls below a threshold.,False,False,False
+human operator,system,operates,1,A human operator operates a system,The human operator can override system actions by turning on a block button and resets the manual block by pushing on a reset button.,False,False,True
+human operator,system,operates,1,A human operator operates a system,The system must automatically reset the manual block.,False,False,False

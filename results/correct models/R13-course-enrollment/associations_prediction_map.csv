@@ -1,0 +1,79 @@
+source,target,role,multiplicity,generated_description,actual_description,equality,contradiction,inclusion
+bill,student,,1,A bill has student,"At the end of the semester, the student can access the system to view an electronic report card.",False,not clear,False
+bill,student,,1,A bill has student,The new online registration system will allow students to select four-course offerings for the coming semester.,False,not clear,False
+bill,student,,1,A bill has student,The billing system will credit all students for courses dropped during this period.,False,not clear,False
+bill,student,,1,A bill has student,Students must be able to access the online system during this time to add or drop courses.,False,not clear,False
+bill,student,,1,A bill has student,"In addition, each student will indicate two choices in case a course offering becomes filled or canceled.",False,not clear,False
+bill,student,,1,A bill has student,Professors must be able to access the online system to indicate which courses they will be teaching.,False,not clear,False
+bill,student,,1,A bill has student,A course offering fewer than three students will be canceled.,False,not clear,False
+bill,student,,1,A bill has student,No course offering will have fewer than three students.,False,not clear,False
+bill,student,,1,A bill has student,"For each semester, there is a period that students can change their schedules.",False,not clear,False
+bill,student,,1,A bill has student,"Once the registration process is completed for a student, the registration system sends information to the billing system so the student can be billed for the semester.",False,not clear,False
+bill,student,,1,A bill has student,Each course offering will have at most ten students.,False,not clear,False
+bill,student,,1,A bill has student,"At the beginning of each semester, students may request a course catalog containing a list of course offerings.",False,not clear,False
+bill,student,,1,A bill has student,"Information about each course, such as professor, department, and prerequisites, will be included to help students make informed decisions.",False,not clear,False
+bill,student,,1,A bill has student,"Since student grades are sensitive information, the system must employ extra security measures to prevent unauthorized access.",False,not clear,False
+bill,student,,1,A bill has student,They will also need to see which students signed up for their course offerings.,False,not clear,False
+student,bill,,*,A student can have bills ,"At the end of the semester, the student can access the system to view an electronic report card.",False,not clear,False
+student,bill,,*,A student can have bills ,The new online registration system will allow students to select four-course offerings for the coming semester.,False,not clear,False
+student,bill,,*,A student can have bills ,The billing system will credit all students for courses dropped during this period.,False,not clear,True
+student,bill,,*,A student can have bills ,Students must be able to access the online system during this time to add or drop courses.,False,not clear,False
+student,bill,,*,A student can have bills ,"In addition, each student will indicate two choices in case a course offering becomes filled or canceled.",False,not clear,False
+student,bill,,*,A student can have bills ,Professors must be able to access the online system to indicate which courses they will be teaching.,False,not clear,False
+student,bill,,*,A student can have bills ,A course offering fewer than three students will be canceled.,False,not clear,False
+student,bill,,*,A student can have bills ,No course offering will have fewer than three students.,False,not clear,False
+student,bill,,*,A student can have bills ,"For each semester, there is a period that students can change their schedules.",False,not clear,False
+student,bill,,*,A student can have bills ,"Once the registration process is completed for a student, the registration system sends information to the billing system so the student can be billed for the semester.",False,not clear,True
+student,bill,,*,A student can have bills ,Each course offering will have at most ten students.,False,not clear,False
+student,bill,,*,A student can have bills ,"At the beginning of each semester, students may request a course catalog containing a list of course offerings.",False,not clear,False
+student,bill,,*,A student can have bills ,"Information about each course, such as professor, department, and prerequisites, will be included to help students make informed decisions.",False,not clear,False
+student,bill,,*,A student can have bills ,"Since student grades are sensitive information, the system must employ extra security measures to prevent unauthorized access.",False,not clear,False
+student,bill,,*,A student can have bills ,They will also need to see which students signed up for their course offerings.,False,not clear,False
+student,electronic report card,,1,A student has electronic report card,"At the end of the semester, the student can access the system to view an electronic report card.",False,not clear,True
+student,course,selected,4,A student has a a selected which is a course,The new online registration system will allow students to select four-course offerings for the coming semester.,False,not clear,True
+student,course,selected,4,A student has a a selected which is a course,The billing system will credit all students for courses dropped during this period.,False,not clear,False
+student,course,selected,4,A student has a a selected which is a course,Students must be able to access the online system during this time to add or drop courses.,False,not clear,False
+student,course,selected,4,A student has a a selected which is a course,"In addition, each student will indicate two choices in case a course offering becomes filled or canceled.",False,not clear,False
+student,course,selected,4,A student has a a selected which is a course,Professors must be able to access the online system to indicate which courses they will be teaching.,False,not clear,False
+student,course,selected,4,A student has a a selected which is a course,A course offering fewer than three students will be canceled.,False,not clear,False
+student,course,selected,4,A student has a a selected which is a course,No course offering will have fewer than three students.,False,not clear,False
+student,course,selected,4,A student has a a selected which is a course,Each course offering will have at most ten students.,False,not clear,False
+student,course,selected,4,A student has a a selected which is a course,"At the beginning of each semester, students may request a course catalog containing a list of course offerings.",False,not clear,False
+student,course,selected,4,A student has a a selected which is a course,"Information about each course, such as professor, department, and prerequisites, will be included to help students make informed decisions.",False,not clear,False
+student,course,selected,4,A student has a a selected which is a course,They will also need to see which students signed up for their course offerings.,False,not clear,False
+course,student,,*,A course can have students ,A course offering fewer than three students will be canceled.,False,not clear,True
+student,course,choices,2,A student has  a choice which is a course,"In addition, each student will indicate two choices in case a course offering becomes filled or canceled.",False,not clear,True
+course,student,,*,A course can have students ,A course offering fewer than three students will be canceled.,False,not clear,True
+grade,course,course,1,A grade has a course,The new online registration system will allow students to select four-course offerings for the coming semester.,False,not clear,False
+grade,course,course,1,A grade has a course,The billing system will credit all students for courses dropped during this period.,False,not clear,False
+grade,course,course,1,A grade has a course,Students must be able to access the online system during this time to add or drop courses.,False,not clear,False
+grade,course,course,1,A grade has a course,"In addition, each student will indicate two choices in case a course offering becomes filled or canceled.",False,not clear,False
+grade,course,course,1,A grade has a course,Professors must be able to access the online system to indicate which courses they will be teaching.,False,not clear,False
+grade,course,course,1,A grade has a course,A course offering fewer than three students will be canceled.,False,not clear,False
+grade,course,course,1,A grade has a course,No course offering will have fewer than three students.,False,not clear,False
+grade,course,course,1,A grade has a course,Each course offering will have at most ten students.,False,not clear,False
+grade,course,course,1,A grade has a course,"At the beginning of each semester, students may request a course catalog containing a list of course offerings.",False,not clear,False
+grade,course,course,1,A grade has a course,"Information about each course, such as professor, department, and prerequisites, will be included to help students make informed decisions.",False,not clear,False
+grade,course,course,1,A grade has a course,They will also need to see which students signed up for their course offerings.,False,not clear,False
+professor,course,teach,*,A professor can have teaches which are courses,The new online registration system will allow students to select four-course offerings for the coming semester.,False,not clear,False
+professor,course,teach,*,A professor can have teaches which are courses,The billing system will credit all students for courses dropped during this period.,False,not clear,False
+professor,course,teach,*,A professor can have teaches which are courses,Students must be able to access the online system during this time to add or drop courses.,False,not clear,False
+professor,course,teach,*,A professor can have teaches which are courses,"In addition, each student will indicate two choices in case a course offering becomes filled or canceled.",False,not clear,False
+professor,course,teach,*,A professor can have teaches which are courses,Professors must be able to access the online system to indicate which courses they will be teaching.,False,not clear,True
+professor,course,teach,*,A professor can have teaches which are courses,A course offering fewer than three students will be canceled.,False,not clear,False
+professor,course,teach,*,A professor can have teaches which are courses,No course offering will have fewer than three students.,False,not clear,False
+professor,course,teach,*,A professor can have teaches which are courses,Each course offering will have at most ten students.,False,not clear,False
+professor,course,teach,*,A professor can have teaches which are courses,"At the beginning of each semester, students may request a course catalog containing a list of course offerings.",False,not clear,False
+professor,course,teach,*,A professor can have teaches which are courses,"Information about each course, such as professor, department, and prerequisites, will be included to help students make informed decisions.",False,not clear,True
+professor,course,teach,*,A professor can have teaches which are courses,They will also need to see which students signed up for their course offerings.,False,not clear,False
+course,professor,,1,A course has professor,The new online registration system will allow students to select four-course offerings for the coming semester.,False,not clear,False
+course,professor,,1,A course has professor,The billing system will credit all students for courses dropped during this period.,False,not clear,False
+course,professor,,1,A course has professor,Students must be able to access the online system during this time to add or drop courses.,False,not clear,False
+course,professor,,1,A course has professor,"In addition, each student will indicate two choices in case a course offering becomes filled or canceled.",False,not clear,False
+course,professor,,1,A course has professor,Professors must be able to access the online system to indicate which courses they will be teaching.,False,not clear,False
+course,professor,,1,A course has professor,A course offering fewer than three students will be canceled.,False,not clear,False
+course,professor,,1,A course has professor,No course offering will have fewer than three students.,False,not clear,False
+course,professor,,1,A course has professor,Each course offering will have at most ten students.,False,not clear,False
+course,professor,,1,A course has professor,"At the beginning of each semester, students may request a course catalog containing a list of course offerings.",False,not clear,False
+course,professor,,1,A course has professor,"Information about each course, such as professor, department, and prerequisites, will be included to help students make informed decisions.",False,not clear,True
+course,professor,,1,A course has professor,They will also need to see which students signed up for their course offerings.,False,not clear,False

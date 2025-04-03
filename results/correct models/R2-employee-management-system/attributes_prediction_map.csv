@@ -1,0 +1,14 @@
+class_name,attributes,generated_description,actual_description,equality,contradiction,inclusion
+employee,department,an employee has a department,"Each employee object contains information about the department, name, date of birth, and social insurance number.",False,False,True
+employee,name,an employee has a name,"Each employee object contains information about the department, name, date of birth, and social insurance number.",False,False,True
+employee,date of birth,an employee has a date of birth,"Each employee object contains information about the department, name, date of birth, and social insurance number.",False,False,True
+employee,social insurance number,an employee has a social insurance number,"Each employee object contains information about the department, name, date of birth, and social insurance number.",False,False,True
+worker,weekly working hours,a worker has a weekly working hours,"In addition, while workers have information such as weekly working hours and hourly rates, the salespersons have information such as fixed salary, amount of sales made, and commission percentage.",False,False,True
+worker,hourly rate,a worker has a hourly rate,"In addition, while workers have information such as weekly working hours and hourly rates, the salespersons have information such as fixed salary, amount of sales made, and commission percentage.",False,False,True
+sale person,amount of sales,a sale person has  amount of sales,"In addition, while workers have information such as weekly working hours and hourly rates, the salespersons have information such as fixed salary, amount of sales made, and commission percentage.",False,False,True
+sale person,commission percentage,a sale person has a commission percentage,"In addition, while workers have information such as weekly working hours and hourly rates, the salespersons have information such as fixed salary, amount of sales made, and commission percentage.",False,False,True
+sale person,fixed salary,a sale person has a fixed salary,"In addition, while workers have information such as weekly working hours and hourly rates, the salespersons have information such as fixed salary, amount of sales made, and commission percentage.",False,False,True
+manager,position information,a manager has a position information,"In addition to the above basic information, the manager object also has position information.",False,False,True
+manager,fixed salary,a manager has a fixed salary,The managers only get a fixed salary.,True,False,False
+shift worker,premiums,a shift worker has  premiums,Shift workers receive premiums for working on holidays.,False,False,True
+off shift worker,permits,an off shift worker has  permits,Off-shift workers have weekend and official holiday permits.,False,False,True

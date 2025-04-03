@@ -1,0 +1,17 @@
+source,target,role,multiplicity,generated_description,actual_description,equality,contradiction,inclusion
+show,ticket,tickets,0..*,A show can have tickets ,The user selects the movie show for which he would like to book tickets.,False,not clear,True
+show,ticket,tickets,0..*,A show can have tickets ,"If the tickets for this movie show can not be reserved, there will be an error message, and the user will be prompted to reduce the number of cards or select a different idea.",False,not clear,False
+ticket,show,show,1,A ticket has a show,The user selects the movie show for which he would like to book tickets.,False,not clear,False
+ticket,show,show,1,A ticket has a show,Then he clicks on the movie show for which he would like to order tickets.,False,not clear,False
+ticket,show,show,1,A ticket has a show,"If the tickets for this movie show can not be reserved, there will be an error message, and the user will be prompted to reduce the number of cards or select a different idea.",False,not clear,False
+user,ticket,orderedTickets,0..*,A user can have ordered tickets ,Then he clicks on the movie show for which he would like to order tickets.,False,not clear,False
+show,movie,of,1,A show is of a movie,The user selects the movie show for which he would like to book tickets.,False,not clear,True
+show,movie,of,1,A show is of a movie,"Depending on the selection, a list of movie shows for the selected film or movie shows of the chosen day is displayed.",False,not clear,True
+show,movie,of,1,A show is of a movie,Then he clicks on the movie show for which he would like to order tickets.,False,not clear,False
+show,movie,of,1,A show is of a movie,He can also specify whether he wants to be reminded of the movie show by e-mail.,False,not clear,False
+show,movie,of,1,A show is of a movie,"If the tickets for this movie show can not be reserved, there will be an error message, and the user will be prompted to reduce the number of cards or select a different idea.",False,not clear,False
+movie,show,shows,0..*,A movie can have shows ,The user selects the movie show for which he would like to book tickets.,False,not clear,True
+movie,show,shows,0..*,A movie can have shows ,"Depending on the selection, a list of movie shows for the selected film or movie shows of the chosen day is displayed.",False,not clear,True
+movie,show,shows,0..*,A movie can have shows ,Then he clicks on the movie show for which he would like to order tickets.,False,not clear,True
+movie,show,shows,0..*,A movie can have shows ,He can also specify whether he wants to be reminded of the movie show by e-mail.,False,not clear,True
+movie,show,shows,0..*,A movie can have shows ,"If the tickets for this movie show can not be reserved, there will be an error message, and the user will be prompted to reduce the number of cards or select a different idea.",False,not clear,False

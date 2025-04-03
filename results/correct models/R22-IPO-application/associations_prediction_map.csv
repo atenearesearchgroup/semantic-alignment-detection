@@ -1,0 +1,76 @@
+source,target,role,multiplicity,generated_description,actual_description,equality,contradiction,inclusion
+user,initial public offering,apply,*,A user can have applies which are initial public offerings,Customer  Only 'retail' types of customers can apply for IPO.,False,not clear,False
+user,initial public offering,apply,*,A user can have applies which are initial public offerings,"Even though the user completed the process successfully, the purchase is still being determined.",False,not clear,False
+user,initial public offering,apply,*,A user can have applies which are initial public offerings,Number of shares that have been purchased.,False,not clear,False
+user,initial public offering,apply,*,A user can have applies which are initial public offerings,"If they would like to apply anyway, they should call the 'call center' and request IPO application access.",False,not clear,False
+user,initial public offering,apply,*,A user can have applies which are initial public offerings,The amount of money that has been paid,False,not clear,False
+user,initial public offering,apply,*,A user can have applies which are initial public offerings,"If the user has more than five failed attempts, the bank should restrict the user from the application process.",False,not clear,False
+user,initial public offering,apply,*,A user can have applies which are initial public offerings,Email should be user-friendly and 'In HTML' format for future compatibility.,False,not clear,False
+user,initial public offering,apply,*,A user can have applies which are initial public offerings,Retail customers should be eligible for applying IPO.,False,not clear,False
+user,initial public offering,apply,*,A user can have applies which are initial public offerings,Applied company named.,False,not clear,False
+user,initial public offering,apply,*,A user can have applies which are initial public offerings,"When the user completes the application process successfully, the bank should send two information emails, one for the customer and another for the company.",False,not clear,False
+user,initial public offering,apply,*,A user can have applies which are initial public offerings,Any other formats are restricted.,False,not clear,False
+user,initial public offering,apply,*,A user can have applies which are initial public offerings,Related companies always have a right to reject users' applications.,False,not clear,False
+user,initial public offering,apply,*,A user can have applies which are initial public offerings,A validation error should be displayed if a user tries to upload another type of document.,False,not clear,False
+user,initial public offering,apply,*,A user can have applies which are initial public offerings,"On the Investments menu, the 'IPO Application' tab should be added to the end of the page.",False,not clear,False
+user,initial public offering,apply,*,A user can have applies which are initial public offerings,"Email content should include below information:User's name, surname, email address, telephone number.",False,not clear,False
+user,initial public offering,apply,*,A user can have applies which are initial public offerings,"If a company rejects the user, our system should inform the customer.",False,not clear,False
+user,initial public offering,apply,*,A user can have applies which are initial public offerings,"Users who will make IPO Applications must share their name, surname, email address, and telephone number information with the related company.",False,not clear,False
+user,initial public offering,apply,*,A user can have applies which are initial public offerings,"If the user has unpaid credit card payments, a blocked account, or is marked as a 'fraud user,' the user should not be able to perform an IPO application.",False,not clear,False
+user,initial public offering,apply,*,A user can have applies which are initial public offerings,The user should not be able to attempt the 6th IPO application.,False,not clear,False
+user,initial public offering,apply,*,A user can have applies which are initial public offerings,Rules,False,not clear,False
+user,initial public offering,apply,*,A user can have applies which are initial public offerings,Documentation could either be in the '.docx' or '.pdf' format.,False,not clear,False
+user,initial public offering,apply,*,A user can have applies which are initial public offerings,"The user interface should include an information pop-up that says this information (name, surname, email address, telephone) will be shared and can be used by the company.",False,not clear,False
+user,initial public offering,apply,*,A user can have applies which are initial public offerings,Software System,False,not clear,False
+user,initial public offering,apply,*,A user can have applies which are initial public offerings,"When a user applies IPO, he is required to upload legal allowance documentation.",False,not clear,False
+user,initial public offering,apply,*,A user can have applies which are initial public offerings,"Menu Placement  The IPO application process should be named 'Apply for IPO', and it should be under the menu 'Investments'.",False,not clear,False
+company,initial public offering,,*,A company can have initial public offerings ,Customer  Only 'retail' types of customers can apply for IPO.,False,not clear,False
+company,initial public offering,,*,A company can have initial public offerings ,"Even though the user completed the process successfully, the purchase is still being determined.",False,not clear,False
+company,initial public offering,,*,A company can have initial public offerings ,Number of shares that have been purchased.,False,not clear,False
+company,initial public offering,,*,A company can have initial public offerings ,"If they would like to apply anyway, they should call the 'call center' and request IPO application access.",False,not clear,True
+company,initial public offering,,*,A company can have initial public offerings ,The amount of money that has been paid,False,not clear,False
+company,initial public offering,,*,A company can have initial public offerings ,Email should be user-friendly and 'In HTML' format for future compatibility.,False,not clear,False
+company,initial public offering,,*,A company can have initial public offerings ,"If the user has more than five failed attempts, the bank should restrict the user from the application process.",False,not clear,False
+company,initial public offering,,*,A company can have initial public offerings ,Retail customers should be eligible for applying IPO.,False,not clear,False
+company,initial public offering,,*,A company can have initial public offerings ,Applied company named.,False,not clear,False
+company,initial public offering,,*,A company can have initial public offerings ,Any other formats are restricted.,False,not clear,False
+company,initial public offering,,*,A company can have initial public offerings ,"When the user completes the application process successfully, the bank should send two information emails, one for the customer and another for the company.",False,not clear,False
+company,initial public offering,,*,A company can have initial public offerings ,A validation error should be displayed if a user tries to upload another type of document.,False,not clear,False
+company,initial public offering,,*,A company can have initial public offerings ,Related companies always have a right to reject users' applications.,False,not clear,False
+company,initial public offering,,*,A company can have initial public offerings ,"On the Investments menu, the 'IPO Application' tab should be added to the end of the page.",False,not clear,False
+company,initial public offering,,*,A company can have initial public offerings ,"Email content should include below information:User's name, surname, email address, telephone number.",False,not clear,False
+company,initial public offering,,*,A company can have initial public offerings ,"If a company rejects the user, our system should inform the customer.",False,not clear,False
+company,initial public offering,,*,A company can have initial public offerings ,"Users who will make IPO Applications must share their name, surname, email address, and telephone number information with the related company.",False,not clear,False
+company,initial public offering,,*,A company can have initial public offerings ,"If the user has unpaid credit card payments, a blocked account, or is marked as a 'fraud user,' the user should not be able to perform an IPO application.",False,not clear,False
+company,initial public offering,,*,A company can have initial public offerings ,The user should not be able to attempt the 6th IPO application.,False,not clear,False
+company,initial public offering,,*,A company can have initial public offerings ,Rules,False,not clear,False
+company,initial public offering,,*,A company can have initial public offerings ,Documentation could either be in the '.docx' or '.pdf' format.,False,not clear,False
+company,initial public offering,,*,A company can have initial public offerings ,"The user interface should include an information pop-up that says this information (name, surname, email address, telephone) will be shared and can be used by the company.",False,not clear,False
+company,initial public offering,,*,A company can have initial public offerings ,Software System,False,not clear,False
+company,initial public offering,,*,A company can have initial public offerings ,"When a user applies IPO, he is required to upload legal allowance documentation.",False,not clear,False
+company,initial public offering,,*,A company can have initial public offerings ,"Menu Placement  The IPO application process should be named 'Apply for IPO', and it should be under the menu 'Investments'.",False,not clear,True
+initial public offering,company,,1,A initial public offering has company,Customer  Only 'retail' types of customers can apply for IPO.,False,not clear,False
+initial public offering,company,,1,A initial public offering has company,"Even though the user completed the process successfully, the purchase is still being determined.",False,not clear,False
+initial public offering,company,,1,A initial public offering has company,Number of shares that have been purchased.,False,not clear,False
+initial public offering,company,,1,A initial public offering has company,"If they would like to apply anyway, they should call the 'call center' and request IPO application access.",False,not clear,False
+initial public offering,company,,1,A initial public offering has company,The amount of money that has been paid,False,not clear,False
+initial public offering,company,,1,A initial public offering has company,Email should be user-friendly and 'In HTML' format for future compatibility.,False,not clear,False
+initial public offering,company,,1,A initial public offering has company,"If the user has more than five failed attempts, the bank should restrict the user from the application process.",False,not clear,False
+initial public offering,company,,1,A initial public offering has company,Retail customers should be eligible for applying IPO.,False,not clear,False
+initial public offering,company,,1,A initial public offering has company,Applied company named.,False,not clear,False
+initial public offering,company,,1,A initial public offering has company,Any other formats are restricted.,False,not clear,False
+initial public offering,company,,1,A initial public offering has company,"When the user completes the application process successfully, the bank should send two information emails, one for the customer and another for the company.",False,not clear,False
+initial public offering,company,,1,A initial public offering has company,A validation error should be displayed if a user tries to upload another type of document.,False,not clear,False
+initial public offering,company,,1,A initial public offering has company,Related companies always have a right to reject users' applications.,False,not clear,False
+initial public offering,company,,1,A initial public offering has company,"On the Investments menu, the 'IPO Application' tab should be added to the end of the page.",False,not clear,False
+initial public offering,company,,1,A initial public offering has company,"Email content should include below information:User's name, surname, email address, telephone number.",False,not clear,False
+initial public offering,company,,1,A initial public offering has company,"If a company rejects the user, our system should inform the customer.",False,not clear,False
+initial public offering,company,,1,A initial public offering has company,"Users who will make IPO Applications must share their name, surname, email address, and telephone number information with the related company.",False,not clear,False
+initial public offering,company,,1,A initial public offering has company,"If the user has unpaid credit card payments, a blocked account, or is marked as a 'fraud user,' the user should not be able to perform an IPO application.",False,not clear,False
+initial public offering,company,,1,A initial public offering has company,The user should not be able to attempt the 6th IPO application.,False,not clear,False
+initial public offering,company,,1,A initial public offering has company,Rules,False,not clear,False
+initial public offering,company,,1,A initial public offering has company,Documentation could either be in the '.docx' or '.pdf' format.,False,not clear,False
+initial public offering,company,,1,A initial public offering has company,"The user interface should include an information pop-up that says this information (name, surname, email address, telephone) will be shared and can be used by the company.",False,not clear,False
+initial public offering,company,,1,A initial public offering has company,Software System,False,not clear,False
+initial public offering,company,,1,A initial public offering has company,"When a user applies IPO, he is required to upload legal allowance documentation.",False,not clear,False
+initial public offering,company,,1,A initial public offering has company,"Menu Placement  The IPO application process should be named 'Apply for IPO', and it should be under the menu 'Investments'.",False,not clear,False

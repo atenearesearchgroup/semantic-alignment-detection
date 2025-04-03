@@ -1,0 +1,66 @@
+source,target,role,multiplicity,generated_description,actual_description,equality,contradiction,inclusion
+app,video,,*,A app can have videos ,The application can suggest videos and diets and schedule them on the calendar.,False,not clear,True
+app,diet,,*,A app can have diets ,The application can suggest videos and diets and schedule them on the calendar.,False,not clear,True
+app,diet,,*,A app can have diets ,"The application will be able to record exercises, repetitions, and the diet followed.",False,not clear,True
+day,diet,,1,A day has diet,The app will have a calendar layout where the user can click on a specific day to find all the events and diets scheduled for the day.,False,not clear,True
+day,event,,*,A day can have events ,The app will have a calendar layout where the user can click on a specific day to find all the events and diets scheduled for the day.,False,not clear,True
+day,exercise,,*,A day can have exercises ,The Bewell app is mainly for those who plan to lose or gain weight and require a planned medium.,False,not clear,False
+day,exercise,,*,A day can have exercises ,"The videos will be mapped based on user inputs, like what part of the body the user is focussed on.",False,not clear,False
+day,exercise,,*,A day can have exercises ,"For calculation, the time taken by the user and the distance traveled by the user will be considered.",False,not clear,False
+day,exercise,,*,A day can have exercises ,The application will be able to work offline/in low-data mode.,False,not clear,False
+day,exercise,,*,A day can have exercises ,"Further, the activities will be monitored and recorded for the same date.",False,not clear,False
+day,exercise,,*,A day can have exercises ,"The application will be able to record exercises, repetitions, and the diet followed.",False,not clear,False
+day,exercise,,*,A day can have exercises ,The app will take the device's GPS location and track the user's running activity.,False,not clear,False
+day,exercise,,*,A day can have exercises ,"The app will take the inputs from the user and suggest videos, diets, and schedules for the user.",False,not clear,False
+day,exercise,,*,A day can have exercises ,"Further, diet is also planned similarly.",False,not clear,False
+day,exercise,,*,A day can have exercises ,Thus the information is conveyed with very less data consumption.,False,not clear,False
+day,exercise,,*,A day can have exercises ,This helps in calculating the calories burnt by the user.,False,not clear,False
+day,exercise,,*,A day can have exercises ,"For calculation, the time taken by the user and the distance traveled by the user will be considered.",False,not clear,False
+day,exercise,,*,A day can have exercises ,This helps in calculating the calories burnt by the user.,False,not clear,False
+day,exercise,,*,A day can have exercises ,"For a low-data device case, thumbnails from the video at regular intervals can be mapped instead of the videos.",False,not clear,False
+day,exercise,,*,A day can have exercises ,Requirement,False,not clear,False
+day,exercise,,*,A day can have exercises ,"Since network availability is not available in many scenarios, the app will be working during offline and low data mode.",False,not clear,False
+day,exercise,,*,A day can have exercises ,"For a low data mode, pictures from the videos at regular intervals will be provided instead of videos.",False,not clear,False
+day,exercise,,*,A day can have exercises ,This document outlines the usage and implementation of the Bewell app.,False,not clear,False
+day,exercise,,*,A day can have exercises ,"Running speed, calories burnt, the track ran, , will be monitored and recorded for the day in the calendar.",False,not clear,True
+day,exercise,,*,A day can have exercises ,The app will have a calendar layout where the user can click on a specific day to find all the events and diets scheduled for the day.,False,not clear,True
+day,exercise,,*,A day can have exercises ,The application will track the user's running activity and convert them into calories burnt.,False,not clear,False
+day,exercise,,*,A day can have exercises ,The application will track the user's running activity and convert them into calories burnt.,False,not clear,False
+day,exercise,,*,A day can have exercises ,The application can suggest videos and diets and schedule them on the calendar.,False,not clear,False
+day,exercise,,*,A day can have exercises ,The app will take the device's GPS location and track the user's running activity.,False,not clear,False
+day,exercise,,*,A day can have exercises ,"Further, the app will store the data during offline mode and upload the same to the server whenever the device goes online.",False,not clear,False
+day,exercise,,*,A day can have exercises ,"Running speed, calories burnt, the track ran, , will be monitored and recorded for the day in the calendar.",False,not clear,True
+day,exercise,,*,A day can have exercises ,"This will work only with the user's internet, and the location is 'ON.'",False,not clear,False
+day,exercise,,*,A day can have exercises ,A database of the videos (can be from youtube) is created.,False,not clear,False
+day,exercise,,*,A day can have exercises ,"This will work only with the user's internet, and the location is 'ON.'",False,not clear,False
+day,exercise,,*,A day can have exercises ,Scope,False,not clear,False
+exercise,day,,*,A exercise can have days ,The Bewell app is mainly for those who plan to lose or gain weight and require a planned medium.,False,not clear,False
+exercise,day,,*,A exercise can have days ,"The videos will be mapped based on user inputs, like what part of the body the user is focussed on.",False,not clear,False
+exercise,day,,*,A exercise can have days ,"For calculation, the time taken by the user and the distance traveled by the user will be considered.",False,not clear,False
+exercise,day,,*,A exercise can have days ,The application will be able to work offline/in low-data mode.,False,not clear,False
+exercise,day,,*,A exercise can have days ,"Further, the activities will be monitored and recorded for the same date.",False,not clear,False
+exercise,day,,*,A exercise can have days ,"The application will be able to record exercises, repetitions, and the diet followed.",False,not clear,False
+exercise,day,,*,A exercise can have days ,The app will take the device's GPS location and track the user's running activity.,False,not clear,False
+exercise,day,,*,A exercise can have days ,"The app will take the inputs from the user and suggest videos, diets, and schedules for the user.",False,not clear,False
+exercise,day,,*,A exercise can have days ,"Further, diet is also planned similarly.",False,not clear,False
+exercise,day,,*,A exercise can have days ,Thus the information is conveyed with very less data consumption.,False,not clear,False
+exercise,day,,*,A exercise can have days ,This helps in calculating the calories burnt by the user.,False,not clear,False
+exercise,day,,*,A exercise can have days ,"For calculation, the time taken by the user and the distance traveled by the user will be considered.",False,not clear,False
+exercise,day,,*,A exercise can have days ,This helps in calculating the calories burnt by the user.,False,not clear,False
+exercise,day,,*,A exercise can have days ,"For a low-data device case, thumbnails from the video at regular intervals can be mapped instead of the videos.",False,not clear,False
+exercise,day,,*,A exercise can have days ,Requirement,False,not clear,False
+exercise,day,,*,A exercise can have days ,"Since network availability is not available in many scenarios, the app will be working during offline and low data mode.",False,not clear,False
+exercise,day,,*,A exercise can have days ,"For a low data mode, pictures from the videos at regular intervals will be provided instead of videos.",False,not clear,False
+exercise,day,,*,A exercise can have days ,This document outlines the usage and implementation of the Bewell app.,False,not clear,False
+exercise,day,,*,A exercise can have days ,"Running speed, calories burnt, the track ran, , will be monitored and recorded for the day in the calendar.",False,not clear,False
+exercise,day,,*,A exercise can have days ,The app will have a calendar layout where the user can click on a specific day to find all the events and diets scheduled for the day.,False,not clear,False
+exercise,day,,*,A exercise can have days ,The application will track the user's running activity and convert them into calories burnt.,False,not clear,False
+exercise,day,,*,A exercise can have days ,The application will track the user's running activity and convert them into calories burnt.,False,not clear,False
+exercise,day,,*,A exercise can have days ,The application can suggest videos and diets and schedule them on the calendar.,False,not clear,False
+exercise,day,,*,A exercise can have days ,The app will take the device's GPS location and track the user's running activity.,False,not clear,False
+exercise,day,,*,A exercise can have days ,"Further, the app will store the data during offline mode and upload the same to the server whenever the device goes online.",False,not clear,False
+exercise,day,,*,A exercise can have days ,"Running speed, calories burnt, the track ran, , will be monitored and recorded for the day in the calendar.",False,not clear,False
+exercise,day,,*,A exercise can have days ,"This will work only with the user's internet, and the location is 'ON.'",False,not clear,False
+exercise,day,,*,A exercise can have days ,A database of the videos (can be from youtube) is created.,False,not clear,False
+exercise,day,,*,A exercise can have days ,"This will work only with the user's internet, and the location is 'ON.'",False,not clear,False
+exercise,day,,*,A exercise can have days ,Scope,False,not clear,False

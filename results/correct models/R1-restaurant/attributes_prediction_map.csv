@@ -1,0 +1,15 @@
+class_name,attributes,generated_description,actual_description,equality,contradiction,inclusion
+restaurant,cash flow,a restaurant has a cash flow,Payroll and Accounting Service: Used to manage employee payroll and monitor the restaurant's cash flow.,False,False,True
+employee,name,an employee has a name,"Each employee has a name, age, and gender information.",False,False,True
+employee,age,an employee has an age,"Each employee has a name, age, and gender information.",False,False,True
+employee,gender,an employee has a gender,"Each employee has a name, age, and gender information.",False,False,True
+table,number,a table has a number,"When the waiter serves, the system shows the waiter's name and table number.",False,False,True
+section,kind,a section has a kind,The waiter in the service section serves the customer.,False,False,False
+section,kind,a section has a kind,The waiter in the service section serves the customer.,False,False,False
+section,kind,a section has a kind,"Personnel can be cooks, waiters, and cashiers.",False,False,False
+section,kind,a section has a kind,Personnel works according to their sections.,False,False,False
+section,kind,a section has a kind,The restaurant has more than one section.,False,False,False
+section,kind,a section has a kind,"These sections are kitchen, service, and cash.",False,False,True
+section,kind,a section has a kind,"When the waiter serves, the system shows the waiter's name and table number.",False,False,False
+item,cost,an item has a cost,"Restaurant Inventory Management: Used to monitor current stock, the cost of the items, and more.",False,False,True
+transaction,kind,a transaction has a kind,"The system captures all transactions, including charges, payments, voids, promo deals, and expenses.",False,False,True

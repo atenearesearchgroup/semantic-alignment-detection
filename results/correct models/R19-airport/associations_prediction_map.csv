@@ -1,0 +1,70 @@
+source,target,role,multiplicity,generated_description,actual_description,equality,contradiction,inclusion
+flight,airport,origin,1,A flight has an an origin which is an airport,Customers make reservations for specific seats on specific flights and have tickets.,False,not clear,False
+airport,flight,myFlight,1,A airport has a flight,A route is followed by a flight from its origin airport to its destination airport.,False,not clear,False
+flight,airport,destination,1,A flight has a a destination which is an airport,An airline is any direct flight between two airports.,False,not clear,False
+flight,airport,destination,1,A flight has a a destination which is an airport,Typically a customer places an order for seats in a combination of connected flights from an origin to a destination airport.,False,not clear,True
+flight,airport,destination,1,A flight has a a destination which is an airport,Flight is defined by a number and a date and defines a route from an origin airport to a destination airport.,False,not clear,True
+flight,airport,destination,1,A flight has a a destination which is an airport,"The information boards in the airports show short information about the flights, as FB073 flight departed at 08:45.",False,not clear,False
+flight,airport,destination,1,A flight has a a destination which is an airport,A span is a part of a route from a start airport to a termination airport as part of a specific flight.,False,not clear,True
+flight,airport,destination,1,A flight has a a destination which is an airport,A route is followed by a flight from its origin airport to its destination airport.,False,not clear,True
+airport,flight,myFlight1,1,A airport has a flight,A route is followed by a flight from its origin airport to its destination airport.,False,not clear,False
+flight,flight,myFlight,1,A flight has a flight,"For each flight, there are several connecting flights (different flights that leave from an intermediate stop close after their arrival).",False,not clear,False
+flight,flight,connectingFlights,0..*,A flight can have connecting flights ,"For each flight, there are several connecting flights (different flights that leave from an intermediate stop close after their arrival).",False,not clear,True
+airport,city,nearbyCities,0..*,A airport can have nearby cities which are cities,An airline is any direct flight between two airports.,False,not clear,False
+airport,city,nearbyCities,0..*,A airport can have nearby cities which are cities,Typically a customer places an order for seats in a combination of connected flights from an origin to a destination airport.,False,not clear,False
+airport,city,nearbyCities,0..*,A airport can have nearby cities which are cities,Flight is defined by a number and a date and defines a route from an origin airport to a destination airport.,False,not clear,False
+airport,city,nearbyCities,0..*,A airport can have nearby cities which are cities,A span is a part of a route from a start airport to a termination airport as part of a specific flight.,False,not clear,False
+airport,city,nearbyCities,0..*,A airport can have nearby cities which are cities,A route is followed by a flight from its origin airport to its destination airport.,False,not clear,False
+airport,city,nearbyCities,0..*,A airport can have nearby cities which are cities,"For the convenience of customers, we may keep information on relevant facilities; for origins, we keep aspects such as parking; for destinations, we list hotels near the airport; for intermediate stops, we provide lists of hotels close to the airport, restaurants,",False,not clear,False
+airport,city,nearbyCities,0..*,A airport can have nearby cities which are cities,A route is a set of connected basic airlines connecting all the airports through which it passes.,False,not clear,False
+airport,city,nearbyCities,0..*,A airport can have nearby cities which are cities,This information may also include details of the cities nearby.,False,not clear,True
+airport,city,nearbyCities,0..*,A airport can have nearby cities which are cities,"The information boards in the airports show short information about the flights, as FB073 flight departed at 08:45.",False,not clear,False
+airport,city,nearbyCities,0..*,A airport can have nearby cities which are cities,The start (or termination) airport is called this span's origin (or destination) airport.,False,not clear,False
+city,airport,myAirport,1,A city has an airport,An airline is any direct flight between two airports.,False,not clear,False
+city,airport,myAirport,1,A city has an airport,Typically a customer places an order for seats in a combination of connected flights from an origin to a destination airport.,False,not clear,False
+city,airport,myAirport,1,A city has an airport,Flight is defined by a number and a date and defines a route from an origin airport to a destination airport.,False,not clear,False
+city,airport,myAirport,1,A city has an airport,A span is a part of a route from a start airport to a termination airport as part of a specific flight.,False,not clear,False
+city,airport,myAirport,1,A city has an airport,A route is followed by a flight from its origin airport to its destination airport.,False,not clear,False
+city,airport,myAirport,1,A city has an airport,"For the convenience of customers, we may keep information on relevant facilities; for origins, we keep aspects such as parking; for destinations, we list hotels near the airport; for intermediate stops, we provide lists of hotels close to the airport, restaurants,",False,not clear,False
+city,airport,myAirport,1,A city has an airport,A route is a set of connected basic airlines connecting all the airports through which it passes.,False,not clear,False
+city,airport,myAirport,1,A city has an airport,This information may also include details of the cities nearby.,False,not clear,False
+city,airport,myAirport,1,A city has an airport,"The information boards in the airports show short information about the flights, as FB073 flight departed at 08:45.",False,not clear,False
+city,airport,myAirport,1,A city has an airport,The start (or termination) airport is called this span's origin (or destination) airport.,False,not clear,False
+plane,flight,flights,0..*,A plane can have flights ,A plane is assigned to a flight containing a set of numbered seats.,False,not clear,True
+flight,plane,flownBy,1,A flight is flown by a plane,"Stops are not indicated in the ticket unless the flight number changes, which indicates a plane change.",False,not clear,False
+flight,plane,flownBy,1,A flight is flown by a plane,A plane is assigned to a flight containing a set of numbered seats.,False,not clear,True
+order,seat,seats,1..*,A order can have seats ,Typically a customer places an order for seats in a combination of connected flights from an origin to a destination airport.,False,not clear,True
+seat,order,myOrder,1,A seat has an order,Typically a customer places an order for seats in a combination of connected flights from an origin to a destination airport.,False,not clear,False
+order,flight,flights,1..*,A order can have flights ,Typically a customer places an order for seats in a combination of connected flights from an origin to a destination airport.,False,not clear,True
+flight,order,myOrder,1,A flight has an order,Typically a customer places an order for seats in a combination of connected flights from an origin to a destination airport.,False,not clear,False
+customer,order,makes,0..*,A customer makes orders ,Typically a customer places an order for seats in a combination of connected flights from an origin to a destination airport.,False,not clear,True
+order,customer,madeBy,1,A order is made by a customer,Typically a customer places an order for seats in a combination of connected flights from an origin to a destination airport.,False,not clear,True
+airport,hotel,nearbyHotels,0..*,A airport can have nearby hotels ,"For the convenience of customers, we may keep information on relevant facilities; for origins, we keep aspects such as parking; for destinations, we list hotels near the airport; for intermediate stops, we provide lists of hotels close to the airport, restaurants,",False,not clear,True
+hotel,airport,myAirport,1,A hotel has an airport,"For the convenience of customers, we may keep information on relevant facilities; for origins, we keep aspects such as parking; for destinations, we list hotels near the airport; for intermediate stops, we provide lists of hotels close to the airport, restaurants,",False,not clear,False
+airport,restaurant,nearbyRestaurants,0..*,A airport can have nearby restaurants ,"For the convenience of customers, we may keep information on relevant facilities; for origins, we keep aspects such as parking; for destinations, we list hotels near the airport; for intermediate stops, we provide lists of hotels close to the airport, restaurants,",False,not clear,True
+restaurant,airport,myAirport,1,A restaurant has an airport,"For the convenience of customers, we may keep information on relevant facilities; for origins, we keep aspects such as parking; for destinations, we list hotels near the airport; for intermediate stops, we provide lists of hotels close to the airport, restaurants,",False,not clear,False
+route,span,spans,1..*,A route can have spans ,A span is a part of a route from a start airport to a termination airport as part of a specific flight.,False,not clear,True
+route,span,spans,1..*,A route can have spans ,A route includes one or more spans.,False,not clear,True
+span,route,myRoute,1,A span has a route,A span is a part of a route from a start airport to a termination airport as part of a specific flight.,False,not clear,True
+span,airport,origian,1,A span has an an origian which is an airport,The start (or termination) airport is called this span's origin (or destination) airport.,False,not clear,True
+span,airport,origian,1,A span has an an origian which is an airport,A span is a part of a route from a start airport to a termination airport as part of a specific flight.,False,not clear,True
+airport,span,mySpan,1,A airport has a span,The start (or termination) airport is called this span's origin (or destination) airport.,False,not clear,False
+airport,span,mySpan,1,A airport has a span,A span is a part of a route from a start airport to a termination airport as part of a specific flight.,False,not clear,False
+span,airport,destination,1,A span has a a destination which is an airport,The start (or termination) airport is called this span's origin (or destination) airport.,False,not clear,True
+span,airport,destination,1,A span has a a destination which is an airport,A span is a part of a route from a start airport to a termination airport as part of a specific flight.,False,not clear,True
+airport,span,mySpan1,1,A airport has a span,The start (or termination) airport is called this span's origin (or destination) airport.,False,not clear,False
+airport,span,mySpan1,1,A airport has a span,A span is a part of a route from a start airport to a termination airport as part of a specific flight.,False,not clear,False
+plane,route,follows,0..*,A plane follows routes ,A route is a set of connected basic airlines connecting all the airports through which it passes.,False,not clear,False
+plane,route,follows,0..*,A plane follows routes ,A plane is assigned to a flight containing a set of numbered seats.,False,not clear,False
+plane,route,follows,0..*,A plane follows routes ,Flight is defined by a number and a date and defines a route from an origin airport to a destination airport.,False,not clear,True
+plane,route,follows,0..*,A plane follows routes ,A span is a part of a route from a start airport to a termination airport as part of a specific flight.,False,not clear,False
+plane,route,follows,0..*,A plane follows routes ,A route is followed by a flight from its origin airport to its destination airport.,False,not clear,True
+plane,route,follows,0..*,A plane follows routes ,"Stops are not indicated in the ticket unless the flight number changes, which indicates a plane change.",False,not clear,False
+plane,route,follows,0..*,A plane follows routes ,A route includes one or more spans.,False,not clear,False
+route,plane,myPlane,1,A route has a plane,A route is a set of connected basic airlines connecting all the airports through which it passes.,False,not clear,False
+route,plane,myPlane,1,A route has a plane,A plane is assigned to a flight containing a set of numbered seats.,False,not clear,False
+route,plane,myPlane,1,A route has a plane,Flight is defined by a number and a date and defines a route from an origin airport to a destination airport.,False,not clear,True
+route,plane,myPlane,1,A route has a plane,A span is a part of a route from a start airport to a termination airport as part of a specific flight.,False,not clear,False
+route,plane,myPlane,1,A route has a plane,A route is followed by a flight from its origin airport to its destination airport.,False,not clear,True
+route,plane,myPlane,1,A route has a plane,"Stops are not indicated in the ticket unless the flight number changes, which indicates a plane change.",False,not clear,False
+route,plane,myPlane,1,A route has a plane,A route includes one or more spans.,False,not clear,False

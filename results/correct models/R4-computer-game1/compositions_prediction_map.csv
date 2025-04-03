@@ -1,0 +1,6 @@
+source,target,role,multiplicity,generated_description,actual_description,equality,contradiction,inclusion
+board,cell,,,Each board is made up of cells,"The game is an intergalactic murder mystery, which emulates a board game scenario in which players spin a wheel to determine a randomly selected number of moves by which they travel through space to various planets.",FALSE,not clear,False
+board,cell,,,Each board is made up of cells,These entry points are graphically depicted on the game as a diagonal line off a square on the board leading into a planet's atmosphere.,not clear,not clear,False
+board,cell,,,Each board is made up of cells,A player visits a planet by making legal moves on the board until a cell adjacent to an atmosphere entry point is reached.,not clear,not clear,False
+board,cell,,,Each board is made up of cells,"If an announced hypothesis is incorrect, the player loses the game and cannot pose hypotheses any longer or make moves on the board but must continue refuting the hypotheses of other players.",not clear,not clear,False
+planet,entry point,,,Each planet is made up of one to three planets,Each planet has between one and three predefined atmospheric entry points.,FALSE,not clear,False

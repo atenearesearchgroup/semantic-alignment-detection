@@ -1,0 +1,3 @@
+source,target,role,multiplicity,generated_description,actual_description,equality,contradiction,inclusion
+electronic report card,grade,,,Each electronic report card is made up of grades,"At the end of the semester, the student can access the system to view an electronic report card.",False,False,False
+course catalog,course,,,Each course catalog is made up of courses,"At the beginning of each semester, students may request a course catalog containing a list of course offerings.",False,False,True

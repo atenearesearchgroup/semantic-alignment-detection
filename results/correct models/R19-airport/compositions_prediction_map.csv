@@ -1,0 +1,2 @@
+source,target,role,multiplicity,generated_description,actual_description,equality,contradiction,inclusion
+plane,seat,my plane,,Each plane is made up of seat,A plane is assigned to a flight containing a set of numbered seats.,False,False,True

@@ -1,0 +1,3 @@
+source,target,role,multiplicity,generated_description,actual_description,equality,contradiction,inclusion
+inventory,tape,,,Each inventory is made up of tapes,"Bar code Ids for each tape are entered, and video information from inventory is displayed.",False,False,False
+inventory,tape,,,Each inventory is made up of tapes,The video inventory file is updated.,False,False,False

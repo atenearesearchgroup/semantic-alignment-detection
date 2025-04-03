@@ -1,0 +1,70 @@
+source,target,role,multiplicity,generated_description,actual_description,equality,contradiction,inclusion
+app,user,,,Each app is made up of users,The Bewell app is mainly for those who plan to lose or gain weight and require a planned medium.,False,False,False
+app,user,,,Each app is made up of users,"Since network availability is not available in many scenarios, the app will be working during offline and low data mode.",False,False,False
+app,user,,,Each app is made up of users,This document outlines the usage and implementation of the Bewell app.,False,False,False
+app,user,,,Each app is made up of users,The application will be able to work offline/in low-data mode.,False,False,False
+app,user,,,Each app is made up of users,"The application will be able to record exercises, repetitions, and the diet followed.",False,False,False
+app,user,,,Each app is made up of users,The app will have a calendar layout where the user can click on a specific day to find all the events and diets scheduled for the day.,False,False,False
+app,user,,,Each app is made up of users,The app will take the device's GPS location and track the user's running activity.,False,False,False
+app,user,,,Each app is made up of users,The application will track the user's running activity and convert them into calories burnt.,False,False,False
+app,user,,,Each app is made up of users,The application can suggest videos and diets and schedule them on the calendar.,False,False,False
+app,user,,,Each app is made up of users,"The app will take the inputs from the user and suggest videos, diets, and schedules for the user.",False,False,False
+app,user,,,Each app is made up of users,The application will track the user's running activity and convert them into calories burnt.,False,False,False
+app,user,,,Each app is made up of users,The app will take the device's GPS location and track the user's running activity.,False,False,False
+app,user,,,Each app is made up of users,"Further, the app will store the data during offline mode and upload the same to the server whenever the device goes online.",False,False,False
+user,calender,,,Each user is made up of calenders,"The videos will be mapped based on user inputs, like what part of the body the user is focussed on.",False,False,False
+user,calender,,,Each user is made up of calenders,"For calculation, the time taken by the user and the distance traveled by the user will be considered.",False,False,False
+user,calender,,,Each user is made up of calenders,The application will track the user's running activity and convert them into calories burnt.,False,False,False
+user,calender,,,Each user is made up of calenders,The app will have a calendar layout where the user can click on a specific day to find all the events and diets scheduled for the day.,False,False,False
+user,calender,,,Each user is made up of calenders,The application will track the user's running activity and convert them into calories burnt.,False,False,False
+user,calender,,,Each user is made up of calenders,The app will take the device's GPS location and track the user's running activity.,False,False,False
+user,calender,,,Each user is made up of calenders,"The app will take the inputs from the user and suggest videos, diets, and schedules for the user.",False,False,False
+user,calender,,,Each user is made up of calenders,The app will take the device's GPS location and track the user's running activity.,False,False,False
+user,calender,,,Each user is made up of calenders,"This will work only with the user's internet, and the location is 'ON.'",False,False,False
+user,calender,,,Each user is made up of calenders,This helps in calculating the calories burnt by the user.,False,False,False
+user,calender,,,Each user is made up of calenders,"For calculation, the time taken by the user and the distance traveled by the user will be considered.",False,False,False
+user,calender,,,Each user is made up of calenders,"This will work only with the user's internet, and the location is 'ON.'",False,False,False
+user,calender,,,Each user is made up of calenders,This helps in calculating the calories burnt by the user.,False,False,False
+user,input,,,Each user is made up of inputs,"The videos will be mapped based on user inputs, like what part of the body the user is focussed on.",False,False,False
+user,input,,,Each user is made up of inputs,"For calculation, the time taken by the user and the distance traveled by the user will be considered.",False,False,False
+user,input,,,Each user is made up of inputs,The application will track the user's running activity and convert them into calories burnt.,False,False,False
+user,input,,,Each user is made up of inputs,The app will have a calendar layout where the user can click on a specific day to find all the events and diets scheduled for the day.,False,False,False
+user,input,,,Each user is made up of inputs,The application will track the user's running activity and convert them into calories burnt.,False,False,False
+user,input,,,Each user is made up of inputs,The app will take the device's GPS location and track the user's running activity.,False,False,False
+user,input,,,Each user is made up of inputs,"The app will take the inputs from the user and suggest videos, diets, and schedules for the user.",False,False,False
+user,input,,,Each user is made up of inputs,The app will take the device's GPS location and track the user's running activity.,False,False,False
+user,input,,,Each user is made up of inputs,"This will work only with the user's internet, and the location is 'ON.'",False,False,False
+user,input,,,Each user is made up of inputs,This helps in calculating the calories burnt by the user.,False,False,False
+user,input,,,Each user is made up of inputs,"For calculation, the time taken by the user and the distance traveled by the user will be considered.",False,False,False
+user,input,,,Each user is made up of inputs,"This will work only with the user's internet, and the location is 'ON.'",False,False,False
+user,input,,,Each user is made up of inputs,This helps in calculating the calories burnt by the user.,False,False,False
+calender,day,,,Each calender is made up of days,The Bewell app is mainly for those who plan to lose or gain weight and require a planned medium.,False,False,False
+calender,day,,,Each calender is made up of days,"Further, the activities will be monitored and recorded for the same date.",False,False,False
+calender,day,,,Each calender is made up of days,"For calculation, the time taken by the user and the distance traveled by the user will be considered.",False,False,False
+calender,day,,,Each calender is made up of days,The application will be able to work offline/in low-data mode.,False,False,False
+calender,day,,,Each calender is made up of days,"The application will be able to record exercises, repetitions, and the diet followed.",False,False,False
+calender,day,,,Each calender is made up of days,The app will take the device's GPS location and track the user's running activity.,False,False,False
+calender,day,,,Each calender is made up of days,"The app will take the inputs from the user and suggest videos, diets, and schedules for the user.",False,False,False
+calender,day,,,Each calender is made up of days,"Further, diet is also planned similarly.",False,False,False
+calender,day,,,Each calender is made up of days,This helps in calculating the calories burnt by the user.,False,False,False
+calender,day,,,Each calender is made up of days,Thus the information is conveyed with very less data consumption.,False,False,False
+calender,day,,,Each calender is made up of days,"For calculation, the time taken by the user and the distance traveled by the user will be considered.",False,False,False
+calender,day,,,Each calender is made up of days,This helps in calculating the calories burnt by the user.,False,False,False
+calender,day,,,Each calender is made up of days,"For a low-data device case, thumbnails from the video at regular intervals can be mapped instead of the videos.",False,False,False
+calender,day,,,Each calender is made up of days,Requirement,False,not clear,False
+calender,day,,,Each calender is made up of days,"Since network availability is not available in many scenarios, the app will be working during offline and low data mode.",False,False,False
+calender,day,,,Each calender is made up of days,"For a low data mode, pictures from the videos at regular intervals will be provided instead of videos.",False,False,False
+calender,day,,,Each calender is made up of days,This document outlines the usage and implementation of the Bewell app.,False,False,False
+calender,day,,,Each calender is made up of days,"Running speed, calories burnt, the track ran, , will be monitored and recorded for the day in the calendar.",False,False,True
+calender,day,,,Each calender is made up of days,"This will work only with the user's internet, and the location is 'ON.'",False,False,False
+calender,day,,,Each calender is made up of days,The app will have a calendar layout where the user can click on a specific day to find all the events and diets scheduled for the day.,False,False,True
+calender,day,,,Each calender is made up of days,The application will track the user's running activity and convert them into calories burnt.,False,False,False
+calender,day,,,Each calender is made up of days,The application can suggest videos and diets and schedule them on the calendar.,False,False,False
+calender,day,,,Each calender is made up of days,The application will track the user's running activity and convert them into calories burnt.,False,False,False
+calender,day,,,Each calender is made up of days,The app will take the device's GPS location and track the user's running activity.,False,False,False
+calender,day,,,Each calender is made up of days,"Further, the app will store the data during offline mode and upload the same to the server whenever the device goes online.",False,False,False
+calender,day,,,Each calender is made up of days,"Running speed, calories burnt, the track ran, , will be monitored and recorded for the day in the calendar.",False,False,True
+calender,day,,,Each calender is made up of days,"This will work only with the user's internet, and the location is 'ON.'",False,False,False
+calender,day,,,Each calender is made up of days,A database of the videos (can be from youtube) is created.,False,False,False
+calender,day,,,Each calender is made up of days,"The videos will be mapped based on user inputs, like what part of the body the user is focussed on.",False,False,False
+calender,day,,,Each calender is made up of days,Scope,False,not clear,False

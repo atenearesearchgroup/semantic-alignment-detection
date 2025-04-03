@@ -1,0 +1,18 @@
+class_name,attributes,generated_description,actual_description,equality,contradiction,inclusion
+course,name,a course has a name,"A course has the course's name, the course's code, the start time, the end time, the days of the courses, the room, and the instructors.",False,False,True
+course,start time,a course has a start time,"A course has the course's name, the course's code, the start time, the end time, the days of the courses, the room, and the instructors.",False,False,True
+course,end time,a course has an end time,"A course has the course's name, the course's code, the start time, the end time, the days of the courses, the room, and the instructors.",False,False,True
+course,code course,a course has a code course,"A course has the course's name, the course's code, the start time, the end time, the days of the courses, the room, and the instructors.",False,False,True
+course,quota limit,a course has a quota limit,"In addition, instructors can increase and decrease the course quota limit and change weekly course hours and course days.",False,False,True
+instructor,name,an instructor has a name,"A course has the course's name, the course's code, the start time, the end time, the days of the courses, the room, and the instructors.",False,False,True
+instructor,name,an instructor has a name,"The instructor has a name, surname, title, and specialty.",False,False,True
+instructor,surname,an instructor has a surname,"A course has the course's name, the course's code, the start time, the end time, the days of the courses, the room, and the instructors.",False,False,False
+instructor,surname,an instructor has a surname,"The instructor has a name, surname, title, and specialty.",False,False,True
+instructor,title,an instructor has a title,"The instructor has a name, surname, title, and specialty.",False,False,True
+instructor,specialty,an instructor has a specialty,Instructors lecture and mentor the students depending on their specialties.,False,False,True
+instructor,specialty,an instructor has a specialty,"The instructor has a name, surname, title, and specialty.",False,False,True
+room,ad,a room has an ad,"A course has the course's name, the course's code, the start time, the end time, the days of the courses, the room, and the instructors.",False,False,False
+room,ad,a room has an ad,"Room have an id, capacity, floor, and block information.",False,False,False
+room,capacity,a room has a capacity,"Room have an id, capacity, floor, and block information.",False,False,True
+room,floor,a room has a floor,"Room have an id, capacity, floor, and block information.",False,False,True
+room,block information,a room has a block information,"Room have an id, capacity, floor, and block information.",False,False,True

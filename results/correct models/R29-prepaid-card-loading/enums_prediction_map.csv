@@ -1,0 +1,5 @@
+source,target,generated_description,actual_description,equality,contradiction,inclusion
+card type,prepaid,prepaid is a card type,Customer  Users can have a card type 'prepaid.',False,not clear,True
+card status,available,Available is a card status,"After the user is validated and has at least one prepaid card, the system should check the card status.",False,not clear,True
+card status,dormant,Dormant is a card status,"After the user is validated and has at least one prepaid card, the system should check the card status.",False,not clear,False
+card status,blocked,Blocked is a card status,"After the user is validated and has at least one prepaid card, the system should check the card status.",False,not clear,False

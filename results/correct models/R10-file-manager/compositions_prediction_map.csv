@@ -1,0 +1,2 @@
+source,target,role,multiplicity,generated_description,actual_description,equality,contradiction,inclusion
+file system,document,,,Each file system is made up of zero or multiple documents,A file system contains information from multiple documents.,False,False,False

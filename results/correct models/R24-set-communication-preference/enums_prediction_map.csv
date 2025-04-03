@@ -1,0 +1,3 @@
+source,target,generated_description,actual_description,equality,contradiction,inclusion
+channel,email,Email is a channel,"If the user has not any e-mail address registered to the banking system, the e-mail option should see as 'disabled', and by default, the SMS option is selected.",FALSE,not clear,FALSE
+channel,sms,sms is a channel,"If the user has not any e-mail address registered to the banking system, the e-mail option should see as 'disabled', and by default, the SMS option is selected.",FALSE,not clear,TRUE

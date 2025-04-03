@@ -1,0 +1,15 @@
+source,target,role,multiplicity,generated_description,actual_description,equality,contradiction,inclusion
+user,apple wallet,wallet,1,A user has an apple wallet,"For performing Apple Pay transactions, first, the user should add their card or cards to the Apple wallet.",False,not clear,False
+user,apple wallet,wallet,1,A user has an apple wallet,CustomerUsers should be able to perform 'Apple Pay' transactions via their cards.,False,not clear,False
+apple wallet,card,addedCards,*,A apple wallet can have added cards ,Users can perform the Apple Pay process only if their card status is 'available.,False,not clear,False
+apple wallet,card,addedCards,*,A apple wallet can have added cards ,The system should check the card status when the user selects a card or card.,False,not clear,False
+apple wallet,card,addedCards,*,A apple wallet can have added cards ,Users cannot select a card that has a blocked or restricted status.,False,not clear,False
+apple wallet,card,addedCards,*,A apple wallet can have added cards ,"If the user chooses the mobile application, the bank will automatically add their card(s) to the wallet for the selected card(s).",False,not clear,True
+apple wallet,card,addedCards,*,A apple wallet can have added cards ,"Card types can be debit, credit, virtual or supplementary.",False,not clear,False
+apple wallet,card,addedCards,*,A apple wallet can have added cards ,"For performing Apple Pay transactions, first, the user should add their card or cards to the Apple wallet.",False,not clear,True
+apple wallet,card,addedCards,*,A apple wallet can have added cards ,"'When the user tries to add an ineligible card (blocked or restricted) system should throw an error, the process should be failed, and the card should not be added to the wallet.",False,not clear,True
+apple wallet,card,addedCards,*,A apple wallet can have added cards ,"If the user completes the Apple Pay process successfully, the system should display a success message, and the user should be able to see the related card on their iPhone wallet.",False,not clear,True
+apple wallet,card,addedCards,*,A apple wallet can have added cards ,"Software SystemWhen the user logs in to the banking system with their iPhone, they can go to the Apple Pay menu and add their desired card or cards.",False,not clear,True
+apple wallet,card,addedCards,*,A apple wallet can have added cards ,CustomerUsers should be able to perform 'Apple Pay' transactions via their cards.,False,not clear,False
+apple wallet,card,addedCards,*,A apple wallet can have added cards ,Menu Placement The 'Apple Pay' process should be under the 'Cards' menu.,False,not clear,False
+apple wallet,card,addedCards,*,A apple wallet can have added cards ,Users can select any card.,False,not clear,False

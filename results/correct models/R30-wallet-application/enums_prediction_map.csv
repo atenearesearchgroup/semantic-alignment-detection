@@ -1,0 +1,3 @@
+source,target,generated_description,actual_description,equality,contradiction,inclusion
+card type,debit,Debit is a card type,"User can,use either card (debit, credit, ) or,use the 'wallet' feature.",False,not clear,True
+card type,credit,Credit is a card type,"User can,use either card (debit, credit, ) or,use the 'wallet' feature.",False,not clear,False

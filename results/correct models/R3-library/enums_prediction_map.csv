@@ -1,0 +1,45 @@
+source,target,generated_description,actual_description,equality,contradiction,inclusion
+status,borrowed,Borrowed is a status,There is a library officer who will manage the membership processes.,False,not clear,False
+status,borrowed,Borrowed is a status,The library management system is software that is designed to manage all the functions of a library.,False,not clear,False
+status,borrowed,Borrowed is a status,"Along with the membership number, other details on a customer must be kept, such as a name, address, and date of birth.",False,not clear,False
+status,borrowed,Borrowed is a status,This system completely automates all your library's activities.,False,not clear,False
+status,borrowed,Borrowed is a status,The library management system is software that is designed to manage all the functions of a library.,False,not clear,False
+status,borrowed,Borrowed is a status,"It helps the librarian maintain the database of new books, the books that members borrow, and their due dates.",False,not clear,False
+status,borrowed,Borrowed is a status,"There are two types of loan items, language tapes, and books.",False,not clear,False
+status,borrowed,Borrowed is a status,Each member has a membership card that shows a unique member number.,False,not clear,False
+status,borrowed,Borrowed is a status,Scope,False,not clear,False
+status,borrowed,Borrowed is a status,Requirements,False,not clear,False
+status,borrowed,Borrowed is a status,"An item can be borrowed, reserved, or renewed to extend a current loan.",False,not clear,False
+status,borrowed,Borrowed is a status,"When a book or language tape is returned to the library, the member who made the reservation will be notified.",False,not clear,False
+status,borrowed,Borrowed is a status,A book has a title and author(s).,False,not clear,False
+status,borrowed,Borrowed is a status,A member can reserve a loan item not available at the library.,False,not clear,False
+status,borrowed,Borrowed is a status,A library issues loan items to members.,False,not clear,False
+status,borrowed,Borrowed is a status,"The application will allow updating the list of loan items, user registration, lending transactions, and reservations.",False,not clear,False
+status,borrowed,Borrowed is a status,A bar code uniquely identifies a loan item.,False,not clear,False
+status,borrowed,Borrowed is a status,"A language tape has a title language (, Spanish) and level (, beginner).",False,not clear,False
+status,borrowed,Borrowed is a status,Library Management System  Purpose,False,not clear,False
+status,borrowed,Borrowed is a status,Reservations will be canceled upon borrowing by the member or upon the member's request.,False,not clear,False
+status,reserved,Reserved is a status,There is a library officer who will manage the membership processes.,False,not clear,False
+status,reserved,Reserved is a status,The library management system is software that is designed to manage all the functions of a library.,False,not clear,False
+status,reserved,Reserved is a status,"Along with the membership number, other details on a customer must be kept, such as a name, address, and date of birth.",False,not clear,False
+status,reserved,Reserved is a status,This system completely automates all your library's activities.,False,not clear,False
+status,reserved,Reserved is a status,The library management system is software that is designed to manage all the functions of a library.,False,not clear,False
+status,reserved,Reserved is a status,"It helps the librarian maintain the database of new books, the books that members borrow, and their due dates.",False,not clear,False
+status,reserved,Reserved is a status,"There are two types of loan items, language tapes, and books.",False,not clear,False
+status,reserved,Reserved is a status,Each member has a membership card that shows a unique member number.,False,not clear,False
+status,reserved,Reserved is a status,Scope,False,not clear,False
+status,reserved,Reserved is a status,Requirements,False,not clear,False
+status,reserved,Reserved is a status,"An item can be borrowed, reserved, or renewed to extend a current loan.",False,not clear,True
+status,reserved,Reserved is a status,"When a book or language tape is returned to the library, the member who made the reservation will be notified.",False,not clear,False
+status,reserved,Reserved is a status,A book has a title and author(s).,False,not clear,False
+status,reserved,Reserved is a status,A member can reserve a loan item not available at the library.,False,not clear,False
+status,reserved,Reserved is a status,A library issues loan items to members.,False,not clear,False
+status,reserved,Reserved is a status,"The application will allow updating the list of loan items, user registration, lending transactions, and reservations.",False,not clear,False
+status,reserved,Reserved is a status,A bar code uniquely identifies a loan item.,False,not clear,False
+status,reserved,Reserved is a status,"A language tape has a title language (, Spanish) and level (, beginner).",False,not clear,False
+status,reserved,Reserved is a status,Library Management System  Purpose,False,not clear,False
+status,reserved,Reserved is a status,Reservations will be canceled upon borrowing by the member or upon the member's request.,False,not clear,False
+status,renewed,Renewed is a status,"It helps the librarian maintain the database of new books, the books that members borrow, and their due dates.",False,not clear,False
+level,beginner,Beginner is a level,"A language tape has a title language (, Spanish) and level (, beginner).",False,not clear,True
+level,advanced,advanced is a level,"A language tape has a title language (, Spanish) and level (, beginner).",False,not clear,False
+level,intermediate,Intermediate is a level,"A language tape has a title language (, Spanish) and level (, beginner).",False,not clear,False

@@ -1,0 +1,2 @@
+source,target,generated_description,actual_description,equality,contradiction,inclusion
+account type,savings,Savings is an account type,"If selected account type is a savings account, system should display a pop-up stating that user is continuing with a savings account.",False,not clear,True

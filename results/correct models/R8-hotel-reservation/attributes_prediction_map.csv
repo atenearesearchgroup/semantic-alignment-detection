@@ -1,0 +1,28 @@
+class_name,attributes,generated_description,actual_description,equality,contradiction,inclusion
+room,number,a room has a number,The price is calculated according to the number of people entering the room.,False,False,False
+room,number,a room has a number,The price is calculated according to the number of people entering the room.,False,False,False
+room,number,a room has a number,There can be a maximum of 7 people in this room.,False,False,False
+room,number,a room has a number,"While calculating the price for Large Deluxe rooms, the number of people is not considered.",False,False,False
+room,number,a room has a number,"There are 100 odd numbered rooms which types are standard, and six even numbered rooms which are large-deluxe.",False,False,True
+room,number,a room has a number,"Rates for the deluxe room:$90 per person per night in the summer,$75 in the spring,And $ 50 in the autumn.",False,False,False
+room,number,a room has a number,The room takes up to 4 people.,False,False,False
+room,price,a room has a price,The price is calculated according to the number of people entering the room.,False,False,True
+room,price,a room has a price,The price is calculated according to the number of people entering the room.,False,False,True
+room,price,a room has a price,"While calculating the price for Large Deluxe rooms, the number of people is not considered.",False,False,True
+room,price,a room has a price,"It is $ 400 daily in the summer, $ 300 in the spring, and $ 250 in the autumn.",False,False,True
+room,price,a room has a price,The total price of the reservation depends on the time of year and the type of room.,False,False,True
+room,max people,a room has a max people,The price is calculated according to the number of people entering the room.,False,False,False
+room,max people,a room has a max people,The price is calculated according to the number of people entering the room.,False,False,False
+room,max people,a room has a max people,There can be a maximum of 7 people in this room.,False,False,True
+room,max people,a room has a max people,"While calculating the price for Large Deluxe rooms, the number of people is not considered.",False,False,False
+room,max people,a room has a max people,"Rates for the deluxe room:$90 per person per night in the summer,$75 in the spring,And $ 50 in the autumn.",False,False,False
+room,max people,a room has a max people,The room takes up to 4 people.,False,False,True
+room,max people,a room has a max people,The room takes up to 4 people.,False,False,True
+reservation,price,a reservation has a price,A 15% discount will be applied on the price calculated when pre-paid reservation is selected.,False,False,True
+reservation,price,a reservation has a price,The price is calculated according to the number of people entering the room.,False,False,False
+reservation,price,a reservation has a price,The price is calculated according to the number of people entering the room.,False,False,False
+reservation,price,a reservation has a price,"The price of standard rooms:$60 for the summer season, $40 for the spring season, And $25 for the autumn season per night per person.",False,False,False
+reservation,price,a reservation has a price,The total price of the reservation depends on the time of year and the type of room.,False,False,True
+reservation,payment type,a reservation has a payment type,"In standard reservations, customers make payments at the end of the accommodation.",False,False,False
+reservation,payment type,a reservation has a payment type,"She must enter 'P' for pre-payment, 'H' for payment with a wire transfer, and 'S' for a standard reservation.",False,False,True
+reservation,payment type,a reservation has a payment type,The total price of the reservation depends on the time of year and the type of room.,False,False,False

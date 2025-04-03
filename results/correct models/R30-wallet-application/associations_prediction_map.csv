@@ -1,0 +1,4 @@
+source,target,role,multiplicity,generated_description,actual_description,equality,contradiction,inclusion
+user,wallet,,1,A user has wallet,"When the wallet feature is enabled, the user should be able to view the wallet balance and use it in the payment processes.",False,not clear,False
+user,wallet,,1,A user has wallet,Users should be able to select it easily.,False,not clear,False
+user,card,,1..*,A user can have cards ,"User can,use either card (debit, credit, ) or,use the 'wallet' feature.",False,not clear,True

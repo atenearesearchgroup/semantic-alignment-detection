@@ -1,0 +1,13 @@
+source,target,generated_description,actual_description,equality,contradiction,inclusion
+section kind,kitchen,Kitchen is a section kind,"Personnel can be cooks, waiters, and cashiers.",False,not clear,False
+section kind,kitchen,Kitchen is a section kind,"These sections are kitchen, service, and cash.",False,not clear,True
+section kind,service,Service is a section kind,The waiter in the service section serves the customer.,False,not clear,False
+section kind,service,Service is a section kind,"Personnel can be cooks, waiters, and cashiers.",False,not clear,False
+section kind,service,Service is a section kind,The waiter in the service section serves the customer.,False,not clear,False
+section kind,service,Service is a section kind,"These sections are kitchen, service, and cash.",False,not clear,True
+section kind,service,Service is a section kind,"When the waiter serves, the system shows the waiter's name and table number.",False,not clear,False
+section kind,cash,Cash is a section kind,"These sections are kitchen, service, and cash.",False,not clear,True
+payment kind,cash,Cash is a payment kind,Payroll and Accounting Service: Used to manage employee payroll and monitor the restaurant's cash flow.,False,not clear,True
+payment kind,cash,Cash is a payment kind,"These sections are kitchen, service, and cash.",False,not clear,False
+payment kind,credit card,Credit card is a payment kind,This allows you to accept various payment options like credit or debit cards and mobile payments.,False,not clear,True
+payment kind,debit card,Debit card is a payment kind,This allows you to accept various payment options like credit or debit cards and mobile payments.,False,not clear,True

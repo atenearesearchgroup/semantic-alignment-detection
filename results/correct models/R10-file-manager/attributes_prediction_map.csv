@@ -1,0 +1,7 @@
+class_name,attributes,generated_description,actual_description,equality,contradiction,inclusion
+document,name,a document has a name,"A document contains the document's name, creation date, author information, and size.",False,False,True
+document,creation date,a document has a creation date,"A document contains the document's name, creation date, author information, and size.",False,False,True
+document,author info,a document has an author info,"A document contains the document's name, creation date, author information, and size.",False,False,True
+document,size,a document has a size,"A document contains the document's name, creation date, author information, and size.",False,False,True
+editor,name,an editor has a name,Each editor has a name and file management task.,False,False,True
+editor,file management task,an editor has a file management task,Each editor has a name and file management task.,False,False,True

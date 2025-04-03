@@ -1,0 +1,13 @@
+source,target,generated_description,actual_description,equality,contradiction,inclusion
+type,food,Food is a type,"All products are recorded according to the group of each product, the group of food products, the group of pastry/bakery, and meat products.",False,not clear,False
+type,pastry,Pastry is a type,"When finished, they package according to each category of product.",False,not clear,False
+type,pastry,Pastry is a type,"All products are recorded according to the group of each product, the group of food products, the group of pastry/bakery, and meat products.",False,not clear,True
+type,pastry,Pastry is a type,"At the supermarket, after getting the order from the chief of order, the bakery and pastry agent prepare the goods and quantities of the order.",False,not clear,False
+type,meat,Meat is a type,"Others to the cold chamber (cheese, meat), checking the product's expiration date.",False,not clear,True
+type,meat,Meat is a type,"All products are recorded according to the group of each product, the group of food products, the group of pastry/bakery, and meat products.",False,not clear,True
+order status,started,Started is an order status,"Then the chief of order checks and counts if there is no mistake; when the number of orders written to the proforma invoice is well prepared, they give the order for put out before arriving to the customer.",False,not clear,False
+order status,started,Started is an order status,"At the supermarket, after getting the order from the chief of order, the bakery and pastry agent prepare the goods and quantities of the order.",False,not clear,False
+order status,started,Started is an order status,"After those actions, customers get their order of items ordered; after delivery of that product, the stump and original of the proforma invoice are transferred to the office of the general director.",False,not clear,False
+order status,completed,Completed is an order status,"Then the chief of order checks and counts if there is no mistake; when the number of orders written to the proforma invoice is well prepared, they give the order for put out before arriving to the customer.",False,not clear,False
+order status,completed,Completed is an order status,"At the supermarket, after getting the order from the chief of order, the bakery and pastry agent prepare the goods and quantities of the order.",False,not clear,False
+order status,completed,Completed is an order status,"After those actions, customers get their order of items ordered; after delivery of that product, the stump and original of the proforma invoice are transferred to the office of the general director.",False,not clear,False

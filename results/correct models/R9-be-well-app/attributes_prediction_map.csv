@@ -1,0 +1,11 @@
+class_name,attributes,generated_description,actual_description,equality,contradiction,inclusion
+exercise,repetition number,an exercise has a repetition number,"The application will be able to record exercises, repetitions, and the diet followed.",False,False,True
+running,speed,a running has a speed,"Running speed, calories burnt, the track ran, , will be monitored and recorded for the day in the calendar.",False,False,True
+running,speed,a running has a speed,"Running speed, calories burnt, the track ran, , will be monitored and recorded for the day in the calendar.",False,False,True
+running,calories burnt,a running has a calories burnt,The application will track the user's running activity and convert them into calories burnt.,False,False,True
+running,calories burnt,a running has a calories burnt,"Running speed, calories burnt, the track ran, , will be monitored and recorded for the day in the calendar.",False,False,True
+running,calories burnt,a running has a calories burnt,"Running speed, calories burnt, the track ran, , will be monitored and recorded for the day in the calendar.",False,False,True
+running,calories burnt,a running has a calories burnt,The application will track the user's running activity and convert them into calories burnt.,False,False,True
+running,distance,a running has a distance,"For calculation, the time taken by the user and the distance traveled by the user will be considered.",False,False,True
+running,distance,a running has a distance,"For calculation, the time taken by the user and the distance traveled by the user will be considered.",False,False,True
+running,time,a running has a time,"For calculation, the time taken by the user and the distance traveled by the user will be considered.",False,False,False

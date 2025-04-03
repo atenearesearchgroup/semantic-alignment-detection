@@ -1,0 +1,7 @@
+class_name,attributes,generated_description,actual_description,equality,contradiction,inclusion
+customer,address,a customer has an address,The store assistant asks the customer for his address.,False,False,True
+tape,rental price,a tape has a rental price,The store assistant searches for the rental price of available tape.,False,False,True
+tape,status,a tape has a status,The store assistant checks the status of the tape to be returned by the customer.,False,False,True
+tape,available,a tape has an available,The store assistant searches for the available tape.,False,False,True
+tape,available,a tape has an available,The store assistant searches for the rental price of available tape.,False,False,True
+rental,delay,a rental has a delay,Customers can borrow if there is no delay with the return of other tapes.,False,False,False

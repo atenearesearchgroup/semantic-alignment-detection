@@ -1,0 +1,57 @@
+source,target,role,multiplicity,generated_description,actual_description,equality,contradiction,inclusion
+id card,customer,,1,A id card has customer,"The rental transaction is created, printed, and stored.",False,not clear,False
+id card,customer,,1,A id card has customer,"Bar code Ids for each tape are entered, and video information from inventory is displayed.",False,not clear,False
+id card,customer,,1,A id card has customer,Customers select at least one video for rental.,False,not clear,False
+id card,customer,,1,A id card has customer,Each customer gets an id card from ABC for identification purposes.,False,not clear,False
+id card,customer,,1,A id card has customer,Any past-due amount must be paid before new tapes can be rented.,False,not clear,False
+id card,customer,,1,A id card has customer,"The customer signs the rental form, takes the tapes, and leaves.",False,not clear,False
+id card,customer,,1,A id card has customer,Change is calculated and displayed.,False,not clear,False
+id card,customer,,1,A id card has customer,"Money is collected, and the amount is entered into the system.",False,not clear,False
+id card,customer,,1,A id card has customer,"The rental transaction is displayed, and the tape is marked with the return date.",False,not clear,False
+id card,customer,,1,A id card has customer,The customer s account number is entered to retrieve customer data and create an order.,False,not clear,False
+id card,customer,,1,A id card has customer,The maximum number of tapes a customer can have outstanding on the rental is 20.,False,not clear,False
+id card,customer,,1,A id card has customer,"When all tape Ids are entered, the system computes the total bill.",False,not clear,False
+id card,customer,,1,A id card has customer,"If past-due amounts are owed, they can be paid at this time; or the clerk can select an option that updates the rental with the return date and calculates past-due fees.",False,not clear,False
+id card,customer,,1,A id card has customer,Any outstanding video rentals are displayed with the amount due on each tape and the total amount due.,False,not clear,False
+id card,customer,,1,A id card has customer,The video inventory file is updated.,False,not clear,False
+id card,customer,,1,A id card has customer,This id card has a bar code that can be read with the bar code reader.,False,not clear,False
+id card,customer,,1,A id card has customer,The video bar code ID is entered into the system to return a tape.,False,not clear,False
+customer,id card,,1,A customer has id card,Each customer gets an id card from ABC for identification purposes.,False,not clear,True
+customer,order,,*,A customer can have orders ,"The rental transaction is created, printed, and stored.",False,not clear,False
+customer,order,,*,A customer can have orders ,"Bar code Ids for each tape are entered, and video information from inventory is displayed.",False,not clear,False
+customer,order,,*,A customer can have orders ,Customers select at least one video for rental.,False,not clear,True
+customer,order,,*,A customer can have orders ,Each customer gets an id card from ABC for identification purposes.,False,not clear,False
+customer,order,,*,A customer can have orders ,Any past-due amount must be paid before new tapes can be rented.,False,not clear,False
+customer,order,,*,A customer can have orders ,"The customer signs the rental form, takes the tapes, and leaves.",False,not clear,False
+customer,order,,*,A customer can have orders ,Change is calculated and displayed.,False,not clear,False
+customer,order,,*,A customer can have orders ,"Money is collected, and the amount is entered into the system.",False,not clear,False
+customer,order,,*,A customer can have orders ,"The rental transaction is displayed, and the tape is marked with the return date.",False,not clear,False
+customer,order,,*,A customer can have orders ,The customer s account number is entered to retrieve customer data and create an order.,False,not clear,True
+customer,order,,*,A customer can have orders ,The maximum number of tapes a customer can have outstanding on the rental is 20.,False,not clear,True
+customer,order,,*,A customer can have orders ,"When all tape Ids are entered, the system computes the total bill.",False,not clear,False
+customer,order,,*,A customer can have orders ,"If past-due amounts are owed, they can be paid at this time; or the clerk can select an option that updates the rental with the return date and calculates past-due fees.",False,not clear,False
+customer,order,,*,A customer can have orders ,Any outstanding video rentals are displayed with the amount due on each tape and the total amount due.,False,not clear,False
+customer,order,,*,A customer can have orders ,The video inventory file is updated.,False,not clear,False
+customer,order,,*,A customer can have orders ,This id card has a bar code that can be read with the bar code reader.,False,not clear,False
+customer,order,,*,A customer can have orders ,The video bar code ID is entered into the system to return a tape.,False,not clear,False
+order,customer,,1,A order has customer,"The rental transaction is created, printed, and stored.",False,not clear,False
+order,customer,,1,A order has customer,"Bar code Ids for each tape are entered, and video information from inventory is displayed.",False,not clear,False
+order,customer,,1,A order has customer,Customers select at least one video for rental.,False,not clear,False
+order,customer,,1,A order has customer,Each customer gets an id card from ABC for identification purposes.,False,not clear,False
+order,customer,,1,A order has customer,Any past-due amount must be paid before new tapes can be rented.,False,not clear,False
+order,customer,,1,A order has customer,"The customer signs the rental form, takes the tapes, and leaves.",False,not clear,False
+order,customer,,1,A order has customer,Change is calculated and displayed.,False,not clear,False
+order,customer,,1,A order has customer,"Money is collected, and the amount is entered into the system.",False,not clear,False
+order,customer,,1,A order has customer,"The rental transaction is displayed, and the tape is marked with the return date.",False,not clear,False
+order,customer,,1,A order has customer,The customer s account number is entered to retrieve customer data and create an order.,False,not clear,True
+order,customer,,1,A order has customer,The maximum number of tapes a customer can have outstanding on the rental is 20.,False,not clear,False
+order,customer,,1,A order has customer,"When all tape Ids are entered, the system computes the total bill.",False,not clear,False
+order,customer,,1,A order has customer,"If past-due amounts are owed, they can be paid at this time; or the clerk can select an option that updates the rental with the return date and calculates past-due fees.",False,not clear,False
+order,customer,,1,A order has customer,Any outstanding video rentals are displayed with the amount due on each tape and the total amount due.,False,not clear,False
+order,customer,,1,A order has customer,The video inventory file is updated.,False,not clear,False
+order,customer,,1,A order has customer,This id card has a bar code that can be read with the bar code reader.,False,not clear,False
+order,customer,,1,A order has customer,The video bar code ID is entered into the system to return a tape.,False,not clear,False
+order,tape,,0..20,A order can have tapes ,Any outstanding video rentals are displayed with the amount due on each tape and the total amount due.,False,not clear,False
+order,tape,,0..20,A order can have tapes ,The customer s account number is entered to retrieve customer data and create an order.,False,not clear,False
+tape,order,outstanding,1,A tape has an an outstanding which is an order,Any outstanding video rentals are displayed with the amount due on each tape and the total amount due.,False,not clear,False
+tape,order,outstanding,1,A tape has an an outstanding which is an order,The customer s account number is entered to retrieve customer data and create an order.,False,not clear,False

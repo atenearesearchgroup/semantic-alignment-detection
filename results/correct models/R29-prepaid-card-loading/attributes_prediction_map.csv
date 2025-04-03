@@ -1,0 +1,11 @@
+class_name,attributes,generated_description,actual_description,equality,contradiction,inclusion
+account,balance,an account has a balance,The system should only allow users to enter their balance as they have.,False,False,False
+account,balance,an account has a balance,The selected account balance should be greater than the loading amount.,False,False,True
+account,balance,an account has a balance,"After the user finishes the process, the user should be able to view the balance of the prepaid card.",False,False,False
+account,balance,an account has a balance,The prepaid card balance should equal its current value plus the amount.,False,False,False
+card,type,a card has a type,Customer  Users can have a card type 'prepaid.',False,False,True
+card,status,a card has a status,"After the user is validated and has at least one prepaid card, the system should check the card status.",False,False,True
+prepaid card,balance,a prepaid card has a balance,The system should only allow users to enter their balance as they have.,False,False,False
+prepaid card,balance,a prepaid card has a balance,The selected account balance should be greater than the loading amount.,False,False,False
+prepaid card,balance,a prepaid card has a balance,"After the user finishes the process, the user should be able to view the balance of the prepaid card.",False,False,True
+prepaid card,balance,a prepaid card has a balance,The prepaid card balance should equal its current value plus the amount.,False,False,False

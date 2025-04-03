@@ -1,0 +1,5 @@
+source,target,generated_description,actual_description,equality,contradiction,inclusion
+customer,retail,Retail is a customer,Retail customers should be eligible for applying IPO.,False,not clear,False
+customer,retail,Retail is a customer,"If the user has unpaid credit card payments, a blocked account, or is marked as a 'fraud user,' the user should not be able to perform an IPO application.",False,not clear,False
+customer,retail,Retail is a customer,Customer  Only 'retail' types of customers can apply for IPO.,False,not clear,False
+customer,other,Other is a customer,Any other formats are restricted.,False,not clear,False

@@ -1,0 +1,77 @@
+source,target,role,multiplicity,generated_description,actual_description,equality,contradiction,inclusion
+restaurant,Employee,employees,2..*,A restaurant can have employees which are people,The restaurant has more than one employee.,False,not clear,True
+restaurant,table,tables,0..*,A restaurant can have tables ,"A restaurant management system may also run on your tablet, so waiting staff can take orders and alert the kitchen and counter even before leaving the table.",False,not clear,False
+table,restaurant,myRestaurant,1,A table has a restaurant,"A restaurant management system may also run on your tablet, so waiting staff can take orders and alert the kitchen and counter even before leaving the table.",False,not clear,False
+order,waiter,serverBy,0..*,A order is server by waiters ,The cashier prepares the check according to the order details in the system.,False,not clear,False
+order,waiter,serverBy,0..*,A order is server by waiters ,The cook stays in the kitchen and prepares the orders.,False,not clear,False
+order,waiter,serverBy,0..*,A order is server by waiters ,The system shows the order details and table number when the cook prepares the order.,False,not clear,False
+order,waiter,serverBy,0..*,A order is server by waiters ,The waiter in the service section serves the customer.,False,not clear,True
+order,waiter,serverBy,0..*,A order is server by waiters ,"A restaurant management system may also run on your tablet, so waiting staff can take orders and alert the kitchen and counter even before leaving the table.",False,not clear,True
+order,waiter,serverBy,0..*,A order is server by waiters ,"Personnel can be cooks, waiters, and cashiers.",False,not clear,False
+order,waiter,serverBy,0..*,A order is server by waiters ,"When the waiter serves, the system shows the waiter's name and table number.",False,not clear,False
+order,waiter,serverBy,0..*,A order is server by waiters ,Requirements Restaurant management systems can include the following:Point-of-sale System: Used to input orders and record payments.,False,not clear,False
+order,waiter,serverBy,0..*,A order is server by waiters ,The waiter in the service section serves the customer.,False,not clear,True
+waiter,order,servedOrders,0..*,A waiter can have served orders ,The cashier prepares the check according to the order details in the system.,False,not clear,False
+waiter,order,servedOrders,0..*,A waiter can have served orders ,The cook stays in the kitchen and prepares the orders.,False,not clear,False
+waiter,order,servedOrders,0..*,A waiter can have served orders ,The system shows the order details and table number when the cook prepares the order.,False,not clear,False
+waiter,order,servedOrders,0..*,A waiter can have served orders ,The waiter in the service section serves the customer.,False,not clear,True
+waiter,order,servedOrders,0..*,A waiter can have served orders ,"Personnel can be cooks, waiters, and cashiers.",False,not clear,True
+waiter,order,servedOrders,0..*,A waiter can have served orders ,"A restaurant management system may also run on your tablet, so waiting staff can take orders and alert the kitchen and counter even before leaving the table.",False,not clear,True
+waiter,order,servedOrders,0..*,A waiter can have served orders ,"When the waiter serves, the system shows the waiter's name and table number.",False,not clear,True
+waiter,order,servedOrders,0..*,A waiter can have served orders ,Requirements Restaurant management systems can include the following:Point-of-sale System: Used to input orders and record payments.,False,not clear,False
+waiter,order,servedOrders,0..*,A waiter can have served orders ,The waiter in the service section serves the customer.,False,not clear,True
+order,cook,preparedBy,0..*,A order is prepared by cooks ,The system shows the order details and table number when the cook prepares the order.,False,not clear,True
+order,cook,preparedBy,0..*,A order is prepared by cooks ,The cook stays in the kitchen and prepares the orders.,False,not clear,True
+cook,order,preparedOrders,0..*,A cook can have prepared orders ,The system shows the order details and table number when the cook prepares the order.,False,not clear,True
+cook,order,preparedOrders,0..*,A cook can have prepared orders ,The cook stays in the kitchen and prepares the orders.,False,not clear,True
+order,table,forTable,1,A order has a for table,The system shows the order details and table number when the cook prepares the order.,False,not clear,False
+order,table,forTable,1,A order has a for table,"A restaurant management system may also run on your tablet, so waiting staff can take orders and alert the kitchen and counter even before leaving the table.",False,not clear,False
+table,order,orders,0..*,A table can have orders ,The system shows the order details and table number when the cook prepares the order.,False,not clear,True
+table,order,orders,0..*,A table can have orders ,"A restaurant management system may also run on your tablet, so waiting staff can take orders and alert the kitchen and counter even before leaving the table.",False,not clear,True
+cashier,order,handledOrders,0..*,A cashier can have handled orders ,The cashier prepares the check according to the order details in the system.,False,not clear,True
+restaurant,section,sections,3..3,A restaurant can have sections ,The restaurant has more than one section.,False,not clear,True
+section,restaurant,myRestaurant,1,A section has a restaurant,The restaurant has more than one section.,False,not clear,False
+section,employee,myEmployee,0..*,A section can have employees ,"Each employee has a name, age, and gender information.",False,not clear,False
+section,employee,myEmployee,0..*,A section can have employees ,The waiter in the service section serves the customer.,False,not clear,True
+section,employee,myEmployee,0..*,A section can have employees ,Personnel works according to their sections.,False,not clear,False
+section,employee,myEmployee,0..*,A section can have employees ,The restaurant has more than one section.,False,not clear,False
+section,employee,myEmployee,0..*,A section can have employees ,"Employee Scheduling: Check employee attendance, shifts, and time off.",False,not clear,False
+section,employee,myEmployee,0..*,A section can have employees ,Payroll and Accounting Service: Used to manage employee payroll and monitor the restaurant's cash flow.,False,not clear,False
+section,employee,myEmployee,0..*,A section can have employees ,The restaurant has more than one employee.,False,not clear,False
+section,employee,myEmployee,0..*,A section can have employees ,The waiter in the service section serves the customer.,False,not clear,True
+section,employee,myEmployee,0..*,A section can have employees ,"These sections are kitchen, service, and cash.",False,not clear,False
+employee,section,worksIn,1,A employee is works in a section,"Each employee has a name, age, and gender information.",False,not clear,False
+employee,section,worksIn,1,A employee is works in a section,The waiter in the service section serves the customer.,False,not clear,False
+employee,section,worksIn,1,A employee is works in a section,Personnel works according to their sections.,False,not clear,False
+employee,section,worksIn,1,A employee is works in a section,The restaurant has more than one section.,False,not clear,False
+employee,section,worksIn,1,A employee is works in a section,"Employee Scheduling: Check employee attendance, shifts, and time off.",False,not clear,False
+employee,section,worksIn,1,A employee is works in a section,Payroll and Accounting Service: Used to manage employee payroll and monitor the restaurant's cash flow.,False,not clear,False
+employee,section,worksIn,1,A employee is works in a section,"These sections are kitchen, service, and cash.",False,not clear,False
+employee,section,worksIn,1,A employee is works in a section,The waiter in the service section serves the customer.,False,not clear,False
+employee,section,worksIn,1,A employee is works in a section,The restaurant has more than one employee.,False,not clear,False
+restaurant,item,stock,0..*,A restaurant can have stocks which are items,"Restaurant Inventory Management: Used to monitor current stock, the cost of the items, and more.",False,not clear,True
+item,restaurant,myRestaurant,1,A item has a restaurant,"Restaurant Inventory Management: Used to monitor current stock, the cost of the items, and more.",False,not clear,False
+order,item,orderedItems,1..*,A order can have ordered items ,The cashier prepares the check according to the order details in the system.,False,not clear,False
+order,item,orderedItems,1..*,A order can have ordered items ,The cook stays in the kitchen and prepares the orders.,False,not clear,False
+order,item,orderedItems,1..*,A order can have ordered items ,Requirements Restaurant management systems can include the following:Point-of-sale System: Used to input orders and record payments.,False,not clear,False
+order,item,orderedItems,1..*,A order can have ordered items ,The system shows the order details and table number when the cook prepares the order.,False,not clear,False
+order,item,orderedItems,1..*,A order can have ordered items ,"A restaurant management system may also run on your tablet, so waiting staff can take orders and alert the kitchen and counter even before leaving the table.",False,not clear,False
+order,item,orderedItems,1..*,A order can have ordered items ,"Restaurant Inventory Management: Used to monitor current stock, the cost of the items, and more.",False,not clear,False
+item,order,myOrder,1,A item has an order,The cashier prepares the check according to the order details in the system.,False,not clear,True
+item,order,myOrder,1,A item has an order,The system shows the order details and table number when the cook prepares the order.,False,not clear,True
+item,order,myOrder,1,A item has an order,The cook stays in the kitchen and prepares the orders.,False,not clear,False
+item,order,myOrder,1,A item has an order,Requirements Restaurant management systems can include the following:Point-of-sale System: Used to input orders and record payments.,False,not clear,False
+item,order,myOrder,1,A item has an order,"Restaurant Inventory Management: Used to monitor current stock, the cost of the items, and more.",False,not clear,False
+item,order,myOrder,1,A item has an order,"A restaurant management system may also run on your tablet, so waiting staff can take orders and alert the kitchen and counter even before leaving the table.",False,not clear,False
+order,transaction,transactions,0..*,A order can have transactions ,The cashier prepares the check according to the order details in the system.,False,not clear,False
+order,transaction,transactions,0..*,A order can have transactions ,"The system captures all transactions, including charges, payments, voids, promo deals, and expenses.",False,not clear,False
+order,transaction,transactions,0..*,A order can have transactions ,The cook stays in the kitchen and prepares the orders.,False,not clear,False
+order,transaction,transactions,0..*,A order can have transactions ,Requirements Restaurant management systems can include the following:Point-of-sale System: Used to input orders and record payments.,False,not clear,False
+order,transaction,transactions,0..*,A order can have transactions ,The system shows the order details and table number when the cook prepares the order.,False,not clear,False
+order,transaction,transactions,0..*,A order can have transactions ,"A restaurant management system may also run on your tablet, so waiting staff can take orders and alert the kitchen and counter even before leaving the table.",False,not clear,False
+transaction,order,myOrder,1,A transaction has an order,The cashier prepares the check according to the order details in the system.,False,not clear,True
+transaction,order,myOrder,1,A transaction has an order,The system shows the order details and table number when the cook prepares the order.,False,not clear,False
+transaction,order,myOrder,1,A transaction has an order,The cook stays in the kitchen and prepares the orders.,False,not clear,False
+transaction,order,myOrder,1,A transaction has an order,Requirements Restaurant management systems can include the following:Point-of-sale System: Used to input orders and record payments.,False,not clear,False
+transaction,order,myOrder,1,A transaction has an order,"The system captures all transactions, including charges, payments, voids, promo deals, and expenses.",False,not clear,False
+transaction,order,myOrder,1,A transaction has an order,"A restaurant management system may also run on your tablet, so waiting staff can take orders and alert the kitchen and counter even before leaving the table.",False,not clear,False

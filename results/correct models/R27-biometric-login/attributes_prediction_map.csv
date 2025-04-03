@@ -1,0 +1,41 @@
+class_name,attributes,generated_description,actual_description,equality,contradiction,inclusion
+biometric,pin,a biometric has a pin,"During the enablement process, the user should set a 'PIN.'",False,False,False
+biometric,pin,a biometric has a pin,"Later, this PIN information will be asked on the biometric login process.",False,False,True
+biometric,pin,a biometric has a pin,"If the user enters three wrong PINs, the biometric feature for that device should be disabled.",False,False,False
+biometric,pin,a biometric has a pin,"If validation is successful, the system should ask for PIN information.",False,False,False
+biometric,accepted terms,a biometric has an accepted terms,"Also, the user should accept the terms and conditions for using this feature.",False,False,False
+biometric,enabled biometric,a biometric has an enabled biometric,For the enablement process: The 'Biometric Enable' process should be available under the settings menu.,False,False,False
+biometric,enabled biometric,a biometric has an enabled biometric,"On biometric logins, the system should store the biometric login counts, dates, and user information on the database.",False,False,False
+biometric,enabled biometric,a biometric has an enabled biometric,"If validation fails, the process should immediately stop, and an error message should be displayed.",False,False,False
+biometric,enabled biometric,a biometric has an enabled biometric,"If validation is successful, the system should ask for PIN information.",False,False,False
+biometric,enabled biometric,a biometric has an enabled biometric,"After the user completes the biometric enablement process, from now on, the user can use biometric login.",False,False,False
+biometric,enabled biometric,a biometric has an enabled biometric,For the login process:It should be on the login page.,False,False,False
+biometric,enabled biometric,a biometric has an enabled biometric,"First, the system should validate the biometric input, such as fingerprint or face-id.",False,False,False
+biometric,enabled biometric,a biometric has an enabled biometric,The biometric login process should be started when the user opens the mobile application and clicks on the 'biometric login' button.,False,False,False
+biometric,enabled biometric,a biometric has an enabled biometric,"If biometric login is enabled, then the biometric login process should start.",False,False,False
+biometric,enabled biometric,a biometric has an enabled biometric,"When the user initiates the biometric enablement process inside the application, the user should allow the application to use their biometric records, which can be found in the device itself.",False,False,False
+biometric,enabled biometric,a biometric has an enabled biometric,"For using biometric features, the user's device should have at least one biometric feature, such as fingerprint or face-id.",False,False,False
+biometric,enabled biometric,a biometric has an enabled biometric,"If the user enters three wrong PINs, the biometric feature for that device should be disabled.",False,False,False
+biometric,enabled biometric,a biometric has an enabled biometric,The system should check whether the user has enabled the biometric login.,False,False,False
+biometric,enabled biometric,a biometric has an enabled biometric,"Later, this PIN information will be asked on the biometric login process.",False,False,False
+biometric,enabled biometric,a biometric has an enabled biometric,"In that case, the system should display an error message that says, 'You need to enable biometric login if you'd like to login via biometric features.'",False,False,False
+biometric,enabled biometric,a biometric has an enabled biometric,"During the enablement process, the user should set a 'PIN.'",False,False,False
+biometric,enabled biometric,a biometric has an enabled biometric,"Also, the user should accept the terms and conditions for using this feature.",False,False,False
+biometric,enabled biometric,a biometric has an enabled biometric,Suppose biometric login is not enabled for that device.,False,True,False
+biometric,enabled biometric,a biometric has an enabled biometric,"If the user's device has at least one of these features, the user can enable biometric login inside the mobile application.",False,False,False
+login activity,date,a login activity has a date,"On biometric logins, the system should store the biometric login counts, dates, and user information on the database.",False,False,True
+login activity,user info,a login activity has an user info,"When a user enters the wrong PIN information, the system should display an error message, but the flow should not stop.",False,False,False
+login activity,user info,a login activity has an user info,"When the user initiates the biometric enablement process inside the application, the user should allow the application to use their biometric records, which can be found in the device itself.",False,False,False
+login activity,user info,a login activity has an user info,"Also, the user should accept the terms and conditions for using this feature.",False,False,False
+login activity,user info,a login activity has an user info,"For using biometric features, the user's device should have at least one biometric feature, such as fingerprint or face-id.",False,False,False
+login activity,user info,a login activity has an user info,"If the user enters three wrong PINs, the biometric feature for that device should be disabled.",False,False,False
+login activity,user info,a login activity has an user info,Users can try entering their PIN 3 times.,False,False,False
+login activity,user info,a login activity has an user info,"If the user is validated with fingerprint or face-id, then PIN is successfully entered, then the user should be successfully logged in.",False,False,False
+login activity,user info,a login activity has an user info,"On biometric logins, the system should store the biometric login counts, dates, and user information on the database.",False,False,True
+login activity,user info,a login activity has an user info,The system should check whether the user has enabled the biometric login.,False,False,False
+login activity,user info,a login activity has an user info,"In that case, the system should display an error message that says, 'You need to enable biometric login if you'd like to login via biometric features.'",False,False,False
+login activity,user info,a login activity has an user info,"If desired, banking staff should be able to access this information via their platform.",False,False,False
+login activity,user info,a login activity has an user info,"During the enablement process, the user should set a 'PIN.'",False,False,False
+login activity,user info,a login activity has an user info,"After the user completes the biometric enablement process, from now on, the user can use biometric login.",False,False,False
+login activity,user info,a login activity has an user info,The biometric login process should be started when the user opens the mobile application and clicks on the 'biometric login' button.,False,False,False
+login activity,user info,a login activity has an user info,Suppose biometric login is not enabled for that device.,False,False,False

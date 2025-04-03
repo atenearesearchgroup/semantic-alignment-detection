@@ -1,0 +1,8 @@
+source,target,role,multiplicity,generated_description,actual_description,equality,contradiction,inclusion
+employee,department,worksIn,1,A employee is works in a department,"The company has production, control, and delivery departments.",False,not clear,False
+employee,department,worksIn,1,A employee is works in a department,Each department has to be controlled by a manager.,False,not clear,False
+employee,department,worksIn,1,A employee is works in a department,"Each employee object contains information about the department, name, date of birth, and social insurance number.",False,not clear,True
+employee,department,worksIn,1,A employee is works in a department,Shift workers can only work in the delivery department.,False,not clear,False
+department,manager,controlledBy,1,A department is controlled by a manager,Each department has to be controlled by a manager.,False,not clear,True
+company,employee,has,*,A company haves employees ,"RequirementA company has three roles: Employee, Salesperson and Manager.",False,not clear,True
+company,employee,has,*,A company haves employees ,A company has more than one employee.,False,not clear,True

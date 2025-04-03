@@ -1,0 +1,9 @@
+source,target,role,multiplicity,generated_description,actual_description,equality,contradiction,inclusion
+entry point,cell,adjacentTo,*,A entry point is adjacent to cells ,It costs the player a single move to enter the atmosphere from the adjacent cell.,not clear,TRUE,FALSE
+player,legal move,,*,A player can have legal moves ,"If an announced hypothesis is incorrect, the player loses the game and cannot pose hypotheses any longer or make moves on the board but must continue refuting the hypotheses of other players.",not clear,TRUE,FALSE
+player,hypothesis,,*,A player can have hypothesis ,Other players are informed that the hypothesis was refuted but need to be shown the piece of evidence that refuted the hypothesis.,not clear,TRUE,FALSE
+question,player,askedBy,1,A question is asked by a player,"The questions form a hypothesis for the murder circumstance and perpetrator, which the remaining players are invited to disprove with their evidence.",not clear,TRUE,FALSE
+planet,planet,hasAWarmholeTo,*,A planet haves warmhole to planets ,"The planets, Linuta and Verlute, have a wormhole connecting each other, as do Earth and Evilon.",not clear,TRUE,FALSE
+planet,planet,hasAWarmholeTo,*,A planet haves warmhole to planets ,A player visits a planet by making legal moves on the board until a cell adjacent to an atmosphere entry point is reached.,FALSE,TRUE,FALSE
+planet,planet,hasAWarmholeTo,*,A planet haves warmhole to planets ,A player whose token resides on one of four planets having wormhole connections to other planets may choose not to spin the spinner and take the wormhole directly to the other planet.,not clear,TRUE,FALSE
+hypothesis,planet,planet,1,A hypothesis has a planet,The objective of player movement throughout the universe is to investigate specific planets to determine if that was the murder site.,not clear,TRUE,FALSE

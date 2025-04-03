@@ -1,0 +1,4 @@
+source,target,generated_description,actual_description,equality,contradiction,inclusion
+position,forward,forward is a position,"Positions are forward, midfield, and defense.",False,not clear,True
+position,midfield,midfield is a position,"Positions are forward, midfield, and defense.",False,not clear,True
+position,defense,defense is a position,"Positions are forward, midfield, and defense.",False,not clear,True

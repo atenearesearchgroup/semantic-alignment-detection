@@ -1,0 +1,20 @@
+source,target,role,multiplicity,generated_description,actual_description,equality,contradiction,inclusion
+department,production,,,production is a type of department,"The company has production, control, and delivery departments.",False,not clear,True
+department,control,,,control is a type of department,"The company has production, control, and delivery departments.",False,not clear,True
+department,delivery,,,delivery is a type of department,"The company has production, control, and delivery departments.",False,not clear,True
+department,delivery,,,delivery is a type of department,Shift workers can only work in the delivery department.,False,not clear,False
+employee,worker,,,worker is a type of employee,"These employees are included in the categories of workers, salespeople, and managers.",False,not clear,True
+employee,sale person,,,sale person is a type of employee,"These employees are included in the categories of workers, salespeople, and managers.",False,not clear,True
+employee,sale person,,,sale person is a type of employee,A company has more than one employee.,False,not clear,False
+employee,sale person,,,sale person is a type of employee,"In a hierarchy, the manager has subordinates; employees report to them.",False,not clear,False
+employee,sale person,,,sale person is a type of employee,"RequirementA company has three roles: Employee, Salesperson and Manager.",False,not clear,False
+employee,sale person,,,sale person is a type of employee,The employee has no subordinates.,False,not clear,False
+employee,sale person,,,sale person is a type of employee,"Employee Management System Purpose Complete the design of the Employee class and Manager class, and write a test class to initialize some employee and manager information and output the information of employees and managers who have reached retirement age.",False,not clear,False
+employee,sale person,,,sale person is a type of employee,The manager is a special employee.,False,not clear,False
+employee,sale person,,,sale person is a type of employee,"Each employee object contains information about the department, name, date of birth, and social insurance number.",False,not clear,False
+employee,sale person,,,sale person is a type of employee,"In addition, while workers have information such as weekly working hours and hourly rates, the salespersons have information such as fixed salary, amount of sales made, and commission percentage.",False,not clear,True
+employee,sale person,,,sale person is a type of employee,ScopeThe system is designed to show a company s employee hierarchy.,False,not clear,False
+employee,sale person,,,sale person is a type of employee,The employees of a company are in various positions.,False,not clear,False
+employee,manager,,,manager is a type of employee,"These employees are included in the categories of workers, salespeople, and managers.",False,not clear,True
+worker,shift worker,,,shift worker is a type of worker,Workers are separated as shift workers and non-shift workers.,False,not clear,True
+worker,off shift worker,,,off shift worker is a type of worker,Workers are separated as shift workers and non-shift workers.,False,not clear,False

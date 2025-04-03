@@ -1,0 +1,9 @@
+source,target,role,multiplicity,generated_description,actual_description,equality,contradiction,inclusion
+student,course,enrolls,*,A student can have enrolls which are courses,"Students enroll in the courses, drop the courses, receive transcripts, request documents, and conduct surveys.",False,not clear,True
+course,day,days,*,A course can have days ,"A course has the course's name, the course's code, the start time, the end time, the days of the courses, the room, and the instructors.",False,not clear,True
+course,day,days,*,A course can have days ,"In addition, instructors can increase and decrease the course quota limit and change weekly course hours and course days.",False,not clear,True
+instructor,course,teaches,*,A instructor can have teaches which are courses,"In addition, instructors can increase and decrease the course quota limit and change weekly course hours and course days.",False,not clear,False
+instructor,course,teaches,*,A instructor can have teaches which are courses,"Also, they can add or drop courses from their list depending on attendance.",False,not clear,False
+course,instructor,isTaughtBy,*,A course is taught by instructors ,"A course has the course's name, the course's code, the start time, the end time, the days of the courses, the room, and the instructors.",False,not clear,True
+course,instructor,isTaughtBy,*,A course is taught by instructors ,"In addition, instructors can increase and decrease the course quota limit and change weekly course hours and course days.",False,not clear,False
+room,course,courses,*,A room can have courses ,"A course has the course's name, the course's code, the start time, the end time, the days of the courses, the room, and the instructors.",False,not clear,True

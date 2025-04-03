@@ -1,0 +1,2 @@
+source,target,role,multiplicity,generated_description,actual_description,equality,contradiction,inclusion
+document,editor,uses,1,A document has  an use which is an editor,Each document uses an editor suitable for creation.,False,False,False

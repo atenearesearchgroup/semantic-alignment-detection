@@ -1,0 +1,4 @@
+source,target,role,multiplicity,generated_description,actual_description,equality,contradiction,inclusion
+football team,football player,has,*,A football team haves football players ,Turgutlu football team has more than one football player.,False,not clear,True
+football player,football team,playsFor,1,A football player plays for a football team,A football player can be sold to another football team.,False,not clear,True
+football player,football team,playsFor,1,A football player plays for a football team,"Football players have team, name, age, and number.",False,not clear,True

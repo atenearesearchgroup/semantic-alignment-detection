@@ -1,0 +1,16 @@
+source,target,generated_description,actual_description,equality,contradiction,inclusion
+card type,debit,Debit is a card type,"Card types can be debit, credit, virtual or supplementary.",False,not clear,True
+card type,credit,Credit is a card type,"Card types can be debit, credit, virtual or supplementary.",False,not clear,True
+card type,virtual,Virtual is a card type,"Card types can be debit, credit, virtual or supplementary.",False,not clear,True
+card type,supplementary,Supplementary is a card type,"If the user chooses the mobile application, the bank will automatically add their card(s) to the wallet for the selected card(s).",False,not clear,False
+status,blocked,Blocked is a status,Users cannot select a card that has a blocked or restricted status.,False,not clear,True
+status,blocked,Blocked is a status,Users can perform the Apple Pay process only if their card status is 'available.,False,not clear,False
+status,blocked,Blocked is a status,The system should check the card status when the user selects a card or card.,False,not clear,False
+status,restricted,Restricted is a status,Users cannot select a card that has a blocked or restricted status.,False,not clear,True
+status,restricted,Restricted is a status,Users can perform the Apple Pay process only if their card status is 'available.,False,not clear,False
+status,restricted,Restricted is a status,The system should check the card status when the user selects a card or card.,False,not clear,False
+status,restricted,Restricted is a status,"If the user chooses the mobile application, the bank will automatically add their card(s) to the wallet for the selected card(s).",False,not clear,False
+status,available,Available is a status,Users cannot select a card that has a blocked or restricted status.,False,not clear,False
+status,available,Available is a status,Users can perform the Apple Pay process only if their card status is 'available.,False,not clear,True
+status,available,Available is a status,The system should check the card status when the user selects a card or card.,False,not clear,False
+status,available,Available is a status,"If the user chooses the mobile application, the bank will automatically add their card(s) to the wallet for the selected card(s).",False,not clear,False

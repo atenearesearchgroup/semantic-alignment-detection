@@ -1,0 +1,10 @@
+source,target,generated_description,actual_description,equality,contradiction,inclusion
+card type,debit,Debit is a card type,"Card types are debit, credit, virtual and supplementary.",False,not clear,True
+card type,credit,Credit is a card type,"Card types are debit, credit, virtual and supplementary.",False,not clear,True
+card type,virtual,Virtual is a card type,The system should not accept any other type of input.,False,not clear,False
+card type,virtual,Virtual is a card type,"Before using any card, the user should set a 'PIN' using online banking systems.",False,not clear,False
+card type,virtual,Virtual is a card type,"Card types are debit, credit, virtual and supplementary.",False,not clear,True
+card type,virtual,Virtual is a card type,"If the user enters the wrong card number for the third time, the system should display a pop-up saying that the user entered the wrong card number for the third time and will be logged out.",False,not clear,False
+card type,virtual,Virtual is a card type,"When setting a PIN, the user should enter their card number and CVV information.",False,not clear,False
+card type,virtual,Virtual is a card type,"If the user enters any other type and continues, the system should display an error message, and the process should not continue.",False,not clear,False
+card type,supplementary,Supplementary is a card type,"If the user enters the wrong card number for the third time, the system should display a pop-up saying that the user entered the wrong card number for the third time and will be logged out.",False,not clear,False

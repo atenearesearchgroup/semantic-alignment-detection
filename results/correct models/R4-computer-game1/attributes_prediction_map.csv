@@ -1,0 +1,121 @@
+class_name,attributes,generated_description,actual_description,equality,contradiction,inclusion
+planet,murder site,a planet has a murder site,The objective of player movement throughout the universe is to investigate specific planets to determine if that was the murder site.,not clear,not clear,False
+legal move,speed,a legal move has a speed,This element is primarily dictated by luck since the wheel's spin determines the speed at which a player reaches a destination.,not clear,not clear,False
+legal move,number moves,a legal move has  number moves,"A player wins the game by announcing their murder hypothesis, consisting of a planet, a perpetrator, and a murder weapon at any time during their turn, and having the server determine that the hypothesis is correct.",not clear,not clear,False
+legal move,number moves,a legal move has  number moves,"The game is an intergalactic murder mystery, which emulates a board game scenario in which players spin a wheel to determine a randomly selected number of moves by which they travel through space to various planets.",FALSE,not clear,True
+legal move,number moves,a legal move has  number moves,"This application will, therefore, take on a client/server structure where each client supports one player's view of the game.",not clear,not clear,False
+legal move,number moves,a legal move has  number moves,"The game's strategy is embodied in selecting questions to ask other players, selecting planet destinations, and efficiently deducing the correct murder scenario.",FALSE,not clear,False
+legal move,number moves,a legal move has  number moves,"The goal of the class project is to implement an Internet-based, who-done-it-style game called Galaxy Sleuth.",FALSE,not clear,False
+legal move,number moves,a legal move has  number moves,The player can enter the planet's atmosphere in a different number of moves.,not clear,not clear,False
+legal move,number moves,a legal move has  number moves,The first player to accomplish this wins the game.,FALSE,not clear,False
+legal move,number moves,a legal move has  number moves,"In contrast, the server coordinates communication between players and orchestrates the sequence of events of the game.",not clear,not clear,False
+legal move,number moves,a legal move has  number moves,These entry points are graphically depicted on the game as a diagonal line off a square on the board leading into a planet's atmosphere.,not clear,not clear,False
+legal move,number moves,a legal move has  number moves,A player whose token resides on one of four planets having wormhole connections to other planets may choose not to spin the spinner and take the wormhole directly to the other planet.,not clear,not clear,False
+legal move,number moves,a legal move has  number moves,The game is Internet-based in that players can play each other from remote sites on the Internet.,FALSE,not clear,False
+legal move,number moves,a legal move has  number moves,"If a player draws an incorrect conclusion, they lose the game.",not clear,not clear,False
+legal move,number moves,a legal move has  number moves,"Part of the game, therefore, involves reaching suspicious locations quickly to investigate them.",not clear,not clear,False
+player,winner,a player has a winner,The murder hypothesis is communicated to all players.,not clear,not clear,False
+player,winner,a player has a winner,"In contrast, the server coordinates communication between players and orchestrates the sequence of events of the game.",not clear,not clear,False
+player,winner,a player has a winner,These entry points are graphically depicted on the game as a diagonal line off a square on the board leading into a planet's atmosphere.,not clear,not clear,False
+player,winner,a player has a winner,"A legal move consists of a player moving their token, the number of moves determined by the spinner, either horizontally or vertically, but not diagonally.",not clear,not clear,False
+player,winner,a player has a winner,"The questions form a hypothesis for the murder circumstance and perpetrator, which the remaining players are invited to disprove with their evidence.",not clear,not clear,False
+player,winner,a player has a winner,Players may also travel through a few strategically placed wormholes.,not clear,not clear,False
+player,winner,a player has a winner,"Also, a player may not move into a cell occupied by another player's token.",not clear,not clear,False
+player,winner,a player has a winner,"As the players travel through the universe, they are permitted to ask questions about what information their fellow players possess.",not clear,not clear,False
+player,winner,a player has a winner,"The game is an intergalactic murder mystery, which emulates a board game scenario in which players spin a wheel to determine a randomly selected number of moves by which they travel through space to various planets.",not clear,not clear,False
+player,winner,a player has a winner,Other players are informed that the hypothesis was refuted but need to be shown the piece of evidence that refuted the hypothesis.,not clear,not clear,False
+player,winner,a player has a winner,"If an announced hypothesis is incorrect, the player loses the game and cannot pose hypotheses any longer or make moves on the board but must continue refuting the hypotheses of other players.",not clear,not clear,False
+player,winner,a player has a winner,The first player to accomplish this wins the game.,not clear,not clear,False
+player,winner,a player has a winner,A player whose token resides on one of four planets having wormhole connections to other planets may choose not to spin the spinner and take the wormhole directly to the other planet.,not clear,not clear,False
+player,winner,a player has a winner,"If a player draws an incorrect conclusion, they lose the game.",FALSE,not clear,False
+player,winner,a player has a winner,The solution is then broadcast to all players.,not clear,not clear,False
+player,winner,a player has a winner,The game's objective is to gather clues while traveling about the universe.,not clear,not clear,False
+player,winner,a player has a winner,This element is primarily dictated by luck since the wheel's spin determines the speed at which a player reaches a destination.,not clear,not clear,False
+player,winner,a player has a winner,The player is considered to be on the planet as soon as the planet's atmosphere has been entered.,not clear,not clear,False
+player,winner,a player has a winner,The objective of player movement throughout the universe is to investigate specific planets to determine if that was the murder site.,not clear,not clear,False
+player,winner,a player has a winner,A player may not re-visit the same planet on a single turn.,FALSE,not clear,False
+player,winner,a player has a winner,The player may change directions multiple times but cannot enter the same cell twice during a single turn.,not clear,not clear,False
+player,winner,a player has a winner,"Each player receives information concerning the murder, and no players receive the same information.",not clear,not clear,False
+player,winner,a player has a winner,"A player wins the game by announcing their murder hypothesis, consisting of a planet, a perpetrator, and a murder weapon at any time during their turn, and having the server determine that the hypothesis is correct.",not clear,not clear,True
+player,winner,a player has a winner,"To visit a planet, a player must enter the planet's atmosphere at one of the predefined entry points.",not clear,not clear,False
+player,winner,a player has a winner,"When the correct hypothesis is announced, all players are informed of the circumstances of the murder.",not clear,not clear,False
+player,winner,a player has a winner,"This application will, therefore, take on a client/server structure where each client supports one player's view of the game.",not clear,not clear,False
+player,winner,a player has a winner,"The game's strategy is embodied in selecting questions to ask other players, selecting planet destinations, and efficiently deducing the correct murder scenario.",not clear,not clear,False
+player,winner,a player has a winner,"The goal of the class project is to implement an Internet-based, who-done-it-style game called Galaxy Sleuth.",not clear,not clear,False
+player,winner,a player has a winner,"After gathering a certain set of clues and applying deductive reasoning, players may deduce the perpetrator and circumstance of the murder.",not clear,not clear,False
+player,winner,a player has a winner,A player visits a planet by making legal moves on the board until a cell adjacent to an atmosphere entry point is reached.,not clear,not clear,False
+player,winner,a player has a winner,The player can enter the planet's atmosphere in a different number of moves.,not clear,not clear,False
+player,winner,a player has a winner,"If the hypothesis cannot be denied, all players are informed of that fact.",not clear,not clear,False
+player,winner,a player has a winner,It costs the player a single move to enter the atmosphere from the adjacent cell.,not clear,not clear,False
+player,winner,a player has a winner,"If a player can disprove the hypothesis, that information is communicated only to the inquiring player.",not clear,not clear,False
+player,winner,a player has a winner,The game is Internet-based in that players can play each other from remote sites on the Internet.,FALSE,not clear,False
+player,winner,a player has a winner,"Part of the game, therefore, involves reaching suspicious locations quickly to investigate them.",not clear,not clear,False
+player,loser,a player has a loser,The murder hypothesis is communicated to all players.,not clear,not clear,False
+player,loser,a player has a loser,"In contrast, the server coordinates communication between players and orchestrates the sequence of events of the game.",FALSE,not clear,False
+player,loser,a player has a loser,These entry points are graphically depicted on the game as a diagonal line off a square on the board leading into a planet's atmosphere.,not clear,not clear,False
+player,loser,a player has a loser,"A legal move consists of a player moving their token, the number of moves determined by the spinner, either horizontally or vertically, but not diagonally.",not clear,not clear,False
+player,loser,a player has a loser,"The questions form a hypothesis for the murder circumstance and perpetrator, which the remaining players are invited to disprove with their evidence.",not clear,not clear,False
+player,loser,a player has a loser,Players may also travel through a few strategically placed wormholes.,not clear,not clear,False
+player,loser,a player has a loser,"Also, a player may not move into a cell occupied by another player's token.",not clear,not clear,False
+player,loser,a player has a loser,"As the players travel through the universe, they are permitted to ask questions about what information their fellow players possess.",not clear,not clear,False
+player,loser,a player has a loser,"The game is an intergalactic murder mystery, which emulates a board game scenario in which players spin a wheel to determine a randomly selected number of moves by which they travel through space to various planets.",not clear,not clear,False
+player,loser,a player has a loser,Other players are informed that the hypothesis was refuted but need to be shown the piece of evidence that refuted the hypothesis.,not clear,not clear,False
+player,loser,a player has a loser,"If an announced hypothesis is incorrect, the player loses the game and cannot pose hypotheses any longer or make moves on the board but must continue refuting the hypotheses of other players.",not clear,not clear,False
+player,loser,a player has a loser,The first player to accomplish this wins the game.,not clear,not clear,False
+player,loser,a player has a loser,A player whose token resides on one of four planets having wormhole connections to other planets may choose not to spin the spinner and take the wormhole directly to the other planet.,not clear,not clear,False
+player,loser,a player has a loser,"If a player draws an incorrect conclusion, they lose the game.",not clear,not clear,False
+player,loser,a player has a loser,The solution is then broadcast to all players.,not clear,not clear,False
+player,loser,a player has a loser,The game's objective is to gather clues while traveling about the universe.,not clear,not clear,False
+player,loser,a player has a loser,This element is primarily dictated by luck since the wheel's spin determines the speed at which a player reaches a destination.,not clear,not clear,False
+player,loser,a player has a loser,The player is considered to be on the planet as soon as the planet's atmosphere has been entered.,not clear,not clear,False
+player,loser,a player has a loser,The objective of player movement throughout the universe is to investigate specific planets to determine if that was the murder site.,not clear,not clear,False
+player,loser,a player has a loser,A player may not re-visit the same planet on a single turn.,not clear,not clear,False
+player,loser,a player has a loser,The player may change directions multiple times but cannot enter the same cell twice during a single turn.,not clear,not clear,False
+player,loser,a player has a loser,"Each player receives information concerning the murder, and no players receive the same information.",not clear,not clear,False
+player,loser,a player has a loser,"A player wins the game by announcing their murder hypothesis, consisting of a planet, a perpetrator, and a murder weapon at any time during their turn, and having the server determine that the hypothesis is correct.",not clear,not clear,False
+player,loser,a player has a loser,"To visit a planet, a player must enter the planet's atmosphere at one of the predefined entry points.",not clear,not clear,False
+player,loser,a player has a loser,"When the correct hypothesis is announced, all players are informed of the circumstances of the murder.",not clear,not clear,False
+player,loser,a player has a loser,"This application will, therefore, take on a client/server structure where each client supports one player's view of the game.",not clear,not clear,False
+player,loser,a player has a loser,"The game's strategy is embodied in selecting questions to ask other players, selecting planet destinations, and efficiently deducing the correct murder scenario.",not clear,not clear,False
+player,loser,a player has a loser,"The goal of the class project is to implement an Internet-based, who-done-it-style game called Galaxy Sleuth.",FALSE,not clear,False
+player,loser,a player has a loser,"After gathering a certain set of clues and applying deductive reasoning, players may deduce the perpetrator and circumstance of the murder.",not clear,not clear,False
+player,loser,a player has a loser,A player visits a planet by making legal moves on the board until a cell adjacent to an atmosphere entry point is reached.,not clear,not clear,False
+player,loser,a player has a loser,The player can enter the planet's atmosphere in a different number of moves.,not clear,not clear,False
+player,loser,a player has a loser,"If the hypothesis cannot be denied, all players are informed of that fact.",not clear,not clear,False
+player,loser,a player has a loser,It costs the player a single move to enter the atmosphere from the adjacent cell.,not clear,not clear,False
+player,loser,a player has a loser,"If a player can disprove the hypothesis, that information is communicated only to the inquiring player.",not clear,not clear,False
+player,loser,a player has a loser,The game is Internet-based in that players can play each other from remote sites on the Internet.,not clear,not clear,False
+player,loser,a player has a loser,"Part of the game, therefore, involves reaching suspicious locations quickly to investigate them.",not clear,not clear,False
+clue,information,a clue has an information,"If a player can disprove the hypothesis, that information is communicated only to the inquiring player.",not clear,not clear,False
+clue,information,a clue has an information,"As the players travel through the universe, they are permitted to ask questions about what information their fellow players possess.",FALSE,not clear,False
+clue,information,a clue has an information,"The questions form a hypothesis for the murder circumstance and perpetrator, which the remaining players are invited to disprove with their evidence.",not clear,not clear,False
+clue,information,a clue has an information,"Each player receives information concerning the murder, and no players receive the same information.",not clear,not clear,False
+question,information,a question has an information,"As the players travel through the universe, they are permitted to ask questions about what information their fellow players possess.",FALSE,not clear,False
+question,information,a question has an information,"The questions form a hypothesis for the murder circumstance and perpetrator, which the remaining players are invited to disprove with their evidence.",not clear,not clear,True
+hypothesis,murder weapon,a hypothesis has a murder weapon,The murder hypothesis is communicated to all players.,not clear,not clear,False
+hypothesis,murder weapon,a hypothesis has a murder weapon,"A player wins the game by announcing their murder hypothesis, consisting of a planet, a perpetrator, and a murder weapon at any time during their turn, and having the server determine that the hypothesis is correct.",not clear,not clear,True
+hypothesis,murder weapon,a hypothesis has a murder weapon,The solution is then broadcast to all players.,not clear,not clear,False
+hypothesis,murder weapon,a hypothesis has a murder weapon,"When the correct hypothesis is announced, all players are informed of the circumstances of the murder.",not clear,not clear,False
+hypothesis,murder weapon,a hypothesis has a murder weapon,Other players are informed that the hypothesis was refuted but need to be shown the piece of evidence that refuted the hypothesis.,not clear,not clear,False
+hypothesis,murder weapon,a hypothesis has a murder weapon,"If an announced hypothesis is incorrect, the player loses the game and cannot pose hypotheses any longer or make moves on the board but must continue refuting the hypotheses of other players.",not clear,not clear,False
+hypothesis,murder weapon,a hypothesis has a murder weapon,"If the hypothesis cannot be denied, all players are informed of that fact.",not clear,not clear,False
+hypothesis,murder weapon,a hypothesis has a murder weapon,"If a player can disprove the hypothesis, that information is communicated only to the inquiring player.",not clear,not clear,False
+hypothesis,murder weapon,a hypothesis has a murder weapon,"The questions form a hypothesis for the murder circumstance and perpetrator, which the remaining players are invited to disprove with their evidence.",not clear,not clear,False
+hypothesis,perpetrator,a hypothesis has a perpetrator,The murder hypothesis is communicated to all players.,not clear,not clear,False
+hypothesis,perpetrator,a hypothesis has a perpetrator,"A player wins the game by announcing their murder hypothesis, consisting of a planet, a perpetrator, and a murder weapon at any time during their turn, and having the server determine that the hypothesis is correct.",not clear,not clear,True
+hypothesis,perpetrator,a hypothesis has a perpetrator,The solution is then broadcast to all players.,not clear,not clear,False
+hypothesis,perpetrator,a hypothesis has a perpetrator,"When the correct hypothesis is announced, all players are informed of the circumstances of the murder.",not clear,not clear,False
+hypothesis,perpetrator,a hypothesis has a perpetrator,Other players are informed that the hypothesis was refuted but need to be shown the piece of evidence that refuted the hypothesis.,not clear,not clear,False
+hypothesis,perpetrator,a hypothesis has a perpetrator,"If an announced hypothesis is incorrect, the player loses the game and cannot pose hypotheses any longer or make moves on the board but must continue refuting the hypotheses of other players.",not clear,not clear,False
+hypothesis,perpetrator,a hypothesis has a perpetrator,"If the hypothesis cannot be denied, all players are informed of that fact.",not clear,not clear,False
+hypothesis,perpetrator,a hypothesis has a perpetrator,"If a player can disprove the hypothesis, that information is communicated only to the inquiring player.",not clear,not clear,False
+hypothesis,perpetrator,a hypothesis has a perpetrator,"The questions form a hypothesis for the murder circumstance and perpetrator, which the remaining players are invited to disprove with their evidence.",not clear,not clear,True
+hypothesis,refuted hypothesis,a hypothesis has a refuted hypothesis,The murder hypothesis is communicated to all players.,not clear,not clear,False
+hypothesis,refuted hypothesis,a hypothesis has a refuted hypothesis,"A player wins the game by announcing their murder hypothesis, consisting of a planet, a perpetrator, and a murder weapon at any time during their turn, and having the server determine that the hypothesis is correct.",not clear,not clear,False
+hypothesis,refuted hypothesis,a hypothesis has a refuted hypothesis,The solution is then broadcast to all players.,not clear,not clear,False
+hypothesis,refuted hypothesis,a hypothesis has a refuted hypothesis,"When the correct hypothesis is announced, all players are informed of the circumstances of the murder.",not clear,not clear,False
+hypothesis,refuted hypothesis,a hypothesis has a refuted hypothesis,Other players are informed that the hypothesis was refuted but need to be shown the piece of evidence that refuted the hypothesis.,not clear,not clear,False
+hypothesis,refuted hypothesis,a hypothesis has a refuted hypothesis,"If an announced hypothesis is incorrect, the player loses the game and cannot pose hypotheses any longer or make moves on the board but must continue refuting the hypotheses of other players.",not clear,not clear,False
+hypothesis,refuted hypothesis,a hypothesis has a refuted hypothesis,"If the hypothesis cannot be denied, all players are informed of that fact.",not clear,not clear,False
+hypothesis,refuted hypothesis,a hypothesis has a refuted hypothesis,"If a player can disprove the hypothesis, that information is communicated only to the inquiring player.",not clear,not clear,False
+hypothesis,refuted hypothesis,a hypothesis has a refuted hypothesis,"The questions form a hypothesis for the murder circumstance and perpetrator, which the remaining players are invited to disprove with their evidence.",not clear,not clear,False

@@ -1,0 +1,8 @@
+model element type,correctly predicted alignments,predicted alignments,correctly predicted misalignments,predicted misalignments,actual alignments,actual misalignments,precision alignment,precision misalignment,overall precision,recall alignment,recall misalignment,overall recall
+attribute,6,6,0,0,7,0,1.0,1,1.0,0.8571428571428571,1,0.8571428571428571
+association,0,0,0,0,1,0,1.0,1,1.0,0.0,1,0.0
+aggregation,0,0,0,0,0,0,1.0,1,1.0,1.0,1,1.0
+composition,0,0,0,0,0,0,1.0,1,1.0,1.0,1,1.0
+inheritance,0,0,0,0,0,0,1.0,1,1.0,1.0,1,1.0
+enum,6,6,0,0,6,0,1.0,1,1.0,1.0,1,1.0
+all,12,12,0,0,14,0,1.0,1,1.0,0.8571428571428571,1,0.8571428571428571

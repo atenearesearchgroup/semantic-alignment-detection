@@ -1,0 +1,2 @@
+source,target,role,multiplicity,generated_description,actual_description,equality,contradiction,inclusion
+card,prepaid card,,,prepaid card is a type of card,"If it is not available (dormant or blocked ) process should be stopped, and an error message should be displayed.",False,not clear,False

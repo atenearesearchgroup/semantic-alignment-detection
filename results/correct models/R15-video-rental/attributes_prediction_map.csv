@@ -1,0 +1,9 @@
+class_name,attributes,generated_description,actual_description,equality,contradiction,inclusion
+id card,bar code,an id card has a bar code,"Bar code Ids for each tape are entered, and video information from inventory is displayed.",False,False,False
+id card,bar code,an id card has a bar code,This id card has a bar code that can be read with the bar code reader.,False,False,True
+id card,bar code,an id card has a bar code,"When all tape Ids are entered, the system computes the total bill.",False,False,False
+customer,account number,a customer has an account number,The customer s account number is entered to retrieve customer data and create an order.,False,False,True
+tape,bar code,a tape has a bar code,"Bar code Ids for each tape are entered, and video information from inventory is displayed.",False,False,True
+tape,bar code,a tape has a bar code,"When all tape Ids are entered, the system computes the total bill.",False,False,False
+tape,return date,a tape has a return date,"The rental transaction is displayed, and the tape is marked with the return date.",False,False,True
+video,information,a video has an information,"Bar code Ids for each tape are entered, and video information from inventory is displayed.",False,False,True

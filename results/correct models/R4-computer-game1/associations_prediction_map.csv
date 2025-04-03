@@ -1,0 +1,86 @@
+source,target,role,multiplicity,generated_description,actual_description,equality,contradiction,inclusion
+entry point,cell,adjacentTo,*,A entry point is adjacent to cells ,It costs the player a single move to enter the atmosphere from the adjacent cell.,not clear,FALSE,FALSE
+player,legal move,,*,A player can have legal moves ,"If an announced hypothesis is incorrect, the player loses the game and cannot pose hypotheses any longer or make moves on the board but must continue refuting the hypotheses of other players.",not clear,TRUE,FALSE
+player,hypothesis,,*,A player can have hypothesis ,Other players are informed that the hypothesis was refuted but need to be shown the piece of evidence that refuted the hypothesis.,not clear,FALSE,FALSE
+question,player,askedBy,1,A question is asked by a player,"The questions form a hypothesis for the murder circumstance and perpetrator, which the remaining players are invited to disprove with their evidence.",not clear,TRUE,FALSE
+planet,planet,hasAWarmholeTo,*,A planet haves warmhole to planets ,"The planets, Linuta and Verlute, have a wormhole connecting each other, as do Earth and Evilon.",not clear,FALSE,FALSE
+planet,planet,hasAWarmholeTo,*,A planet haves warmhole to planets ,A player visits a planet by making legal moves on the board until a cell adjacent to an atmosphere entry point is reached.,FALSE,FALSE,FALSE
+planet,planet,hasAWarmholeTo,*,A planet haves warmhole to planets ,A player whose token resides on one of four planets having wormhole connections to other planets may choose not to spin the spinner and take the wormhole directly to the other planet.,not clear,FALSE,FALSE
+hypothesis,planet,planet,1,A hypothesis has a planet,The objective of player movement throughout the universe is to investigate specific planets to determine if that was the murder site.,not clear,FALSE,FALSE
+entry point,cell,adjacentTo,*,A entry point is adjacent to cells ,A player visits a planet by making legal moves on the board until a cell adjacent to an atmosphere entry point is reached.,not clear,FALSE,TRUE
+entry point,cell,adjacentTo,*,A entry point is adjacent to cells ,"Also, a player may not move into a cell occupied by another player's token.",not clear,FALSE,FALSE
+entry point,cell,adjacentTo,*,A entry point is adjacent to cells ,The player may change directions multiple times but cannot enter the same cell twice during a single turn.,not clear,FALSE,FALSE
+legal move,cell,from,1,A legal move is from a cell,It costs the player a single move to enter the atmosphere from the adjacent cell.,not clear,FALSE,FALSE
+legal move,cell,to,1,A legal move has a a to which is a cell,It costs the player a single move to enter the atmosphere from the adjacent cell.,not clear,FALSE,FALSE
+player,legal move,,*,A player can have legal moves ,The murder hypothesis is communicated to all players.,not clear,FALSE,FALSE
+player,legal move,,*,A player can have legal moves ,The wormholes connect certain planets.,not clear,FALSE,FALSE
+player,legal move,,*,A player can have legal moves ,"In contrast, the server coordinates communication between players and orchestrates the sequence of events of the game.",FALSE,FALSE,FALSE
+player,legal move,,*,A player can have legal moves ,These entry points are graphically depicted on the game as a diagonal line off a square on the board leading into a planet's atmosphere.,not clear,FALSE,FALSE
+player,legal move,,*,A player can have legal moves ,"A legal move consists of a player moving their token, the number of moves determined by the spinner, either horizontally or vertically, but not diagonally.",not clear,FALSE,TRUE
+player,legal move,,*,A player can have legal moves ,"The questions form a hypothesis for the murder circumstance and perpetrator, which the remaining players are invited to disprove with their evidence.",not clear,FALSE,FALSE
+player,legal move,,*,A player can have legal moves ,Players may also travel through a few strategically placed wormholes.,not clear,FALSE,FALSE
+player,legal move,,*,A player can have legal moves ,"Also, a player may not move into a cell occupied by another player's token.",not clear,FALSE,FALSE
+player,legal move,,*,A player can have legal moves ,"As the players travel through the universe, they are permitted to ask questions about what information their fellow players possess.",not clear,FALSE,FALSE
+player,legal move,,*,A player can have legal moves ,"The game is an intergalactic murder mystery, which emulates a board game scenario in which players spin a wheel to determine a randomly selected number of moves by which they travel through space to various planets.",not clear,FALSE,TRUE
+player,legal move,,*,A player can have legal moves ,Other players are informed that the hypothesis was refuted but need to be shown the piece of evidence that refuted the hypothesis.,not clear,FALSE,FALSE
+player,legal move,,*,A player can have legal moves ,The first player to accomplish this wins the game.,not clear,FALSE,FALSE
+player,legal move,,*,A player can have legal moves ,A player whose token resides on one of four planets having wormhole connections to other planets may choose not to spin the spinner and take the wormhole directly to the other planet.,not clear,FALSE,FALSE
+player,legal move,,*,A player can have legal moves ,"If a player draws an incorrect conclusion, they lose the game.",not clear,FALSE,FALSE
+player,legal move,,*,A player can have legal moves ,The solution is then broadcast to all players.,not clear,FALSE,FALSE
+player,legal move,,*,A player can have legal moves ,The game's objective is to gather clues while traveling about the universe.,not clear,FALSE,FALSE
+player,legal move,,*,A player can have legal moves ,This element is primarily dictated by luck since the wheel's spin determines the speed at which a player reaches a destination.,not clear,FALSE,FALSE
+player,legal move,,*,A player can have legal moves ,The player is considered to be on the planet as soon as the planet's atmosphere has been entered.,not clear,FALSE,FALSE
+player,legal move,,*,A player can have legal moves ,A player may not re-visit the same planet on a single turn.,not clear,FALSE,FALSE
+player,legal move,,*,A player can have legal moves ,The player may change directions multiple times but cannot enter the same cell twice during a single turn.,not clear,FALSE,TRUE
+player,legal move,,*,A player can have legal moves ,"Each player receives information concerning the murder, and no players receive the same information.",not clear,FALSE,FALSE
+player,legal move,,*,A player can have legal moves ,"A player wins the game by announcing their murder hypothesis, consisting of a planet, a perpetrator, and a murder weapon at any time during their turn, and having the server determine that the hypothesis is correct.",not clear,FALSE,FALSE
+player,legal move,,*,A player can have legal moves ,"The planets, Linuta and Verlute, have a wormhole connecting each other, as do Earth and Evilon.",not clear,FALSE,FALSE
+player,legal move,,*,A player can have legal moves ,"To visit a planet, a player must enter the planet's atmosphere at one of the predefined entry points.",not clear,FALSE,FALSE
+player,legal move,,*,A player can have legal moves ,Each planet has between one and three predefined atmospheric entry points.,not clear,FALSE,FALSE
+player,legal move,,*,A player can have legal moves ,"This application will, therefore, take on a client/server structure where each client supports one player's view of the game.",not clear,FALSE,FALSE
+player,legal move,,*,A player can have legal moves ,"The game's strategy is embodied in selecting questions to ask other players, selecting planet destinations, and efficiently deducing the correct murder scenario.",not clear,FALSE,FALSE
+player,legal move,,*,A player can have legal moves ,"The goal of the class project is to implement an Internet-based, who-done-it-style game called Galaxy Sleuth.",not clear,FALSE,FALSE
+player,legal move,,*,A player can have legal moves ,"When the correct hypothesis is announced, all players are informed of the circumstances of the murder.",not clear,FALSE,FALSE
+player,legal move,,*,A player can have legal moves ,"After gathering a certain set of clues and applying deductive reasoning, players may deduce the perpetrator and circumstance of the murder.",not clear,FALSE,FALSE
+player,legal move,,*,A player can have legal moves ,A player visits a planet by making legal moves on the board until a cell adjacent to an atmosphere entry point is reached.,not clear,FALSE,TRUE
+player,legal move,,*,A player can have legal moves ,The player can enter the planet's atmosphere in a different number of moves.,not clear,FALSE,FALSE
+player,legal move,,*,A player can have legal moves ,The game is Internet-based in that players can play each other from remote sites on the Internet.,not clear,FALSE,FALSE
+player,legal move,,*,A player can have legal moves ,"If the hypothesis cannot be denied, all players are informed of that fact.",not clear,FALSE,FALSE
+player,legal move,,*,A player can have legal moves ,It costs the player a single move to enter the atmosphere from the adjacent cell.,not clear,FALSE,TRUE
+player,legal move,,*,A player can have legal moves ,"If a player can disprove the hypothesis, that information is communicated only to the inquiring player.",not clear,FALSE,FALSE
+player,legal move,,*,A player can have legal moves ,The objective of player movement throughout the universe is to investigate specific planets to determine if that was the murder site.,not clear,FALSE,FALSE
+player,legal move,,*,A player can have legal moves ,"Part of the game, therefore, involves reaching suspicious locations quickly to investigate them.",not clear,FALSE,FALSE
+player,clue,gathered,*,A player can have gathereds which are clues,The game's objective is to gather clues while traveling about the universe.,not clear,FALSE,TRUE
+player,clue,gathered,*,A player can have gathereds which are clues,"After gathering a certain set of clues and applying deductive reasoning, players may deduce the perpetrator and circumstance of the murder.",not clear,FALSE,TRUE
+clue,player,,1,A clue has player,The game's objective is to gather clues while traveling about the universe.,FALSE,FALSE,FALSE
+clue,player,,1,A clue has player,"After gathering a certain set of clues and applying deductive reasoning, players may deduce the perpetrator and circumstance of the murder.",not clear,FALSE,TRUE
+player,hypothesis,,*,A player can have hypothesis ,"If a player can disprove the hypothesis, that information is communicated only to the inquiring player.",not clear,FALSE,TRUE
+player,question,asks,*,A player can have asks which are questions,"The game's strategy is embodied in selecting questions to ask other players, selecting planet destinations, and efficiently deducing the correct murder scenario.",not clear,FALSE,TRUE
+player,question,asks,*,A player can have asks which are questions,"As the players travel through the universe, they are permitted to ask questions about what information their fellow players possess.",not clear,FALSE,TRUE
+player,question,asks,*,A player can have asks which are questions,"The questions form a hypothesis for the murder circumstance and perpetrator, which the remaining players are invited to disprove with their evidence.",not clear,FALSE,FALSE
+player,planet,travelsTo,*,A player travels to planets ,A player whose token resides on one of four planets having wormhole connections to other planets may choose not to spin the spinner and take the wormhole directly to the other planet.,not clear,FALSE,TRUE
+player,planet,travelsTo,*,A player travels to planets ,A player may not re-visit the same planet on a single turn.,not clear,FALSE,TRUE
+planet,planet,hasAWarmholeTo,*,A planet haves warmhole to planets ,"A player wins the game by announcing their murder hypothesis, consisting of a planet, a perpetrator, and a murder weapon at any time during their turn, and having the server determine that the hypothesis is correct.",FALSE,FALSE,FALSE
+planet,planet,hasAWarmholeTo,*,A planet haves warmhole to planets ,"The game is an intergalactic murder mystery, which emulates a board game scenario in which players spin a wheel to determine a randomly selected number of moves by which they travel through space to various planets.",not clear,FALSE,FALSE
+planet,planet,hasAWarmholeTo,*,A planet haves warmhole to planets ,The wormholes connect certain planets.,not clear,FALSE,TRUE
+planet,planet,hasAWarmholeTo,*,A planet haves warmhole to planets ,"To visit a planet, a player must enter the planet's atmosphere at one of the predefined entry points.",not clear,FALSE,FALSE
+planet,planet,hasAWarmholeTo,*,A planet haves warmhole to planets ,"The game's strategy is embodied in selecting questions to ask other players, selecting planet destinations, and efficiently deducing the correct murder scenario.",not clear,FALSE,FALSE
+planet,planet,hasAWarmholeTo,*,A planet haves warmhole to planets ,Each planet has between one and three predefined atmospheric entry points.,not clear,FALSE,FALSE
+planet,planet,hasAWarmholeTo,*,A planet haves warmhole to planets ,The player is considered to be on the planet as soon as the planet's atmosphere has been entered.,not clear,FALSE,FALSE
+planet,planet,hasAWarmholeTo,*,A planet haves warmhole to planets ,The player can enter the planet's atmosphere in a different number of moves.,not clear,FALSE,FALSE
+planet,planet,hasAWarmholeTo,*,A planet haves warmhole to planets ,A player may not re-visit the same planet on a single turn.,not clear,FALSE,FALSE
+planet,planet,hasAWarmholeTo,*,A planet haves warmhole to planets ,These entry points are graphically depicted on the game as a diagonal line off a square on the board leading into a planet's atmosphere.,not clear,FALSE,FALSE
+planet,planet,hasAWarmholeTo,*,A planet haves warmhole to planets ,The objective of player movement throughout the universe is to investigate specific planets to determine if that was the murder site.,not clear,FALSE,FALSE
+hypothesis,planet,planet,1,A hypothesis has a planet,"A player wins the game by announcing their murder hypothesis, consisting of a planet, a perpetrator, and a murder weapon at any time during their turn, and having the server determine that the hypothesis is correct.",not clear,FALSE,TRUE
+hypothesis,planet,planet,1,A hypothesis has a planet,"The game is an intergalactic murder mystery, which emulates a board game scenario in which players spin a wheel to determine a randomly selected number of moves by which they travel through space to various planets.",not clear,FALSE,FALSE
+hypothesis,planet,planet,1,A hypothesis has a planet,The wormholes connect certain planets.,not clear,FALSE,FALSE
+hypothesis,planet,planet,1,A hypothesis has a planet,"To visit a planet, a player must enter the planet's atmosphere at one of the predefined entry points.",not clear,FALSE,FALSE
+hypothesis,planet,planet,1,A hypothesis has a planet,"The game's strategy is embodied in selecting questions to ask other players, selecting planet destinations, and efficiently deducing the correct murder scenario.",not clear,FALSE,FALSE
+hypothesis,planet,planet,1,A hypothesis has a planet,Each planet has between one and three predefined atmospheric entry points.,not clear,FALSE,FALSE
+hypothesis,planet,planet,1,A hypothesis has a planet,The player is considered to be on the planet as soon as the planet's atmosphere has been entered.,not clear,FALSE,FALSE
+hypothesis,planet,planet,1,A hypothesis has a planet,"The planets, Linuta and Verlute, have a wormhole connecting each other, as do Earth and Evilon.",not clear,FALSE,FALSE
+hypothesis,planet,planet,1,A hypothesis has a planet,The player can enter the planet's atmosphere in a different number of moves.,not clear,FALSE,FALSE
+hypothesis,planet,planet,1,A hypothesis has a planet,A player visits a planet by making legal moves on the board until a cell adjacent to an atmosphere entry point is reached.,not clear,FALSE,FALSE
+hypothesis,planet,planet,1,A hypothesis has a planet,A player may not re-visit the same planet on a single turn.,not clear,FALSE,FALSE
+hypothesis,planet,planet,1,A hypothesis has a planet,These entry points are graphically depicted on the game as a diagonal line off a square on the board leading into a planet's atmosphere.,not clear,FALSE,FALSE
+hypothesis,planet,planet,1,A hypothesis has a planet,A player whose token resides on one of four planets having wormhole connections to other planets may choose not to spin the spinner and take the wormhole directly to the other planet.,not clear,FALSE,FALSE

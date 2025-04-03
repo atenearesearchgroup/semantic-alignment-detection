@@ -1,0 +1,5 @@
+class_name,attributes,generated_description,actual_description,equality,contradiction,inclusion
+user,name,an user has a name,"If there are any of the 30 orderable tickets left, he is prompted to enter his name, his e-mail address, and the desired number of cards.",FALSE,FALSE,FALSE
+user,email,an user has an email,"If there are any of the 30 orderable tickets left, he is prompted to enter his name, his e-mail address, and the desired number of cards.",FALSE,FALSE,FALSE
+user,email,an user has an email,He can also specify whether he wants to be reminded of the movie show by e-mail.,FALSE,FALSE,TRUE
+user,wants to be reminded,an user has a wants to be reminded,"If there are any of the 30 orderable tickets left, he is prompted to enter his name, his e-mail address, and the desired number of cards.",FALSE,FALSE,FALSE

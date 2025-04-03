@@ -1,0 +1,4 @@
+source,target,role,multiplicity,generated_description,actual_description,equality,contradiction,inclusion
+editor,text editor,,,text editor is a type of editor,"The system has three editors that allow you to manage documents: Text Editor, Image Editor, and Video Editor.",False,False,True
+editor,image editor,,,image editor is a type of editor,"The system has three editors that allow you to manage documents: Text Editor, Image Editor, and Video Editor.",False,False,True
+editor,video editor,,,video editor is a type of editor,"The system has three editors that allow you to manage documents: Text Editor, Image Editor, and Video Editor.",False,False,True

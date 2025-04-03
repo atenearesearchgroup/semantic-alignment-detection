@@ -1,0 +1,30 @@
+class_name,attributes,generated_description,actual_description,equality,contradiction,inclusion
+item,barcode,an item has a barcode,A bar code uniquely identifies a loan item.,False,False,False
+item,status,an item has a status,"There are two types of loan items, language tapes, and books.",False,False,False
+item,status,an item has a status,"An item can be borrowed, reserved, or renewed to extend a current loan.",False,False,True
+item,status,an item has a status,A bar code uniquely identifies a loan item.,False,False,False
+item,status,an item has a status,A member can reserve a loan item not available at the library.,False,False,False
+item,status,an item has a status,A library issues loan items to members.,False,False,False
+item,status,an item has a status,"The application will allow updating the list of loan items, user registration, lending transactions, and reservations.",False,False,False
+item,available,an item has an available,"There are two types of loan items, language tapes, and books.",False,False,False
+item,available,an item has an available,"An item can be borrowed, reserved, or renewed to extend a current loan.",False,False,True
+item,available,an item has an available,A bar code uniquely identifies a loan item.,False,False,False
+item,available,an item has an available,A member can reserve a loan item not available at the library.,False,False,False
+item,available,an item has an available,A library issues loan items to members.,False,False,False
+item,available,an item has an available,"The application will allow updating the list of loan items, user registration, lending transactions, and reservations.",False,False,False
+language tape,title language,a language tape has a title language,"A language tape has a title language (, Spanish) and level (, beginner).",False,False,True
+language tape,level,a language tape has a level,"A language tape has a title language (, Spanish) and level (, beginner).",False,False,True
+book,title,a book has a title,A book has a title and author(s).,False,False,True
+book,author,a book has an author,"There are two types of loan items, language tapes, and books.",False,False,False
+book,author,a book has an author,"It helps the librarian maintain the database of new books, the books that members borrow, and their due dates.",False,False,False
+book,author,a book has an author,A book has a title and author(s).,False,False,True
+book,author,a book has an author,"When a book or language tape is returned to the library, the member who made the reservation will be notified.",False,False,False
+loan,end date,a loan has an end date,"It helps the librarian maintain the database of new books, the books that members borrow, and their due dates.",False,False,False
+loan,end date,a loan has an end date,"Along with the membership number, other details on a customer must be kept, such as a name, address, and date of birth.",False,False,False
+reservation,end date,a reservation has an end date,"It helps the librarian maintain the database of new books, the books that members borrow, and their due dates.",False,False,True
+reservation,end date,a reservation has an end date,"Along with the membership number, other details on a customer must be kept, such as a name, address, and date of birth.",False,False,False
+member,member number,a member has a member number,Each member has a membership card that shows a unique member number.,False,False,True
+member,member number,a member has a member number,"Along with the membership number, other details on a customer must be kept, such as a name, address, and date of birth.",False,False,True
+member,name,a member has a name,"Along with the membership number, other details on a customer must be kept, such as a name, address, and date of birth.",False,False,True
+member,address,a member has an address,"Along with the membership number, other details on a customer must be kept, such as a name, address, and date of birth.",False,False,True
+member,date of birth,a member has a date of birth,"Along with the membership number, other details on a customer must be kept, such as a name, address, and date of birth.",False,False,True

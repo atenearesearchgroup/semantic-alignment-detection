@@ -1,0 +1,8 @@
+class_name,attributes,generated_description,actual_description,equality,contradiction,inclusion
+card,status,a card has a status,The system should check the card status when the user blocks the desired card.,False,False,True
+card,status,a card has a status,The user can initiate the card-blocking process if the card status is available.,False,False,True
+blocking,reason,a blocking has a reason,"If the user selects 'other' as the reason, the system should ask for further explanation in a free-text area.",False,False,False
+blocking,reason,a blocking has a reason,"The blocking reasons can be stolen, missing, and others.",False,False,True
+blocking,reason,a blocking has a reason,The system should display three different kinds of blocking reasons for the user.,False,False,True
+blocking,reason,a blocking has a reason,"During the card-blocking process, the system should ask for the reason for the blocking.",False,False,True
+blocking,reason text,a blocking has a reason text,"If the user selects 'other' as the reason, the system should ask for further explanation in a free-text area.",False,False,False

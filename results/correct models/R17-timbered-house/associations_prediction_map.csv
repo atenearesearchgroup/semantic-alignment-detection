@@ -1,0 +1,41 @@
+source,target,role,multiplicity,generated_description,actual_description,equality,contradiction,inclusion
+timbered house,log,,5..10,A timbered house can have logs ,"A timbered house consists of 5 10 logs, 200 400 mud bricks, and 1000 to 2000 nails.",False,not clear,True
+log,timbered house,,1,A log has timbered house,Any carpenter can work on up to one timbered house at the same time.,False,not clear,False
+log,timbered house,,1,A log has timbered house,"To construct a timbered house, each carpenter uses tools consisting of one hammer and one saw.",False,not clear,False
+log,timbered house,,1,A log has timbered house,"For the construction of a timbered house is at least one carpenter in charge, which has a name and an individual hourly wage.",False,not clear,False
+log,timbered house,,1,A log has timbered house,"A timbered house consists of 5 10 logs, 200 400 mud bricks, and 1000 to 2000 nails.",False,not clear,False
+log,timbered house,,1,A log has timbered house,Each timbered house has a certain number of rooms and floors.,False,not clear,False
+log,timbered house,,1,A log has timbered house,"Each building material, whether log, brick, or nail, is a component in exactly one timbered house.",False,not clear,False
+timbered house,mud brick,,100..200,A timbered house can have mud bricks ,"A timbered house consists of 5 10 logs, 200 400 mud bricks, and 1000 to 2000 nails.",False,not clear,True
+mud brick,timbered house,,1,A mud brick has timbered house,Any carpenter can work on up to one timbered house at the same time.,False,not clear,False
+mud brick,timbered house,,1,A mud brick has timbered house,"To construct a timbered house, each carpenter uses tools consisting of one hammer and one saw.",False,not clear,False
+mud brick,timbered house,,1,A mud brick has timbered house,"For the construction of a timbered house is at least one carpenter in charge, which has a name and an individual hourly wage.",False,not clear,False
+mud brick,timbered house,,1,A mud brick has timbered house,"A timbered house consists of 5 10 logs, 200 400 mud bricks, and 1000 to 2000 nails.",False,not clear,False
+mud brick,timbered house,,1,A mud brick has timbered house,Each timbered house has a certain number of rooms and floors.,False,not clear,False
+mud brick,timbered house,,1,A mud brick has timbered house,"Each building material, whether log, brick, or nail, is a component in exactly one timbered house.",False,not clear,False
+timbered house,nail,,1000..2000,A timbered house can have nails ,"A timbered house consists of 5 10 logs, 200 400 mud bricks, and 1000 to 2000 nails.",False,not clear,True
+nail,timbered house,,1,A nail has timbered house,Any carpenter can work on up to one timbered house at the same time.,False,not clear,False
+nail,timbered house,,1,A nail has timbered house,"To construct a timbered house, each carpenter uses tools consisting of one hammer and one saw.",False,not clear,False
+nail,timbered house,,1,A nail has timbered house,"For the construction of a timbered house is at least one carpenter in charge, which has a name and an individual hourly wage.",False,not clear,False
+nail,timbered house,,1,A nail has timbered house,"A timbered house consists of 5 10 logs, 200 400 mud bricks, and 1000 to 2000 nails.",False,not clear,False
+nail,timbered house,,1,A nail has timbered house,Each timbered house has a certain number of rooms and floors.,False,not clear,False
+nail,timbered house,,1,A nail has timbered house,"Each building material, whether log, brick, or nail, is a component in exactly one timbered house.",False,not clear,True
+timbered house,carpenter,,1..*,A timbered house can have carpenters ,Any carpenter can work on up to one timbered house at the same time.,False,not clear,True
+timbered house,carpenter,,1..*,A timbered house can have carpenters ,"To construct a timbered house, each carpenter uses tools consisting of one hammer and one saw.",False,not clear,True
+timbered house,carpenter,,1..*,A timbered house can have carpenters ,"For the construction of a timbered house is at least one carpenter in charge, which has a name and an individual hourly wage.",False,not clear,True
+timbered house,carpenter,,1..*,A timbered house can have carpenters ,"A timbered house consists of 5 10 logs, 200 400 mud bricks, and 1000 to 2000 nails.",False,not clear,False
+timbered house,carpenter,,1..*,A timbered house can have carpenters ,Each timbered house has a certain number of rooms and floors.,False,not clear,False
+timbered house,carpenter,,1..*,A timbered house can have carpenters ,"Each building material, whether log, brick, or nail, is a component in exactly one timbered house.",False,not clear,False
+carpenter,timbered house,,1,A carpenter has timbered house,Any carpenter can work on up to one timbered house at the same time.,False,not clear,False
+carpenter,hammer,,1,A carpenter has hammer,Any carpenter can work on up to one timbered house at the same time.,False,not clear,False
+carpenter,hammer,,1,A carpenter has hammer,"To construct a timbered house, each carpenter uses tools consisting of one hammer and one saw.",False,not clear,True
+carpenter,hammer,,1,A carpenter has hammer,"For the construction of a timbered house is at least one carpenter in charge, which has a name and an individual hourly wage.",False,not clear,False
+carpenter,hammer,,1,A carpenter has hammer,"A timbered house consists of 5 10 logs, 200 400 mud bricks, and 1000 to 2000 nails.",False,not clear,False
+carpenter,hammer,,1,A carpenter has hammer,Each timbered house has a certain number of rooms and floors.,False,not clear,False
+carpenter,hammer,,1,A carpenter has hammer,"Each building material, whether log, brick, or nail, is a component in exactly one timbered house.",False,not clear,False
+carpenter,saw,,1,A carpenter has saw,Any carpenter can work on up to one timbered house at the same time.,False,not clear,False
+carpenter,saw,,1,A carpenter has saw,"To construct a timbered house, each carpenter uses tools consisting of one hammer and one saw.",False,not clear,True
+carpenter,saw,,1,A carpenter has saw,"For the construction of a timbered house is at least one carpenter in charge, which has a name and an individual hourly wage.",False,not clear,False
+carpenter,saw,,1,A carpenter has saw,"A timbered house consists of 5 10 logs, 200 400 mud bricks, and 1000 to 2000 nails.",False,not clear,False
+carpenter,saw,,1,A carpenter has saw,Each timbered house has a certain number of rooms and floors.,False,not clear,False
+carpenter,saw,,1,A carpenter has saw,"Each building material, whether log, brick, or nail, is a component in exactly one timbered house.",False,not clear,False

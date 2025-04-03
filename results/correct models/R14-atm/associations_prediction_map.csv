@@ -1,0 +1,21 @@
+source,target,role,multiplicity,generated_description,actual_description,equality,contradiction,inclusion
+bank,central computer,,1,A bank has central computer,Each bank provides its computer to maintain its accounts and process transactions against them.,False,not clear,True
+central computer,bank,,*,A central computer can have banks ,Human cashiers enter account and transaction data.,False,not clear,False
+central computer,bank,,*,A central computer can have banks ,Each bank provides its computer to maintain its accounts and process transactions against them.,False,not clear,False
+central computer,bank,,*,A central computer can have banks ,"Design the software to support a computerized banking network, including human cashiers and automatic teller machines ATMs to be shared by a consortium of banks.",False,not clear,True
+central computer,bank,,*,A central computer can have banks ,Cashier stations are owned by individual banks and communicate directly with their own bank s computer.,False,not clear,False
+central computer,bank,,*,A central computer can have banks ,The banks will provide their software for their computers; you are to design the software for the ATMs and the network.,False,not clear,False
+central computer,bank,,*,A central computer can have banks ,"An automated teller machine accepts a cash card, interacts with the user, communicates with the central system to carry out the transaction, dispenses cash, and prints receipts.",False,not clear,False
+central computer,bank,,*,A central computer can have banks ,The system must handle concurrent access to the same account correctly.,False,not clear,False
+central computer,bank,,*,A central computer can have banks ,Automatic teller machines communicate with a central computer which clears transactions with the appropriate banks.,False,not clear,True
+central computer,bank,,*,A central computer can have banks ,The system requires appropriate record-keeping and security provisions.,False,not clear,False
+central computer,bank,,*,A central computer can have banks ,The cost of the shared system will be apportioned to the banks according to the number of customers with cash cards.,False,not clear,False
+central computer,atm,,*,A central computer can have atms ,Automatic teller machines communicate with a central computer which clears transactions with the appropriate banks.,False,not clear,True
+atm,central computer,communicate,1,A atm has a a communicate which is a central computer,Automatic teller machines communicate with a central computer which clears transactions with the appropriate banks.,False,not clear,True
+atm,user,interactsWith,*,A atm interacts with users ,"An automated teller machine accepts a cash card, interacts with the user, communicates with the central system to carry out the transaction, dispenses cash, and prints receipts.",False,not clear,True
+atm,user,interactsWith,*,A atm interacts with users ,"Design the software to support a computerized banking network, including human cashiers and automatic teller machines ATMs to be shared by a consortium of banks.",False,not clear,True
+atm,user,interactsWith,*,A atm interacts with users ,The banks will provide their software for their computers; you are to design the software for the ATMs and the network.,False,not clear,True
+user,atm,interactsWith,*,A user interacts with atms ,"An automated teller machine accepts a cash card, interacts with the user, communicates with the central system to carry out the transaction, dispenses cash, and prints receipts.",False,not clear,True
+user,atm,interactsWith,*,A user interacts with atms ,"Design the software to support a computerized banking network, including human cashiers and automatic teller machines ATMs to be shared by a consortium of banks.",False,not clear,False
+user,atm,interactsWith,*,A user interacts with atms ,The banks will provide their software for their computers; you are to design the software for the ATMs and the network.,False,not clear,False
+computer,cashier station,communicateWith,1,A computer is communicate with a cashier station,Cashier stations are owned by individual banks and communicate directly with their own bank s computer.,False,not clear,False

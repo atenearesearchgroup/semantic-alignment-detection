@@ -1,0 +1,8 @@
+source,target,generated_description,actual_description,equality,contradiction,inclusion
+currency,eur,EUR is a currency,"Customers can have only one account per currency, except EUR.",False,not clear,True
+currency,eur,EUR is a currency,The very first savings account of any customer must be in EUR currency.,False,not clear,True
+currency,usd,USD is a currency,"After that, the user has the option of 3 other currencies: USD, GBP, and TRY.",False,not clear,True
+currency,gbp,GBP is a currency,"After that, the user has the option of 3 other currencies: USD, GBP, and TRY.",False,not clear,True
+currency,try,TRY is a currency,"After that, the user has the option of 3 other currencies: USD, GBP, and TRY.",False,not clear,True
+customer type,retail,Retail is a customer type,Customer Customer types can be either retail or corporate.,False,not clear,True
+customer type,corporate,Corporate is a customer type,Customer Customer types can be either retail or corporate.,False,not clear,True

@@ -1,0 +1,3 @@
+source,target,role,multiplicity,generated_description,actual_description,equality,contradiction,inclusion
+item,language tape,,,language tape is a type of item,"There are two types of loan items, language tapes, and books.",False,not clear,True
+item,book,,,book is a type of item,"There are two types of loan items, language tapes, and books.",False,not clear,True

@@ -1,0 +1,6 @@
+source,target,role,multiplicity,generated_description,actual_description,equality,contradiction,inclusion
+enemy,alien,,,alien is a type of enemy,"When earth receives a threat that a nearby colony of aliens is about to launch an attack, it sends a small spy robot to check onto the closest enemy base out of many to check their weapon advances and preparations.",False,not clear,True
+enemy,spaceship,,,spaceship is a type of enemy,'Jump' actions to dodge the aliens on the ground and the empty spaces made by the bombs dropped by the spaceships.,False,not clear,False
+enemy,spaceship,,,spaceship is a type of enemy,"When earth receives a threat that a nearby colony of aliens is about to launch an attack, it sends a small spy robot to check onto the closest enemy base out of many to check their weapon advances and preparations.",False,not clear,False
+enemy,spaceship,,,spaceship is a type of enemy,The spawn rate for enemies will take a lot of work to control.,False,not clear,False
+enemy,spaceship,,,spaceship is a type of enemy,"After running for a certain distance or given time, the level will be cleared, and the robot will move on to the second phase to chase robots away or press the self-destruct button, which destroys the enemy base at the end of each level.",False,not clear,False

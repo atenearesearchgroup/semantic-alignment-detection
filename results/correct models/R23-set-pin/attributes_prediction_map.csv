@@ -1,0 +1,17 @@
+class_name,attributes,generated_description,actual_description,equality,contradiction,inclusion
+user,has pin,an user has a has pin,"Before using any card, the user should set a 'PIN' using online banking systems.",False,False,True
+user,has pin,an user has a has pin,The system should have a parameter on the database that stores whether the user has a pin.,False,False,False
+user,has pin,an user has a has pin,"If the user already has a PIN, the system should display a pop-up saying that the user already has the PIN code.",False,False,False
+user,has pin,an user has a has pin,"If the user enters any other type and continues, the system should display an error message, and the process should not continue.",False,False,False
+user,has pin,an user has a has pin,"If the user has no PIN code, the system should display the 'Set PIN' flow, the first step.",False,True,False
+user,has pin,an user has a has pin,"After the user sets the PIN, if desired, the user should be able to reset and change the PIN.",False,False,True
+user,has pin,an user has a has pin,"When a user completes the 'Set PIN' process, the database's related parameter value should be true.",False,False,True
+user,has pin,an user has a has pin,"When setting a PIN, the user should enter their card number and CVV information.",False,False,False
+user,has pin,an user has a has pin,"After the message displays, the system should cancel the 'PIN setting' process, and the user should be logged out of the application.",False,False,False
+user,has pin,an user has a has pin,"After the user successfully sets their PIN code, they should be able to use it immediately on the kiosk or any transaction requiring a pin.",False,False,True
+card,type,a card has a type,The system should not accept any other type of input.,False,False,False
+card,type,a card has a type,"Card types are debit, credit, virtual and supplementary.",False,False,True
+card,type,a card has a type,"If the user enters any other type and continues, the system should display an error message, and the process should not continue.",False,False,False
+card,number,a card has a number,"When setting a PIN, the user should enter their card number and CVV information.",False,False,True
+card,cvv,a card has a cvv,Both card number and CVV information should be an integer.,False,False,True
+card,cvv,a card has a cvv,"After the user enters the card number and the CVV information, the system should perform the check.",False,False,True

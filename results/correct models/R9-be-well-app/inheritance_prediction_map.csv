@@ -1,0 +1,5 @@
+source,target,role,multiplicity,generated_description,actual_description,equality,contradiction,inclusion
+activity,running,,,running is a type of activity,The application will track the user's running activity and convert them into calories burnt.,False,not clear,True
+activity,running,,,running is a type of activity,The app will take the device's GPS location and track the user's running activity.,False,not clear,True
+activity,running,,,running is a type of activity,The application will track the user's running activity and convert them into calories burnt.,False,not clear,True
+activity,running,,,running is a type of activity,The app will take the device's GPS location and track the user's running activity.,False,not clear,True

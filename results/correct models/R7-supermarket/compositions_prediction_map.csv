@@ -1,0 +1,13 @@
+source,target,role,multiplicity,generated_description,actual_description,equality,contradiction,inclusion
+supermarket,cold chamber,,,Each supermarket is made up of cold chambers,"Before purchasing products from different continents, the supermarket puts on store according to or following on type of each product.",False,False,False
+supermarket,cold chamber,,,Each supermarket is made up of cold chambers,"When clients or customers enter the supermarket, see the product wanted in a different group of products, and some employees can help them or orient clients/customers by showing where products are placed.",False,False,False
+supermarket,cold chamber,,,Each supermarket is made up of cold chambers,"At the supermarket, after getting the order from the chief of order, the bakery and pastry agent prepare the goods and quantities of the order.",False,False,False
+supermarket,cold chamber,,,Each supermarket is made up of cold chambers,"For selling, Products are placed on the shelf of supermarkets.",False,False,False
+supermarket,shelf,,,Each supermarket is made up of shelves,"Before purchasing products from different continents, the supermarket puts on store according to or following on type of each product.",False,False,False
+supermarket,shelf,,,Each supermarket is made up of shelves,"When clients or customers enter the supermarket, see the product wanted in a different group of products, and some employees can help them or orient clients/customers by showing where products are placed.",False,False,False
+supermarket,shelf,,,Each supermarket is made up of shelves,"At the supermarket, after getting the order from the chief of order, the bakery and pastry agent prepare the goods and quantities of the order.",False,False,False
+supermarket,shelf,,,Each supermarket is made up of shelves,"For selling, Products are placed on the shelf of supermarkets.",False,False,True
+supermarket,stock,,,Each supermarket is made up of stocks,"Before purchasing products from different continents, the supermarket puts on store according to or following on type of each product.",False,False,False
+supermarket,stock,,,Each supermarket is made up of stocks,"When clients or customers enter the supermarket, see the product wanted in a different group of products, and some employees can help them or orient clients/customers by showing where products are placed.",False,False,False
+supermarket,stock,,,Each supermarket is made up of stocks,"At the supermarket, after getting the order from the chief of order, the bakery and pastry agent prepare the goods and quantities of the order.",False,False,False
+supermarket,stock,,,Each supermarket is made up of stocks,"For selling, Products are placed on the shelf of supermarkets.",False,False,True

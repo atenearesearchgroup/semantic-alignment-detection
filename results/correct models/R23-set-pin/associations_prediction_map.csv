@@ -1,0 +1,3 @@
+source,target,role,multiplicity,generated_description,actual_description,equality,contradiction,inclusion
+user,card,,*,A user can have cards ,"When setting a PIN, the user should enter their card number and CVV information.",False,not clear,True
+user,card,,*,A user can have cards ,"If the user enters the wrong card number for the third time, the system should display a pop-up saying that the user entered the wrong card number for the third time and will be logged out.",False,not clear,True

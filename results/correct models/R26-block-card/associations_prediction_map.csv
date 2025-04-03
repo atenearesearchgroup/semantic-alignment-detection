@@ -1,0 +1,16 @@
+source,target,role,multiplicity,generated_description,actual_description,equality,contradiction,inclusion
+user,card,,*,A user can have cards ,Users should be able to block any card using online banking systems.,False,not clear,True
+user,card,,*,A user can have cards ,The system should check the card status when the user blocks the desired card.,False,not clear,True
+card,blocking,,0..1,A card can have blockings ,"After the user completes the card-blocking process, the system should immediately block the related card, and no one should be able to use that card in ATMs, shopping, online shopping,  If a blocked card is used for anything, the system should inform the banking staff and cardholder.",False,not clear,True
+card,blocking,,0..1,A card can have blockings ,It should be added after the 'My Cards' page.,False,not clear,False
+card,blocking,,0..1,A card can have blockings ,The system should check the card status when the user blocks the desired card.,False,not clear,True
+card,blocking,,0..1,A card can have blockings ,"The blocking reasons can be stolen, missing, and others.",False,not clear,True
+card,blocking,,0..1,A card can have blockings ,"Customer  Users can have four types of cards: debit, credit, virtual and supplementary.",False,not clear,False
+card,blocking,,0..1,A card can have blockings ,Software System,False,not clear,False
+card,blocking,,0..1,A card can have blockings ,"If the user does not enter this area field as input, the system should not let the user block their card.",False,not clear,False
+card,blocking,,0..1,A card can have blockings ,Menu Placement  The 'Block Card' process should be under the 'Cards' menu.,False,not clear,True
+card,blocking,,0..1,A card can have blockings ,"During the card-blocking process, the system should ask for the reason for the blocking.",False,not clear,True
+card,blocking,,0..1,A card can have blockings ,Users should be able to block any card using online banking systems.,False,not clear,True
+card,blocking,,0..1,A card can have blockings ,"If the user selects 'other' as the reason, the system should ask for further explanation in a free-text area.",False,not clear,False
+card,blocking,,0..1,A card can have blockings ,The user can initiate the card-blocking process if the card status is available.,False,not clear,True
+card,blocking,,0..1,A card can have blockings ,The system should display three different kinds of blocking reasons for the user.,False,not clear,True

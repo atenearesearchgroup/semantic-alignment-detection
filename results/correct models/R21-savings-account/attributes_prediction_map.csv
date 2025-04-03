@@ -1,0 +1,29 @@
+class_name,attributes,generated_description,actual_description,equality,contradiction,inclusion
+customer,email,a customer has an email,"On the e-mail, content should contain the user's name, surname, created account number, amount of the transaction, and currency of the account.",False,False,False
+customer,email,a customer has an email,"Secondly, if account creation is successful, the system should send an e-mail to the customer's registered e-mail address, informing the account is opened and ready to use.",False,False,True
+customer,name,a customer has a name,"On the e-mail, content should contain the user's name, surname, created account number, amount of the transaction, and currency of the account.",False,False,True
+customer,surname,a customer has a surname,"On the e-mail, content should contain the user's name, surname, created account number, amount of the transaction, and currency of the account.",False,False,True
+customer,type,a customer has a type,Customer Customer types can be either retail or corporate.,False,False,True
+savings account,balance,a savings account has a balance,"Customers can have only one account per currency, except EUR.",False,False,False
+savings account,balance,a savings account has a balance,The user should invest at least 2000 EUR or an equivalent amount when opening a savings account.,False,False,False
+savings account,balance,a savings account has a balance,"Data integration (in terms of money amount, account numbering, ) must be guaranteed.",False,False,False
+savings account,balance,a savings account has a balance,"Secondly, if account creation is successful, the system should send an e-mail to the customer's registered e-mail address, informing the account is opened and ready to use.",False,False,False
+savings account,balance,a savings account has a balance,"On the Accounts menu, the 'Savings Account Opening' tab should be added to the end of the page.",False,False,False
+savings account,balance,a savings account has a balance,The system should not perform the account opening if there is any error.,False,False,False
+savings account,balance,a savings account has a balance,"On the e-mail, content should contain the user's name, surname, created account number, amount of the transaction, and currency of the account.",False,False,False
+savings account,balance,a savings account has a balance,"After that, the user has the option of 3 other currencies: USD, GBP, and TRY.",False,False,False
+savings account,balance,a savings account has a balance,The maximum number of savings accounts is limited to 10.,False,False,False
+savings account,balance,a savings account has a balance,The account opening process should be named 'Savings Account Opening' and it should be under the menu 'Accounts'.,False,False,False
+savings account,balance,a savings account has a balance,The user should invest at least 2000 EUR or an equivalent amount when opening a savings account.,False,False,False
+savings account,balance,a savings account has a balance,"Firstly, the system should display a message if the account creation is successful.",False,False,False
+savings account,balance,a savings account has a balance,"While communicating the banking systems, the money transfer process and account creation should be fully encrypted.",False,False,False
+savings account,balance,a savings account has a balance,"After the user completes the account creation, the system should take two different actions.",False,False,False
+savings account,balance,a savings account has a balance,The very first savings account of any customer must be in EUR currency.,False,False,False
+savings account,balance,a savings account has a balance,Users can have more than one account in EUR currency.,False,False,False
+savings account,account number,a savings account has an account number,"On the e-mail, content should contain the user's name, surname, created account number, amount of the transaction, and currency of the account.",False,False,True
+savings account,account number,a savings account has an account number,The maximum number of savings accounts is limited to 10.,False,False,False
+savings account,currency,a savings account has a currency,"Customers can have only one account per currency, except EUR.",False,False,False
+savings account,currency,a savings account has a currency,"On the e-mail, content should contain the user's name, surname, created account number, amount of the transaction, and currency of the account.",False,False,True
+savings account,currency,a savings account has a currency,The very first savings account of any customer must be in EUR currency.,False,False,False
+savings account,currency,a savings account has a currency,"After that, the user has the option of 3 other currencies: USD, GBP, and TRY.",False,False,False
+savings account,currency,a savings account has a currency,Users can have more than one account in EUR currency.,False,False,False

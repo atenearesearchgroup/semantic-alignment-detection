@@ -1,0 +1,4 @@
+source,target,generated_description,actual_description,equality,contradiction,inclusion
+status,available,Available is a status,The store assistant searches for the available tape.,False,True,False
+status,available,Available is a status,The store assistant searches for the rental price of available tape.,False,True,False
+status,other,Other is a status,Customers can borrow if there is no delay with the return of other tapes.,False,False,False

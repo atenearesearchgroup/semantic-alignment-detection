@@ -1,0 +1,62 @@
+class_name,attributes,generated_description,actual_description,equality,contradiction,inclusion
+user,customer type,an user has a customer type,"If the user has unpaid credit card payments, a blocked account, or is marked as a 'fraud user,' the user should not be able to perform an IPO application.",FALSE,FALSE,FALSE
+user,unpaid credit,an user has an unpaid credit,"If the user has unpaid credit card payments, a blocked account, or is marked as a 'fraud user,' the user should not be able to perform an IPO application.",FALSE,FALSE,FALSE
+user,fraud user,an user has a fraud user,"Email content should include below information:User's name, surname, email address, telephone number.",FALSE,FALSE,FALSE
+user,fraud user,an user has a fraud user,"If a company rejects the user, our system should inform the customer.",FALSE,FALSE,FALSE
+user,fraud user,an user has a fraud user,"Users who will make IPO Applications must share their name, surname, email address, and telephone number information with the related company.",FALSE,FALSE,FALSE
+user,fraud user,an user has a fraud user,"If the user has unpaid credit card payments, a blocked account, or is marked as a 'fraud user,' the user should not be able to perform an IPO application.",FALSE,FALSE,FALSE
+user,fraud user,an user has a fraud user,"Even though the user completed the process successfully, the purchase is still being determined.",FALSE,FALSE,FALSE
+user,fraud user,an user has a fraud user,The user should not be able to attempt the 6th IPO application.,FALSE,FALSE,FALSE
+user,fraud user,an user has a fraud user,"If they would like to apply anyway, they should call the 'call center' and request IPO application access.",FALSE,FALSE,FALSE
+user,fraud user,an user has a fraud user,"The user interface should include an information pop-up that says this information (name, surname, email address, telephone) will be shared and can be used by the company.",FALSE,FALSE,FALSE
+user,fraud user,an user has a fraud user,"If the user has more than five failed attempts, the bank should restrict the user from the application process.",FALSE,FALSE,FALSE
+user,fraud user,an user has a fraud user,"When a user applies IPO, he is required to upload legal allowance documentation.",FALSE,FALSE,FALSE
+user,fraud user,an user has a fraud user,"When the user completes the application process successfully, the bank should send two information emails, one for the customer and another for the company.",FALSE,FALSE,FALSE
+user,fraud user,an user has a fraud user,A validation error should be displayed if a user tries to upload another type of document.,FALSE,FALSE,FALSE
+user,name,an user has a name,"Users who will make IPO Applications must share their name, surname, email address, and telephone number information with the related company.",FALSE,FALSE,TRUE
+user,name,an user has a name,"Email content should include below information:User's name, surname, email address, telephone number.",FALSE,FALSE,TRUE
+user,name,an user has a name,"The user interface should include an information pop-up that says this information (name, surname, email address, telephone) will be shared and can be used by the company.",FALSE,FALSE,FALSE
+user,surname,an user has a surname,"Users who will make IPO Applications must share their name, surname, email address, and telephone number information with the related company.",FALSE,FALSE,TRUE
+user,surname,an user has a surname,"Email content should include below information:User's name, surname, email address, telephone number.",FALSE,FALSE,TRUE
+user,surname,an user has a surname,"The user interface should include an information pop-up that says this information (name, surname, email address, telephone) will be shared and can be used by the company.",FALSE,FALSE,FALSE
+user,telephone number,an user has a telephone number,"Users who will make IPO Applications must share their name, surname, email address, and telephone number information with the related company.",FALSE,FALSE,FALSE
+user,telephone number,an user has a telephone number,"Email content should include below information:User's name, surname, email address, telephone number.",FALSE,FALSE,TRUE
+user,telephone number,an user has a telephone number,"The user interface should include an information pop-up that says this information (name, surname, email address, telephone) will be shared and can be used by the company.",FALSE,FALSE,TRUE
+user,blocked account,an user has a blocked account,"If the user has unpaid credit card payments, a blocked account, or is marked as a 'fraud user,' the user should not be able to perform an IPO application.",FALSE,FALSE,FALSE
+user,email user,an user has an email user,"Users who will make IPO Applications must share their name, surname, email address, and telephone number information with the related company.",FALSE,FALSE,FALSE
+user,email user,an user has an email user,"Email content should include below information:User's name, surname, email address, telephone number.",FALSE,FALSE,FALSE
+user,email user,an user has an email user,"The user interface should include an information pop-up that says this information (name, surname, email address, telephone) will be shared and can be used by the company.",FALSE,FALSE,FALSE
+user,email user,an user has an email user,"When the user completes the application process successfully, the bank should send two information emails, one for the customer and another for the company.",FALSE,FALSE,TRUE
+user,failed attempts,an user has a failed attempts,"If the user has more than five failed attempts, the bank should restrict the user from the application process.",FALSE,FALSE,FALSE
+company,name,a company has a name,"Users who will make IPO Applications must share their name, surname, email address, and telephone number information with the related company.",FALSE,FALSE,TRUE
+company,name,a company has a name,"The user interface should include an information pop-up that says this information (name, surname, email address, telephone) will be shared and can be used by the company.",FALSE,FALSE,FALSE
+initial public offering,documentation,an initial public offering has a documentation,Documentation could either be in the '.docx' or '.pdf' format.,FALSE,FALSE,FALSE
+initial public offering,documentation,an initial public offering has a documentation,"When a user applies IPO, he is required to upload legal allowance documentation.",FALSE,FALSE,TRUE
+initial public offering,documentation,an initial public offering has a documentation,A validation error should be displayed if a user tries to upload another type of document.,FALSE,FALSE,FALSE
+initial public offering,num shares,an initial public offering has a num shares,Number of shares that have been purchased.,FALSE,FALSE,FALSE
+initial public offering,money paid,an initial public offering has a money paid,The amount of money that has been paid,FALSE,FALSE,FALSE
+initial public offering,rejected initial public offering,an initial public offering has a rejected initial public offering,Customer  Only 'retail' types of customers can apply for IPO.,FALSE,FALSE,FALSE
+initial public offering,rejected initial public offering,an initial public offering has a rejected initial public offering,"Even though the user completed the process successfully, the purchase is still being determined.",FALSE,FALSE,FALSE
+initial public offering,rejected initial public offering,an initial public offering has a rejected initial public offering,Number of shares that have been purchased.,FALSE,FALSE,FALSE
+initial public offering,rejected initial public offering,an initial public offering has a rejected initial public offering,"If they would like to apply anyway, they should call the 'call center' and request IPO application access.",FALSE,FALSE,FALSE
+initial public offering,rejected initial public offering,an initial public offering has a rejected initial public offering,The amount of money that has been paid,FALSE,TRUE,FALSE
+initial public offering,rejected initial public offering,an initial public offering has a rejected initial public offering,"If the user has more than five failed attempts, the bank should restrict the user from the application process.",FALSE,FALSE,FALSE
+initial public offering,rejected initial public offering,an initial public offering has a rejected initial public offering,Email should be user-friendly and 'In HTML' format for future compatibility.,FALSE,FALSE,FALSE
+initial public offering,rejected initial public offering,an initial public offering has a rejected initial public offering,Retail customers should be eligible for applying IPO.,FALSE,FALSE,FALSE
+initial public offering,rejected initial public offering,an initial public offering has a rejected initial public offering,Applied company named.,FALSE,TRUE,FALSE
+initial public offering,rejected initial public offering,an initial public offering has a rejected initial public offering,"When the user completes the application process successfully, the bank should send two information emails, one for the customer and another for the company.",FALSE,FALSE,FALSE
+initial public offering,rejected initial public offering,an initial public offering has a rejected initial public offering,Any other formats are restricted.,FALSE,FALSE,FALSE
+initial public offering,rejected initial public offering,an initial public offering has a rejected initial public offering,Related companies always have a right to reject users' applications.,FALSE,FALSE,FALSE
+initial public offering,rejected initial public offering,an initial public offering has a rejected initial public offering,A validation error should be displayed if a user tries to upload another type of document.,FALSE,FALSE,FALSE
+initial public offering,rejected initial public offering,an initial public offering has a rejected initial public offering,"On the Investments menu, the 'IPO Application' tab should be added to the end of the page.",FALSE,FALSE,FALSE
+initial public offering,rejected initial public offering,an initial public offering has a rejected initial public offering,"Email content should include below information:User's name, surname, email address, telephone number.",FALSE,FALSE,FALSE
+initial public offering,rejected initial public offering,an initial public offering has a rejected initial public offering,"If a company rejects the user, our system should inform the customer.",FALSE,FALSE,FALSE
+initial public offering,rejected initial public offering,an initial public offering has a rejected initial public offering,"Users who will make IPO Applications must share their name, surname, email address, and telephone number information with the related company.",FALSE,FALSE,FALSE
+initial public offering,rejected initial public offering,an initial public offering has a rejected initial public offering,"If the user has unpaid credit card payments, a blocked account, or is marked as a 'fraud user,' the user should not be able to perform an IPO application.",FALSE,FALSE,FALSE
+initial public offering,rejected initial public offering,an initial public offering has a rejected initial public offering,The user should not be able to attempt the 6th IPO application.,FALSE,FALSE,FALSE
+initial public offering,rejected initial public offering,an initial public offering has a rejected initial public offering,Rules,FALSE,FALSE,FALSE
+initial public offering,rejected initial public offering,an initial public offering has a rejected initial public offering,Documentation could either be in the '.docx' or '.pdf' format.,FALSE,FALSE,FALSE
+initial public offering,rejected initial public offering,an initial public offering has a rejected initial public offering,"The user interface should include an information pop-up that says this information (name, surname, email address, telephone) will be shared and can be used by the company.",FALSE,FALSE,FALSE
+initial public offering,rejected initial public offering,an initial public offering has a rejected initial public offering,Software System,FALSE,FALSE,FALSE
+initial public offering,rejected initial public offering,an initial public offering has a rejected initial public offering,"When a user applies IPO, he is required to upload legal allowance documentation.",FALSE,FALSE,FALSE
+initial public offering,rejected initial public offering,an initial public offering has a rejected initial public offering,"Menu Placement  The IPO application process should be named 'Apply for IPO', and it should be under the menu 'Investments'.",FALSE,FALSE,FALSE

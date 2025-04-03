@@ -1,0 +1,4 @@
+class_name,attributes,generated_description,actual_description,equality,contradiction,inclusion
+card,status,a card has a status,Users cannot select a card that has a blocked or restricted status.,False,False,True
+card,status,a card has a status,Users can perform the Apple Pay process only if their card status is 'available.,False,False,True
+card,status,a card has a status,The system should check the card status when the user selects a card or card.,False,False,True

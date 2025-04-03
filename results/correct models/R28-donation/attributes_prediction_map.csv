@@ -1,0 +1,11 @@
+class_name,attributes,generated_description,actual_description,equality,contradiction,inclusion
+donation,amount,a donation has an amount,Rules Donation organization and amount of the money should be directly transferred to the banking systems via encrypted tunnel.,False,False,True
+donation,amount,a donation has an amount,"After user selects organization and account information, system should ask for amount of money to be transferred.",False,False,True
+account,active,an account has an active,"For being eligible, user should have at least one available, active, account and the selected account balance should be enough for the donation.",False,False,True
+account,active,an account has an active,"If selected account type is a savings account, system should display a pop-up stating that user is continuing with a savings account.",False,False,False
+account,active,an account has an active,E-receipt should contain donation information and account details.,False,False,False
+account,balance,an account has a balance,"For being eligible, user should have at least one available, active, account and the selected account balance should be enough for the donation.",False,False,True
+account,type,an account has a type,"For being eligible, user should have at least one available, active, account and the selected account balance should be enough for the donation.",False,False,True
+account,type,an account has a type,"If selected account type is a savings account, system should display a pop-up stating that user is continuing with a savings account.",False,False,True
+account,type,an account has a type,E-receipt should contain donation information and account details.,False,False,True
+account,type,an account has a type,"On the donation process, user should select an account and organization information.",False,False,False

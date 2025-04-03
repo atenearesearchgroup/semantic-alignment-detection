@@ -1,0 +1,7 @@
+class_name,attributes,generated_description,actual_description,equality,contradiction,inclusion
+transaction,money,a transaction has a money,"Secondly, the user should make the desired amount of money transactions to the wallet.",FALSE,FALSE,FALSE
+card,type,a card has a type,"User can,use either card (debit, credit, ) or,use the 'wallet' feature.",FALSE,FALSE,TRUE
+card,type,a card has a type,All card information should be stored in the banking systems.,FALSE,FALSE,FALSE
+card,type,a card has a type,"Also, the system should not store the user's card information in the database or anywhere.",FALSE,FALSE,FALSE
+card,type,a card has a type,"When transacting money to the wallet, the system should check the card's status by querying the related banking systems.",FALSE,FALSE,FALSE
+wallet,balance,a wallet has a balance,"When the wallet feature is enabled, the user should be able to view the wallet balance and use it in the payment processes.",FALSE,FALSE,TRUE

@@ -1,0 +1,4 @@
+class_name,attributes,generated_description,actual_description,equality,contradiction,inclusion
+system,threshold,a system has a threshold,The system monitors the pressure and sends the safety injection signal when the pressure falls below a threshold.,False,False,True
+system,manual block,a system has a manual block,The system must automatically reset the manual block.,False,False,True
+system,manual block,a system has a manual block,The human operator can override system actions by turning on a block button and resets the manual block by pushing on a reset button.,False,False,True

@@ -1,0 +1,5 @@
+class_name,attributes,generated_description,actual_description,equality,contradiction,inclusion
+timbered house,num rooms,a timbered house has a num rooms,Each timbered house has a certain number of rooms and floors.,False,False,True
+timbered house,num floors,a timbered house has a num floors,Each timbered house has a certain number of rooms and floors.,False,False,True
+carpenter,name,a carpenter has a name,"For the construction of a timbered house is at least one carpenter in charge, which has a name and an individual hourly wage.",False,False,True
+carpenter,hourly wage,a carpenter has a hourly wage,"For the construction of a timbered house is at least one carpenter in charge, which has a name and an individual hourly wage.",False,False,True

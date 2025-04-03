@@ -1,0 +1,22 @@
+source,target,role,multiplicity,generated_description,actual_description,equality,contradiction,inclusion
+employee,waiter,,,waiter is a type of employee,"Each employee has a name, age, and gender information.",False,not clear,False
+employee,waiter,,,waiter is a type of employee,The waiter in the service section serves the customer.,False,not clear,False
+employee,waiter,,,waiter is a type of employee,"Personnel can be cooks, waiters, and cashiers.",False,not clear,True
+employee,waiter,,,waiter is a type of employee,"Employee Scheduling: Check employee attendance, shifts, and time off.",False,not clear,False
+employee,waiter,,,waiter is a type of employee,"When the waiter serves, the system shows the waiter's name and table number.",False,not clear,False
+employee,waiter,,,waiter is a type of employee,Payroll and Accounting Service: Used to manage employee payroll and monitor the restaurant's cash flow.,False,not clear,False
+employee,waiter,,,waiter is a type of employee,The waiter in the service section serves the customer.,False,not clear,False
+employee,waiter,,,waiter is a type of employee,The restaurant has more than one employee.,False,not clear,False
+employee,cook,,,cook is a type of employee,Payroll and Accounting Service: Used to manage employee payroll and monitor the restaurant's cash flow.,False,not clear,False
+employee,cook,,,cook is a type of employee,The cook stays in the kitchen and prepares the orders.,False,not clear,False
+employee,cook,,,cook is a type of employee,"Each employee has a name, age, and gender information.",False,not clear,False
+employee,cook,,,cook is a type of employee,The system shows the order details and table number when the cook prepares the order.,False,not clear,False
+employee,cook,,,cook is a type of employee,"Personnel can be cooks, waiters, and cashiers.",False,not clear,True
+employee,cook,,,cook is a type of employee,The restaurant has more than one employee.,False,not clear,False
+employee,cook,,,cook is a type of employee,"Employee Scheduling: Check employee attendance, shifts, and time off.",False,not clear,False
+employee,cashier,,,cashier is a type of employee,Payroll and Accounting Service: Used to manage employee payroll and monitor the restaurant's cash flow.,False,not clear,False
+employee,cashier,,,cashier is a type of employee,The cashier prepares the check according to the order details in the system.,False,not clear,False
+employee,cashier,,,cashier is a type of employee,"Each employee has a name, age, and gender information.",False,not clear,False
+employee,cashier,,,cashier is a type of employee,"Personnel can be cooks, waiters, and cashiers.",False,not clear,True
+employee,cashier,,,cashier is a type of employee,The restaurant has more than one employee.,False,not clear,False
+employee,cashier,,,cashier is a type of employee,"Employee Scheduling: Check employee attendance, shifts, and time off.",False,not clear,False

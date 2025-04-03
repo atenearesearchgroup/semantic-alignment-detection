@@ -1,0 +1,121 @@
+source,target,role,multiplicity,generated_description,actual_description,equality,contradiction,inclusion
+banking system,organization,,*,A banking system can have organizations ,The organization list should be retrieved from the internal banking systems.,False,not clear,True
+banking system,organization,,*,A banking system can have organizations ,Menu Placement 'Donation' process should be under the 'Accounts' menu.,False,not clear,False
+banking system,organization,,*,A banking system can have organizations ,"For being eligible, user should have at least one available, active, account and the selected account balance should be enough for the donation.",False,not clear,False
+banking system,organization,,*,A banking system can have organizations ,Software System,False,not clear,False
+banking system,organization,,*,A banking system can have organizations ,"If user confirms the information, system should send an SMS containing a random OTP.",False,not clear,False
+banking system,organization,,*,A banking system can have organizations ,"When banking staff create the list and publish it into the online banking, users can see the list from the mobile app.",False,not clear,False
+banking system,organization,,*,A banking system can have organizations ,Customer Users can transfer their money to the charity organizations via web or mobile banking system.,False,not clear,True
+banking system,organization,,*,A banking system can have organizations ,"After user selects organization and account information, system should ask for amount of money to be transferred.",False,not clear,False
+banking system,organization,,*,A banking system can have organizations ,"After these 3 inputs, system should display a confirmation screen.",False,not clear,False
+banking system,organization,,*,A banking system can have organizations ,System should check if user is eligible for donation or not.,False,not clear,False
+banking system,organization,,*,A banking system can have organizations ,Bank staff can add or remove the organization from the donation list.,False,not clear,False
+banking system,organization,,*,A banking system can have organizations ,E-receipt should contain donation information and account details.,False,not clear,False
+banking system,organization,,*,A banking system can have organizations ,Information about the donations should be kept hidden from the mobile or web application storages.,False,not clear,False
+banking system,organization,,*,A banking system can have organizations ,"When user enters that OTP and continues, result page should be displayed.",False,not clear,False
+banking system,organization,,*,A banking system can have organizations ,It should be added to the bottom of the page.,False,not clear,False
+banking system,organization,,*,A banking system can have organizations ,"On the donation process, user should select an account and organization information.",False,not clear,False
+banking system,organization,,*,A banking system can have organizations ,System should create an e-receipt and shows to the customer.,False,not clear,False
+banking system,organization,,*,A banking system can have organizations ,Users should see a dropdown menu which has related charity organizations.,False,not clear,False
+banking system,organization,,*,A banking system can have organizations ,Rules Donation organization and amount of the money should be directly transferred to the banking systems via encrypted tunnel.,False,not clear,True
+banking system,organization,,*,A banking system can have organizations ,"If selected account type is a savings account, system should display a pop-up stating that user is continuing with a savings account.",False,not clear,False
+banking system,user,,*,A banking system can have users ,The organization list should be retrieved from the internal banking systems.,False,not clear,False
+banking system,user,,*,A banking system can have users ,Menu Placement 'Donation' process should be under the 'Accounts' menu.,False,not clear,False
+banking system,user,,*,A banking system can have users ,"For being eligible, user should have at least one available, active, account and the selected account balance should be enough for the donation.",False,not clear,True
+banking system,user,,*,A banking system can have users ,Software System,False,not clear,False
+banking system,user,,*,A banking system can have users ,"If user confirms the information, system should send an SMS containing a random OTP.",False,not clear,False
+banking system,user,,*,A banking system can have users ,"When banking staff create the list and publish it into the online banking, users can see the list from the mobile app.",False,not clear,True
+banking system,user,,*,A banking system can have users ,Customer Users can transfer their money to the charity organizations via web or mobile banking system.,False,not clear,True
+banking system,user,,*,A banking system can have users ,"After user selects organization and account information, system should ask for amount of money to be transferred.",False,not clear,True
+banking system,user,,*,A banking system can have users ,"After these 3 inputs, system should display a confirmation screen.",False,not clear,False
+banking system,user,,*,A banking system can have users ,System should check if user is eligible for donation or not.,False,not clear,False
+banking system,user,,*,A banking system can have users ,Bank staff can add or remove the organization from the donation list.,False,not clear,False
+banking system,user,,*,A banking system can have users ,E-receipt should contain donation information and account details.,False,not clear,False
+banking system,user,,*,A banking system can have users ,Information about the donations should be kept hidden from the mobile or web application storages.,False,not clear,False
+banking system,user,,*,A banking system can have users ,"When user enters that OTP and continues, result page should be displayed.",False,not clear,True
+banking system,user,,*,A banking system can have users ,It should be added to the bottom of the page.,False,not clear,False
+banking system,user,,*,A banking system can have users ,"On the donation process, user should select an account and organization information.",False,not clear,False
+banking system,user,,*,A banking system can have users ,System should create an e-receipt and shows to the customer.,False,not clear,False
+banking system,user,,*,A banking system can have users ,Users should see a dropdown menu which has related charity organizations.,False,not clear,False
+banking system,user,,*,A banking system can have users ,Rules Donation organization and amount of the money should be directly transferred to the banking systems via encrypted tunnel.,False,not clear,False
+banking system,user,,*,A banking system can have users ,"If selected account type is a savings account, system should display a pop-up stating that user is continuing with a savings account.",False,not clear,True
+donation,organization,,1,A donation has organization,The organization list should be retrieved from the internal banking systems.,False,not clear,False
+donation,organization,,1,A donation has organization,Menu Placement 'Donation' process should be under the 'Accounts' menu.,False,not clear,False
+donation,organization,,1,A donation has organization,"For being eligible, user should have at least one available, active, account and the selected account balance should be enough for the donation.",False,not clear,False
+donation,organization,,1,A donation has organization,Software System,False,not clear,False
+donation,organization,,1,A donation has organization,"If user confirms the information, system should send an SMS containing a random OTP.",False,not clear,False
+donation,organization,,1,A donation has organization,"When banking staff create the list and publish it into the online banking, users can see the list from the mobile app.",False,not clear,False
+donation,organization,,1,A donation has organization,Customer Users can transfer their money to the charity organizations via web or mobile banking system.,False,not clear,False
+donation,organization,,1,A donation has organization,"After user selects organization and account information, system should ask for amount of money to be transferred.",False,not clear,False
+donation,organization,,1,A donation has organization,"After these 3 inputs, system should display a confirmation screen.",False,not clear,False
+donation,organization,,1,A donation has organization,System should check if user is eligible for donation or not.,False,not clear,False
+donation,organization,,1,A donation has organization,Bank staff can add or remove the organization from the donation list.,False,not clear,False
+donation,organization,,1,A donation has organization,E-receipt should contain donation information and account details.,False,not clear,False
+donation,organization,,1,A donation has organization,Information about the donations should be kept hidden from the mobile or web application storages.,False,not clear,False
+donation,organization,,1,A donation has organization,"When user enters that OTP and continues, result page should be displayed.",False,not clear,False
+donation,organization,,1,A donation has organization,It should be added to the bottom of the page.,False,not clear,False
+donation,organization,,1,A donation has organization,"On the donation process, user should select an account and organization information.",False,not clear,True
+donation,organization,,1,A donation has organization,System should create an e-receipt and shows to the customer.,False,not clear,False
+donation,organization,,1,A donation has organization,Users should see a dropdown menu which has related charity organizations.,False,not clear,False
+donation,organization,,1,A donation has organization,Rules Donation organization and amount of the money should be directly transferred to the banking systems via encrypted tunnel.,False,not clear,False
+donation,organization,,1,A donation has organization,"If selected account type is a savings account, system should display a pop-up stating that user is continuing with a savings account.",False,not clear,False
+user,account,,0..*,A user can have accounts ,The organization list should be retrieved from the internal banking systems.,False,not clear,False
+user,account,,0..*,A user can have accounts ,Menu Placement 'Donation' process should be under the 'Accounts' menu.,False,not clear,False
+user,account,,0..*,A user can have accounts ,"For being eligible, user should have at least one available, active, account and the selected account balance should be enough for the donation.",False,not clear,True
+user,account,,0..*,A user can have accounts ,Software System,False,not clear,False
+user,account,,0..*,A user can have accounts ,"If user confirms the information, system should send an SMS containing a random OTP.",False,not clear,False
+user,account,,0..*,A user can have accounts ,"When banking staff create the list and publish it into the online banking, users can see the list from the mobile app.",False,not clear,False
+user,account,,0..*,A user can have accounts ,Customer Users can transfer their money to the charity organizations via web or mobile banking system.,False,not clear,True
+user,account,,0..*,A user can have accounts ,"After user selects organization and account information, system should ask for amount of money to be transferred.",False,not clear,True
+user,account,,0..*,A user can have accounts ,"After these 3 inputs, system should display a confirmation screen.",False,not clear,False
+user,account,,0..*,A user can have accounts ,System should check if user is eligible for donation or not.,False,not clear,False
+user,account,,0..*,A user can have accounts ,Bank staff can add or remove the organization from the donation list.,False,not clear,False
+user,account,,0..*,A user can have accounts ,E-receipt should contain donation information and account details.,False,not clear,False
+user,account,,0..*,A user can have accounts ,Information about the donations should be kept hidden from the mobile or web application storages.,False,not clear,False
+user,account,,0..*,A user can have accounts ,"When user enters that OTP and continues, result page should be displayed.",False,not clear,False
+user,account,,0..*,A user can have accounts ,It should be added to the bottom of the page.,False,not clear,False
+user,account,,0..*,A user can have accounts ,"On the donation process, user should select an account and organization information.",False,not clear,True
+user,account,,0..*,A user can have accounts ,System should create an e-receipt and shows to the customer.,False,not clear,False
+user,account,,0..*,A user can have accounts ,Users should see a dropdown menu which has related charity organizations.,False,not clear,False
+user,account,,0..*,A user can have accounts ,Rules Donation organization and amount of the money should be directly transferred to the banking systems via encrypted tunnel.,False,not clear,False
+user,account,,0..*,A user can have accounts ,"If selected account type is a savings account, system should display a pop-up stating that user is continuing with a savings account.",False,not clear,False
+account,donation,,*,A account can have donations ,The organization list should be retrieved from the internal banking systems.,False,not clear,False
+account,donation,,*,A account can have donations ,Menu Placement 'Donation' process should be under the 'Accounts' menu.,False,not clear,True
+account,donation,,*,A account can have donations ,"For being eligible, user should have at least one available, active, account and the selected account balance should be enough for the donation.",False,not clear,True
+account,donation,,*,A account can have donations ,Software System,False,not clear,False
+account,donation,,*,A account can have donations ,"If user confirms the information, system should send an SMS containing a random OTP.",False,not clear,False
+account,donation,,*,A account can have donations ,"When banking staff create the list and publish it into the online banking, users can see the list from the mobile app.",False,not clear,False
+account,donation,,*,A account can have donations ,Customer Users can transfer their money to the charity organizations via web or mobile banking system.,False,not clear,True
+account,donation,,*,A account can have donations ,"After user selects organization and account information, system should ask for amount of money to be transferred.",False,not clear,False
+account,donation,,*,A account can have donations ,"After these 3 inputs, system should display a confirmation screen.",False,not clear,False
+account,donation,,*,A account can have donations ,System should check if user is eligible for donation or not.,False,not clear,True
+account,donation,,*,A account can have donations ,Bank staff can add or remove the organization from the donation list.,False,not clear,False
+account,donation,,*,A account can have donations ,E-receipt should contain donation information and account details.,False,not clear,True
+account,donation,,*,A account can have donations ,Information about the donations should be kept hidden from the mobile or web application storages.,False,not clear,False
+account,donation,,*,A account can have donations ,"When user enters that OTP and continues, result page should be displayed.",False,not clear,False
+account,donation,,*,A account can have donations ,It should be added to the bottom of the page.,False,not clear,False
+account,donation,,*,A account can have donations ,"On the donation process, user should select an account and organization information.",False,not clear,True
+account,donation,,*,A account can have donations ,System should create an e-receipt and shows to the customer.,False,not clear,False
+account,donation,,*,A account can have donations ,Users should see a dropdown menu which has related charity organizations.,False,not clear,False
+account,donation,,*,A account can have donations ,Rules Donation organization and amount of the money should be directly transferred to the banking systems via encrypted tunnel.,False,not clear,False
+account,donation,,*,A account can have donations ,"If selected account type is a savings account, system should display a pop-up stating that user is continuing with a savings account.",False,not clear,False
+donation,account,,1,A donation has account,The organization list should be retrieved from the internal banking systems.,False,not clear,False
+donation,account,,1,A donation has account,Menu Placement 'Donation' process should be under the 'Accounts' menu.,False,not clear,False
+donation,account,,1,A donation has account,"For being eligible, user should have at least one available, active, account and the selected account balance should be enough for the donation.",False,not clear,True
+donation,account,,1,A donation has account,Software System,False,not clear,False
+donation,account,,1,A donation has account,"If user confirms the information, system should send an SMS containing a random OTP.",False,not clear,False
+donation,account,,1,A donation has account,"When banking staff create the list and publish it into the online banking, users can see the list from the mobile app.",False,not clear,False
+donation,account,,1,A donation has account,Customer Users can transfer their money to the charity organizations via web or mobile banking system.,False,not clear,False
+donation,account,,1,A donation has account,"After user selects organization and account information, system should ask for amount of money to be transferred.",False,not clear,False
+donation,account,,1,A donation has account,"After these 3 inputs, system should display a confirmation screen.",False,not clear,False
+donation,account,,1,A donation has account,System should check if user is eligible for donation or not.,False,not clear,False
+donation,account,,1,A donation has account,Bank staff can add or remove the organization from the donation list.,False,not clear,False
+donation,account,,1,A donation has account,E-receipt should contain donation information and account details.,False,not clear,True
+donation,account,,1,A donation has account,Information about the donations should be kept hidden from the mobile or web application storages.,False,not clear,False
+donation,account,,1,A donation has account,"When user enters that OTP and continues, result page should be displayed.",False,not clear,False
+donation,account,,1,A donation has account,It should be added to the bottom of the page.,False,not clear,False
+donation,account,,1,A donation has account,"On the donation process, user should select an account and organization information.",False,not clear,True
+donation,account,,1,A donation has account,System should create an e-receipt and shows to the customer.,False,not clear,False
+donation,account,,1,A donation has account,Users should see a dropdown menu which has related charity organizations.,False,not clear,False
+donation,account,,1,A donation has account,Rules Donation organization and amount of the money should be directly transferred to the banking systems via encrypted tunnel.,False,not clear,True
+donation,account,,1,A donation has account,"If selected account type is a savings account, system should display a pop-up stating that user is continuing with a savings account.",False,not clear,False

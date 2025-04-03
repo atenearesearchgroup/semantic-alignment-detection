@@ -1,0 +1,17 @@
+source,target,generated_description,actual_description,equality,contradiction,inclusion
+card type,debit,Debit is a card type,"Customer  Users can have four types of cards: debit, credit, virtual and supplementary.",False,not clear,True
+card type,credit,Credit is a card type,"Customer  Users can have four types of cards: debit, credit, virtual and supplementary.",False,not clear,True
+card type,virtual,Virtual is a card type,"Customer  Users can have four types of cards: debit, credit, virtual and supplementary.",False,not clear,True
+card type,supplementary,Supplementary is a card type,"Customer  Users can have four types of cards: debit, credit, virtual and supplementary.",False,not clear,True
+card status,available,Available is a card status,The system should check the card status when the user blocks the desired card.,False,not clear,False
+card status,available,Available is a card status,The user can initiate the card-blocking process if the card status is available.,False,not clear,True
+blocking reason,stolen,Stolen is a blocking reason,"If the user selects 'other' as the reason, the system should ask for further explanation in a free-text area.",False,not clear,False
+blocking reason,stolen,Stolen is a blocking reason,"The blocking reasons can be stolen, missing, and others.",False,not clear,True
+blocking reason,stolen,Stolen is a blocking reason,The system should display three different kinds of blocking reasons for the user.,False,not clear,False
+blocking reason,stolen,Stolen is a blocking reason,"During the card-blocking process, the system should ask for the reason for the blocking.",False,not clear,False
+blocking reason,missing,Missing is a blocking reason,"If the user selects 'other' as the reason, the system should ask for further explanation in a free-text area.",False,not clear,False
+blocking reason,missing,Missing is a blocking reason,"The blocking reasons can be stolen, missing, and others.",False,not clear,True
+blocking reason,missing,Missing is a blocking reason,The system should display three different kinds of blocking reasons for the user.,False,not clear,False
+blocking reason,missing,Missing is a blocking reason,"During the card-blocking process, the system should ask for the reason for the blocking.",False,not clear,False
+blocking reason,others,Others is a blocking reason,"If the user selects 'other' as the reason, the system should ask for further explanation in a free-text area.",False,not clear,False
+blocking reason,others,Others is a blocking reason,"The blocking reasons can be stolen, missing, and others.",False,not clear,True

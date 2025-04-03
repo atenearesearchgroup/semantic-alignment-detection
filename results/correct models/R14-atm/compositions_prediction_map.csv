@@ -1,0 +1,9 @@
+source,target,role,multiplicity,generated_description,actual_description,equality,contradiction,inclusion
+bank,computer,,,Each bank is made up of computer,Each bank provides its computer to maintain its accounts and process transactions against them.,False,False,True
+bank,transaction,,,Each bank is made up of transactions,"An automated teller machine accepts a cash card, interacts with the user, communicates with the central system to carry out the transaction, dispenses cash, and prints receipts.",False,False,False
+bank,account,,,Each bank is made up of accounts,Automatic teller machines communicate with a central computer which clears transactions with the appropriate banks.,False,False,False
+bank,account,,,Each bank is made up of accounts,Cashier stations are owned by individual banks and communicate directly with their own bank s computer.,False,False,False
+bank,account,,,Each bank is made up of accounts,The banks will provide their software for their computers; you are to design the software for the ATMs and the network.,False,False,False
+bank,account,,,Each bank is made up of accounts,The cost of the shared system will be apportioned to the banks according to the number of customers with cash cards.,False,False,False
+bank,account,,,Each bank is made up of accounts,Each bank provides its computer to maintain its accounts and process transactions against them.,False,False,False
+bank,account,,,Each bank is made up of accounts,"Design the software to support a computerized banking network, including human cashiers and automatic teller machines ATMs to be shared by a consortium of banks.",False,False,False

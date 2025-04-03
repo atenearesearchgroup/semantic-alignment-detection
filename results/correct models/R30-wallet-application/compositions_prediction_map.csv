@@ -1,0 +1,8 @@
+source,target,role,multiplicity,generated_description,actual_description,equality,contradiction,inclusion
+wallet,transaction,,,Each wallet is made up of transactions,"Secondly, the user should make the desired amount of money transactions to the wallet.",False,False,False
+wallet,transaction,,,Each wallet is made up of transactions,The user should enable the feature from the mobile application to use the wallet feature.,False,False,False
+wallet,transaction,,,Each wallet is made up of transactions,"When the wallet feature is enabled, the user should be able to view the wallet balance and use it in the payment processes.",False,False,False
+wallet,transaction,,,Each wallet is made up of transactions,"User can,use either card (debit, credit, ) or,use the 'wallet' feature.",False,False,False
+wallet,transaction,,,Each wallet is made up of transactions,"When enabling:Firstly, the user should accept the terms and conditions for the wallet feature.",False,False,False
+wallet,transaction,,,Each wallet is made up of transactions,Menu Placement  The 'Wallet' icon should appear on the checkout page.,False,False,False
+wallet,transaction,,,Each wallet is made up of transactions,"When transacting money to the wallet, the system should check the card's status by querying the related banking systems.",False,False,False

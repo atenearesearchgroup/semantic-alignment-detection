@@ -1,0 +1,32 @@
+class_name,attributes,generated_description,actual_description,equality,contradiction,inclusion
+grade,grade,a grade has a grade,"Since student grades are sensitive information, the system must employ extra security measures to prevent unauthorized access.",False,False,False
+course,department,a course has a department,"Information about each course, such as professor, department, and prerequisites, will be included to help students make informed decisions.",False,False,True
+course,min students,a course has  min students,The new online registration system will allow students to select four-course offerings for the coming semester.,False,False,False
+course,min students,a course has  min students,The billing system will credit all students for courses dropped during this period.,False,False,False
+course,min students,a course has  min students,Students must be able to access the online system during this time to add or drop courses.,False,False,False
+course,min students,a course has  min students,A course offering fewer than three students will be canceled.,False,False,False
+course,min students,a course has  min students,No course offering will have fewer than three students.,False,False,True
+course,min students,a course has  min students,Each course offering will have at most ten students.,False,False,False
+course,min students,a course has  min students,"At the beginning of each semester, students may request a course catalog containing a list of course offerings.",False,False,False
+course,min students,a course has  min students,"Information about each course, such as professor, department, and prerequisites, will be included to help students make informed decisions.",False,False,False
+course,min students,a course has  min students,"In addition, each student will indicate two choices in case a course offering becomes filled or canceled.",False,False,False
+course,max students,a course has  max students,The new online registration system will allow students to select four-course offerings for the coming semester.,False,False,False
+course,max students,a course has  max students,The billing system will credit all students for courses dropped during this period.,False,False,False
+course,max students,a course has  max students,Students must be able to access the online system during this time to add or drop courses.,False,False,False
+course,max students,a course has  max students,A course offering fewer than three students will be canceled.,False,False,False
+course,max students,a course has  max students,No course offering will have fewer than three students.,False,False,False
+course,max students,a course has  max students,Each course offering will have at most ten students.,False,False,True
+course,max students,a course has  max students,"At the beginning of each semester, students may request a course catalog containing a list of course offerings.",False,False,False
+course,max students,a course has  max students,"Information about each course, such as professor, department, and prerequisites, will be included to help students make informed decisions.",False,False,False
+course,max students,a course has  max students,"In addition, each student will indicate two choices in case a course offering becomes filled or canceled.",False,False,False
+course,prerequisites course,a course has  prerequisites course,"Information about each course, such as professor, department, and prerequisites, will be included to help students make informed decisions.",False,False,True
+course,cancelled course,a course has a cancelled course,The new online registration system will allow students to select four-course offerings for the coming semester.,False,False,False
+course,cancelled course,a course has a cancelled course,The billing system will credit all students for courses dropped during this period.,False,False,False
+course,cancelled course,a course has a cancelled course,Students must be able to access the online system during this time to add or drop courses.,False,False,False
+course,cancelled course,a course has a cancelled course,Professors must be able to access the online system to indicate which courses they will be teaching.,False,False,False
+course,cancelled course,a course has a cancelled course,A course offering fewer than three students will be canceled.,False,False,False
+course,cancelled course,a course has a cancelled course,No course offering will have fewer than three students.,False,False,False
+course,cancelled course,a course has a cancelled course,Each course offering will have at most ten students.,False,False,False
+course,cancelled course,a course has a cancelled course,"At the beginning of each semester, students may request a course catalog containing a list of course offerings.",False,False,False
+course,cancelled course,a course has a cancelled course,"Information about each course, such as professor, department, and prerequisites, will be included to help students make informed decisions.",False,False,False
+course,cancelled course,a course has a cancelled course,"In addition, each student will indicate two choices in case a course offering becomes filled or canceled.",False,False,False

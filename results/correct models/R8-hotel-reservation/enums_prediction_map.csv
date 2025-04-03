@@ -1,0 +1,22 @@
+source,target,generated_description,actual_description,equality,contradiction,inclusion
+payment type,p,P is a payment type,"In standard reservations, customers make payments at the end of the accommodation.",False,not clear,False
+payment type,p,P is a payment type,"She must enter 'P' for pre-payment, 'H' for payment with a wire transfer, and 'S' for a standard reservation.",False,not clear,True
+payment type,p,P is a payment type,"When payment using a wire transfer is selected, if the number of guests exceeds three persons, 50% of 1 guest's fee and 75% of 1 guest's fee will be deducted from the calculated amount.",False,not clear,False
+payment type,p,P is a payment type,There are three types of rooms in the hotel.,False,not clear,False
+payment type,p,P is a payment type,The types of remaining rooms are Deluxe.,False,not clear,False
+payment type,p,P is a payment type,"There are 100 odd numbered rooms which types are standard, and six even numbered rooms which are large-deluxe.",False,not clear,False
+payment type,p,P is a payment type,The total price of the reservation depends on the time of year and the type of room.,False,not clear,False
+payment type,h,H is a payment type,"In standard reservations, customers make payments at the end of the accommodation.",False,not clear,False
+payment type,h,H is a payment type,"She must enter 'P' for pre-payment, 'H' for payment with a wire transfer, and 'S' for a standard reservation.",False,not clear,True
+payment type,h,H is a payment type,"When payment using a wire transfer is selected, if the number of guests exceeds three persons, 50% of 1 guest's fee and 75% of 1 guest's fee will be deducted from the calculated amount.",False,not clear,False
+payment type,h,H is a payment type,There are three types of rooms in the hotel.,False,not clear,False
+payment type,h,H is a payment type,The types of remaining rooms are Deluxe.,False,not clear,False
+payment type,h,H is a payment type,"There are 100 odd numbered rooms which types are standard, and six even numbered rooms which are large-deluxe.",False,not clear,False
+payment type,h,H is a payment type,The total price of the reservation depends on the time of year and the type of room.,False,not clear,False
+payment type,s,S is a payment type,"In standard reservations, customers make payments at the end of the accommodation.",False,not clear,False
+payment type,s,S is a payment type,"She must enter 'P' for pre-payment, 'H' for payment with a wire transfer, and 'S' for a standard reservation.",False,not clear,True
+payment type,s,S is a payment type,"When payment using a wire transfer is selected, if the number of guests exceeds three persons, 50% of 1 guest's fee and 75% of 1 guest's fee will be deducted from the calculated amount.",False,not clear,False
+payment type,s,S is a payment type,There are three types of rooms in the hotel.,False,not clear,False
+payment type,s,S is a payment type,The types of remaining rooms are Deluxe.,False,not clear,False
+payment type,s,S is a payment type,"There are 100 odd numbered rooms which types are standard, and six even numbered rooms which are large-deluxe.",False,not clear,False
+payment type,s,S is a payment type,The total price of the reservation depends on the time of year and the type of room.,False,not clear,False

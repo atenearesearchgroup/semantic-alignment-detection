@@ -1,0 +1,17 @@
+source,target,role,multiplicity,generated_description,actual_description,equality,contradiction,inclusion
+room,standard,,,standard is a type of room,"The price of standard rooms:$60 for the summer season, $40 for the spring season, And $25 for the autumn season per night per person.",False,not clear,True
+room,deluxe,,,deluxe is a type of room,"Rates for the deluxe room:$90 per person per night in the summer,$75 in the spring,And $ 50 in the autumn.",False,not clear,True
+room,large deluxe,,,large deluxe is a type of room,"If all the rooms are reserved before, the user will be asked to make a choice again.",False,not clear,False
+room,large deluxe,,,large deluxe is a type of room,The price is calculated according to the number of people entering the room.,False,not clear,False
+room,large deluxe,,,large deluxe is a type of room,The price is calculated according to the number of people entering the room.,False,not clear,False
+room,large deluxe,,,large deluxe is a type of room,There can be a maximum of 7 people in this room.,False,not clear,False
+room,large deluxe,,,large deluxe is a type of room,"While calculating the price for Large Deluxe rooms, the number of people is not considered.",False,not clear,True
+room,large deluxe,,,large deluxe is a type of room,"It is $ 400 daily in the summer, $ 300 in the spring, and $ 250 in the autumn.",False,not clear,False
+room,large deluxe,,,large deluxe is a type of room,The room takes up to 4 people.,False,not clear,False
+room,large deluxe,,,large deluxe is a type of room,There are three types of rooms in the hotel.,False,not clear,False
+room,large deluxe,,,large deluxe is a type of room,The total price of the reservation depends on the time of year and the type of room.,False,not clear,False
+room,large deluxe,,,large deluxe is a type of room,"The price of standard rooms:$60 for the summer season, $40 for the spring season, And $25 for the autumn season per night per person.",False,not clear,False
+room,large deluxe,,,large deluxe is a type of room,"Rates for the deluxe room:$90 per person per night in the summer,$75 in the spring,And $ 50 in the autumn.",False,not clear,False
+room,large deluxe,,,large deluxe is a type of room,The types of remaining rooms are Deluxe.,False,not clear,False
+room,large deluxe,,,large deluxe is a type of room,"There are 100 odd numbered rooms which types are standard, and six even numbered rooms which are large-deluxe.",False,not clear,True
+room,large deluxe,,,large deluxe is a type of room,The room takes up to 4 people.,False,not clear,False

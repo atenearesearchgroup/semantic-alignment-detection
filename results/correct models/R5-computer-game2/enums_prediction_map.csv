@@ -1,0 +1,73 @@
+source,target,generated_description,actual_description,equality,contradiction,inclusion
+phase,one,One is a phase,"After running for a certain distance or given time, the level will be cleared, and the robot will move on to the second phase to chase robots away or press the self-destruct button, which destroys the enemy base at the end of each level.",False,not clear,False
+phase,two,Two is a phase,"After running for a certain distance or given time, the level will be cleared, and the robot will move on to the second phase to chase robots away or press the self-destruct button, which destroys the enemy base at the end of each level.",False,not clear,False
+movement kind,forward,Forward is a movement kind,The robot will be running in the forward direction.,False,not clear,True
+movement kind,backward,Backward is a movement kind,'Move backwards' actions let the robot move backward to dodge the incoming bombs that might fall right in front of it.,False,not clear,True
+movement kind,backward,Backward is a movement kind,It carries on the general genre of endless runners.,False,not clear,False
+movement kind,backward,Backward is a movement kind,The player controls when to jump and when to move forward or backward.,False,not clear,True
+movement kind,backward,Backward is a movement kind,The robot will be running in the forward direction.,False,not clear,False
+movement kind,backward,Backward is a movement kind,'Jump' actions to dodge the aliens on the ground and the empty spaces made by the bombs dropped by the spaceships.,False,not clear,False
+movement kind,backward,Backward is a movement kind,"So, wondering how well it can function.",False,not clear,False
+movement kind,backward,Backward is a movement kind,"Spy-Robot Game, Sichuan University.",False,not clear,False
+movement kind,backward,Backward is a movement kind,"The player will control the character with basic controls specified at the beginning of the game or which will hover around on the screen basically just four controls (Jump, move forward, move backward, duck).",False,not clear,True
+movement kind,backward,Backward is a movement kind,The spawn rate for enemies will take a lot of work to control.,False,not clear,False
+movement kind,backward,Backward is a movement kind,'Move Forward' actions to let the robot move forward constantly and not fall off the edge of the left screen.,False,not clear,False
+movement kind,backward,Backward is a movement kind,"When earth receives a threat that a nearby colony of aliens is about to launch an attack, it sends a small spy robot to check onto the closest enemy base out of many to check their weapon advances and preparations.",False,not clear,False
+movement kind,backward,Backward is a movement kind,"After the first minute, the game gets more intense, with bombs raining down on our poor little robot and many mobs spawning to stop our little hero.",False,not clear,False
+movement kind,backward,Backward is a movement kind,Our army can walk through and defeat the base if the robot succeeds in its mission.,False,not clear,False
+movement kind,backward,Backward is a movement kind,"So, will our little hero be able to save our planet?",False,not clear,False
+movement kind,backward,Backward is a movement kind,Some of the difficult points that can arise are:,False,not clear,False
+movement kind,backward,Backward is a movement kind,"Have to make it a bit more intense, which might make it too hard to play, and if made too easy, it will be too boring.",False,not clear,False
+movement kind,backward,Backward is a movement kind,"But,",not clear,not clear,not clear
+movement kind,backward,Backward is a movement kind,"When the robot's cover gets blown, the whole army chases our little robot to stop him from his mission.",False,not clear,False
+movement kind,backward,Backward is a movement kind,"The robot's main objective is to find and hack the system that can 'Disable' the 'weaponries', which can be found at the end of each level that can be attained after going a certain distance.",False,not clear,False
+movement kind,backward,Backward is a movement kind,The cutscenes will be hard to animate.,False,not clear,False
+movement kind,backward,Backward is a movement kind,"In this game, there will be a normal animated cutscene of about ten frames to show the beginning of this game.",False,not clear,False
+movement kind,backward,Backward is a movement kind,"After running for a certain distance or given time, the level will be cleared, and the robot will move on to the second phase to chase robots away or press the self-destruct button, which destroys the enemy base at the end of each level.",False,not clear,False
+movement kind,backward,Backward is a movement kind,It should be distance-based or time-based.,False,not clear,False
+movement kind,jump,Jump is a movement kind,'Move backwards' actions let the robot move backward to dodge the incoming bombs that might fall right in front of it.,False,not clear,False
+movement kind,jump,Jump is a movement kind,It carries on the general genre of endless runners.,False,not clear,False
+movement kind,jump,Jump is a movement kind,The player controls when to jump and when to move forward or backward.,False,not clear,True
+movement kind,jump,Jump is a movement kind,The robot will be running in the forward direction.,False,not clear,False
+movement kind,jump,Jump is a movement kind,'Jump' actions to dodge the aliens on the ground and the empty spaces made by the bombs dropped by the spaceships.,False,not clear,False
+movement kind,jump,Jump is a movement kind,"So, wondering how well it can function.",False,not clear,False
+movement kind,jump,Jump is a movement kind,"Spy-Robot Game, Sichuan University.",False,not clear,False
+movement kind,jump,Jump is a movement kind,"The player will control the character with basic controls specified at the beginning of the game or which will hover around on the screen basically just four controls (Jump, move forward, move backward, duck).",False,not clear,True
+movement kind,jump,Jump is a movement kind,The spawn rate for enemies will take a lot of work to control.,False,not clear,False
+movement kind,jump,Jump is a movement kind,'Move Forward' actions to let the robot move forward constantly and not fall off the edge of the left screen.,False,not clear,False
+movement kind,jump,Jump is a movement kind,"When earth receives a threat that a nearby colony of aliens is about to launch an attack, it sends a small spy robot to check onto the closest enemy base out of many to check their weapon advances and preparations.",False,not clear,False
+movement kind,jump,Jump is a movement kind,"After the first minute, the game gets more intense, with bombs raining down on our poor little robot and many mobs spawning to stop our little hero.",False,not clear,False
+movement kind,jump,Jump is a movement kind,Our army can walk through and defeat the base if the robot succeeds in its mission.,False,not clear,False
+movement kind,jump,Jump is a movement kind,"So, will our little hero be able to save our planet?",False,not clear,False
+movement kind,jump,Jump is a movement kind,Some of the difficult points that can arise are:,False,not clear,False
+movement kind,jump,Jump is a movement kind,"Have to make it a bit more intense, which might make it too hard to play, and if made too easy, it will be too boring.",False,not clear,False
+movement kind,jump,Jump is a movement kind,"But,",not clear,not clear,not clear
+movement kind,jump,Jump is a movement kind,"When the robot's cover gets blown, the whole army chases our little robot to stop him from his mission.",False,not clear,False
+movement kind,jump,Jump is a movement kind,"The robot's main objective is to find and hack the system that can 'Disable' the 'weaponries', which can be found at the end of each level that can be attained after going a certain distance.",False,not clear,False
+movement kind,jump,Jump is a movement kind,The cutscenes will be hard to animate.,False,not clear,False
+movement kind,jump,Jump is a movement kind,"In this game, there will be a normal animated cutscene of about ten frames to show the beginning of this game.",False,not clear,False
+movement kind,jump,Jump is a movement kind,"After running for a certain distance or given time, the level will be cleared, and the robot will move on to the second phase to chase robots away or press the self-destruct button, which destroys the enemy base at the end of each level.",False,not clear,False
+movement kind,jump,Jump is a movement kind,It should be distance-based or time-based.,False,not clear,False
+movement kind,duck,Duck is a movement kind,'Move backwards' actions let the robot move backward to dodge the incoming bombs that might fall right in front of it.,False,not clear,False
+movement kind,duck,Duck is a movement kind,It carries on the general genre of endless runners.,False,not clear,False
+movement kind,duck,Duck is a movement kind,The player controls when to jump and when to move forward or backward.,False,not clear,False
+movement kind,duck,Duck is a movement kind,The robot will be running in the forward direction.,False,not clear,False
+movement kind,duck,Duck is a movement kind,'Jump' actions to dodge the aliens on the ground and the empty spaces made by the bombs dropped by the spaceships.,False,not clear,False
+movement kind,duck,Duck is a movement kind,"So, wondering how well it can function.",False,not clear,False
+movement kind,duck,Duck is a movement kind,"Spy-Robot Game, Sichuan University.",False,not clear,False
+movement kind,duck,Duck is a movement kind,"The player will control the character with basic controls specified at the beginning of the game or which will hover around on the screen basically just four controls (Jump, move forward, move backward, duck).",False,not clear,True
+movement kind,duck,Duck is a movement kind,The spawn rate for enemies will take a lot of work to control.,False,not clear,False
+movement kind,duck,Duck is a movement kind,'Move Forward' actions to let the robot move forward constantly and not fall off the edge of the left screen.,False,not clear,False
+movement kind,duck,Duck is a movement kind,"When earth receives a threat that a nearby colony of aliens is about to launch an attack, it sends a small spy robot to check onto the closest enemy base out of many to check their weapon advances and preparations.",False,not clear,False
+movement kind,duck,Duck is a movement kind,"After the first minute, the game gets more intense, with bombs raining down on our poor little robot and many mobs spawning to stop our little hero.",False,not clear,False
+movement kind,duck,Duck is a movement kind,Our army can walk through and defeat the base if the robot succeeds in its mission.,False,not clear,False
+movement kind,duck,Duck is a movement kind,"So, will our little hero be able to save our planet?",False,not clear,False
+movement kind,duck,Duck is a movement kind,Some of the difficult points that can arise are:,False,not clear,False
+movement kind,duck,Duck is a movement kind,"Have to make it a bit more intense, which might make it too hard to play, and if made too easy, it will be too boring.",False,not clear,False
+movement kind,duck,Duck is a movement kind,"But,",False,not clear,not clear
+movement kind,duck,Duck is a movement kind,"When the robot's cover gets blown, the whole army chases our little robot to stop him from his mission.",False,not clear,False
+movement kind,duck,Duck is a movement kind,"The robot's main objective is to find and hack the system that can 'Disable' the 'weaponries', which can be found at the end of each level that can be attained after going a certain distance.",False,not clear,False
+movement kind,duck,Duck is a movement kind,The cutscenes will be hard to animate.,False,not clear,False
+movement kind,duck,Duck is a movement kind,"In this game, there will be a normal animated cutscene of about ten frames to show the beginning of this game.",False,not clear,False
+movement kind,duck,Duck is a movement kind,"After running for a certain distance or given time, the level will be cleared, and the robot will move on to the second phase to chase robots away or press the self-destruct button, which destroys the enemy base at the end of each level.",False,not clear,False
+movement kind,duck,Duck is a movement kind,It should be distance-based or time-based.,False,not clear,False

@@ -1,0 +1,3 @@
+source,target,role,multiplicity,generated_description,actual_description,equality,contradiction,inclusion
+customer,savings account,,0..10,A customer can have savings accounts ,The user should invest at least 2000 EUR or an equivalent amount when opening a savings account.,False,not clear,False
+customer,savings account,,0..10,A customer can have savings accounts ,Users can have more than one account in EUR currency.,False,not clear,False
