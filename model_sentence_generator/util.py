@@ -2,7 +2,7 @@ import re
 
 import inflect
 
-import sentence_generator.constants as constants
+import model_sentence_generator.constants as constants
 
 
 def get_cardinality(cardinality):

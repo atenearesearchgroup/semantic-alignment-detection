@@ -1,9 +1,9 @@
 from abc import ABC
 
-import workflow.apiCaller as apiCaller
+import semantic_alignment_detector.apiCaller as apiCaller
 import os
 from src import util
-from workflow.abstractChecker import AbstractChecker
+from semantic_alignment_detector.abstractChecker import AbstractChecker
 
 dirname = util.get_project_directory()
 file_path = os.path.join(dirname, 'src/resources/prompts/contradiction')

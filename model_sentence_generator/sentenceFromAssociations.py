@@ -2,8 +2,8 @@ import re
 from typing import List
 
 import nltk
-from sentence_generator.abstractSentenceGenerator import AbstractSentenceGenerator
-import sentence_generator.util as util
+from model_sentence_generator.abstractSentenceGenerator import AbstractSentenceGenerator
+import model_sentence_generator.util as util
 import spacy
 import pandas as pd
 

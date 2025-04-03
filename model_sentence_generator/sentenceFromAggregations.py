@@ -3,9 +3,9 @@ from typing import List
 import pandas as pd
 from pandas import DataFrame
 
-from sentence_generator import util
-from sentence_generator.abstractSentenceGenerator import AbstractSentenceGenerator
-from sentence_generator.sentenceFromAssociations import get_role_and_cardinality
+from model_sentence_generator import util
+from model_sentence_generator.abstractSentenceGenerator import AbstractSentenceGenerator
+from model_sentence_generator.sentenceFromAssociations import get_role_and_cardinality
 
 
 class SentenceFromAggregation(AbstractSentenceGenerator):

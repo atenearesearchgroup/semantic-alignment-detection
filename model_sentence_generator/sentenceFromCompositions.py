@@ -2,9 +2,9 @@ from typing import List
 
 from pandas import DataFrame
 
-import sentence_generator.util as util
+import model_sentence_generator.util as util
 import pandas as pd
-from sentence_generator.abstractSentenceGenerator import AbstractSentenceGenerator
+from model_sentence_generator.abstractSentenceGenerator import AbstractSentenceGenerator
 
 
 class SentenceFromCompositions(AbstractSentenceGenerator):

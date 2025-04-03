@@ -2,8 +2,8 @@ from typing import List
 
 import pandas as pd
 
-from sentence_generator import util
-from sentence_generator.abstractSentenceGenerator import AbstractSentenceGenerator
+from model_sentence_generator import util
+from model_sentence_generator.abstractSentenceGenerator import AbstractSentenceGenerator
 
 
 class SentenceFromEnums(AbstractSentenceGenerator):

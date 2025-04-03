@@ -1,6 +1,6 @@
 import pandas as pd
 
-from preprocessor import util
+from semantic_matcher import util
 
 
 class RelationshipMatcher:

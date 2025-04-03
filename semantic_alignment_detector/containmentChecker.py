@@ -1,13 +1,15 @@
-import workflow.apiCaller as apiCaller
+from abc import ABC
+
+import semantic_alignment_detector.apiCaller as apiCaller
 import os
 from src import util
-from workflow.abstractChecker import AbstractChecker
+from semantic_alignment_detector.abstractChecker import AbstractChecker
 
 dirname = util.get_project_directory()
-file_path = os.path.join(dirname, 'src/resources/prompts/equality')
+file_path = os.path.join(dirname, 'src/resources/prompts/inclusion')
 
 
-class EqualityChecker(AbstractChecker):
+class ContainmentChecker(AbstractChecker):
     def __init__(self):
         with open(file_path, 'r') as file:
             content = file.read()

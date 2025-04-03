@@ -4,17 +4,17 @@ import os
 import sys
 
 from evaluation.ResultAggregator import calculate_metrics
-from preprocessor.attribute_matcher import AttributeMatcher
-from preprocessor.relationship_matcher import RelationshipMatcher
+from semantic_matcher.attribute_matcher import AttributeMatcher
+from semantic_matcher.relationship_matcher import RelationshipMatcher
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
-from preprocessor import coreferenceResolution as coref
+from semantic_matcher import coreferenceResolution as coref
 from src.descriptionReader import DescriptionReader
-from extractor.RelationshipExtractor import RelationshipsExtractor
-from extractor.conceptsExtractor import ConceptsExtractor
-from sentence_generator.descriptionGenerator import DescriptionGenerator
-from workflow.workflowStart import WorkflowStart
+from nlp_preprocessor.RelationshipExtractor import RelationshipsExtractor
+from nlp_preprocessor.conceptsExtractor import ConceptsExtractor
+from model_sentence_generator.descriptionGenerator import DescriptionGenerator
+from semantic_alignment_detector.workflowStart import WorkflowStart
 import spacy
 
 from contextlib import contextmanager

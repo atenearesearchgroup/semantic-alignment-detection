@@ -2,9 +2,9 @@ from abc import ABC, abstractmethod
 
 import pandas as pd
 
-from sentence_generator import util
-from workflow import apiCaller
-from sentence_generator.util import is_singular
+from model_sentence_generator import util
+from semantic_alignment_detector import apiCaller
+from model_sentence_generator.util import is_singular
 
 
 def format_value(multiplicity):

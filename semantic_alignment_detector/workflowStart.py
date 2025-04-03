@@ -3,9 +3,9 @@ import os
 import pandas as pd
 from src import util
 
-from workflow.equalityChecker import EqualityChecker
-from workflow.contradictionChecker import ContradictionChecker
-from workflow.containmentChecker import ContainmentChecker
+from semantic_alignment_detector.equalityChecker import EqualityChecker
+from semantic_alignment_detector.contradictionChecker import ContradictionChecker
+from semantic_alignment_detector.containmentChecker import ContainmentChecker
 
 
 def get_prompts(file_name, model_element):
@@ -137,7 +137,7 @@ class WorkflowStart:
 # compositions_map = pd.read_csv(f"{results_dir}/predictions/{domain_name}/compositions_pred_map.csv")
 # inheritance_map = pd.read_csv(f"{results_dir}/predictions/{domain_name}/inheritance_pred_map.csv")
 # enum_map = pd.read_csv(f"{results_dir}/predictions/{domain_name}/enums_pred_map.csv")
-# workflow = WorkflowStart(
+# semantic_alignment_detector = semantic_alignment_detectorStart(
 #     [attributes_map, associations_map, aggregations_map, compositions_map,
 #      inheritance_map, enum_map], domain_name, results_dir)
-# errors = workflow.run()
+# errors = semantic_alignment_detector.run()

@@ -2,13 +2,13 @@ import os
 
 import pandas as pd
 
-from sentence_generator.SentenceFromEnums import SentenceFromEnums
-from sentence_generator.sentenceFromAttributes import SentenceFromAttributes
-from sentence_generator.sentenceFromAssociations import SentenceFromAssociations
-from sentence_generator.sentenceFromCompositions import SentenceFromCompositions
-from sentence_generator.sentenceFromAggregations import SentenceFromAggregation
-from sentence_generator.sentenceFromInheritance import SentenceFromInheritance
-from sentence_generator.postProcessor import PostProcessor
+from model_sentence_generator.SentenceFromEnums import SentenceFromEnums
+from model_sentence_generator.sentenceFromAttributes import SentenceFromAttributes
+from model_sentence_generator.sentenceFromAssociations import SentenceFromAssociations
+from model_sentence_generator.sentenceFromCompositions import SentenceFromCompositions
+from model_sentence_generator.sentenceFromAggregations import SentenceFromAggregation
+from model_sentence_generator.sentenceFromInheritance import SentenceFromInheritance
+from model_sentence_generator.postProcessor import PostProcessor
 from domain_converter.xmlReader import parse_domain_model
 
 model_path = "D:\\Thesis\\modelling-assistant\\tests\\\domain-models\\"
