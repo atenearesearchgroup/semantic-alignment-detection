@@ -21,6 +21,7 @@ class ContradictionChecker(AbstractChecker):
         self.association_prompts = local_vars['association_prompts']
         self.inheritance_prompt = local_vars['inheritance_prompt']
         self.enum_prompt = local_vars['enum_prompt']
+        self.composition_prompt = local_vars['composition_prompt']
 
     def get_prompts(self, model_element):
         if model_element == 'associations' or model_element == 'aggregations':
@@ -29,6 +30,8 @@ class ContradictionChecker(AbstractChecker):
             return self.inheritance_prompt
         elif model_element == 'enums':
             return self.enum_prompt
+        elif model_element == 'compositions':
+            return self.composition_prompt
         else:
             return self.attribute_prompts
 
@@ -43,7 +46,7 @@ class ContradictionChecker(AbstractChecker):
                 return 'No'
             else:
                 return "not clear"
-        if model_element == 'inheritance':
+        if model_element == 'inheritance' or model_element == 'compositions':
             response = response.replace('*', '').lower()
             if 'conclusion: yes' in response:
                 return "No"

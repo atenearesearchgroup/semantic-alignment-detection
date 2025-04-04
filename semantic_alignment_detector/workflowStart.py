@@ -23,6 +23,7 @@ def get_prompts(file_name, model_element):
         association_prompts = local_vars['association_prompts']
         inheritance_prompt = local_vars['inheritance_prompt']
         enum_prompt = local_vars['enum_prompt']
+        composition_prompts = local_vars['composition_prompt']
 
         if model_element == 'associations' or model_element == 'aggregations':
             return association_prompts
@@ -30,11 +31,12 @@ def get_prompts(file_name, model_element):
             return inheritance_prompt
         elif model_element == 'enums':
             return enum_prompt
+        elif model_element == 'compositions':
+            return composition_prompts
         else:
             return attribute_prompts
 
     return local_vars['prompts']
-
 
 class WorkflowStart:
     def __init__(self, individual_maps, domain, results_dir):

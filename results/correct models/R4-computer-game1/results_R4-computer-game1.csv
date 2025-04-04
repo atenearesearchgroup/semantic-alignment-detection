@@ -1,4 +1,4 @@
-model element type,correctly predicted alignments,predicted alignments,correctly predicted misalignments,predicted misalignments,actual alignments,actual misalignments,precision alignment,precision misalignment,overall precision,recall alignment,recall misalignment,overall recall
+model_element,alignments_identified_and_correct,alignments_predicted_correct,misalignments_identified_and_correct,misalignments_predicted_correct,alignments,misalignments,precision_alignment,precision_misalignment,overall_precision,recall_alignment,recall_misalignment,overall_recall
 attribute,5,5,0,0,10,0,1.0,1.0,1.0,0.5,1,0.5
 association,8,8,0,2,12,0,1.0,0.0,0.8,0.6666666666666666,1,0.6666666666666666
 aggregation,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1,1.0
